@@ -584,7 +584,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mcu_DaughterBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

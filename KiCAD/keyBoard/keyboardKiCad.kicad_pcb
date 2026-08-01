@@ -183,6 +183,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3957aa6-c304-4e47-b142-9cdba8018387")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/1ae19ece-338d-4969-a007-183ddfea2422")
 		(sheetname "/")
@@ -678,7 +690,7 @@
 			(uuid "9cdf4a83-6353-49f6-8708-fb03699e537c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1004,7 +1016,7 @@
 			(uuid "ad7e999a-3363-4cf0-9e6d-37825c462215")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1065,6 +1077,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fef2ac4-acf6-472e-8928-1dce3696cfce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1563,7 +1587,7 @@
 			(uuid "c38640bb-a2fb-4780-ad08-0c428d3ca83e")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1889,7 +1913,7 @@
 			(uuid "31b1d55b-3248-4433-8e20-cc321e2eaf2e")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2276,6 +2300,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4e8ad57-4d81-4dc4-828b-bd9284c39c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2774,7 +2810,7 @@
 			(uuid "80748356-5890-43d6-bdeb-2dad7db52334")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2835,6 +2871,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6156125-6e0c-4ed8-91a0-317896ac518c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3071,6 +3119,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "071bf1d7-d7a4-413f-8f7a-b92e84dee6cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/90259286-f0d8-43c5-81c8-13ef8bd7e209")
 		(sheetname "/")
@@ -3252,6 +3312,448 @@
 			)
 		)
 	)
+	(footprint "kbProjectLib/mcuConnector:keyboardMCU_Connector"
+		(layer "F.Cu")
+		(uuid "0ca483dc-f33d-4075-af5d-11b99bf13c80")
+		(transform
+			(translate 318 87)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(property "Reference" "CNN1"
+			(at 1.5 -5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "857d6884-6b15-4ba2-b492-b6dcff4fac7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 1.5 -3.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f6e5bb-85c7-45f2-b332-723a59b2d518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07dbb89a-9efa-470b-bf84-334d6bf80a85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777834b8-effc-4690-82aa-61af8c245779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e7a65427-a32e-405d-9ab2-136819bc7c55")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(attr smd exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_text user "${REFERENCE}"
+			(at -1.5 20 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "95f15059-a54e-419d-98f0-df3adfd3058e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at -3 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "ROW1")
+			(pintype "passive")
+			(uuid "d07cdd44-dd70-42d1-9797-dbcc28dc32f9")
+		)
+		(pad "2" thru_hole circle
+			(at -3 2.56)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "ROW2")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "85791d84-f010-4f17-84fb-b9ee44a709c8")
+		)
+		(pad "3" thru_hole circle
+			(at -3 5.12)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "ROW3")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "cb6e8203-70ec-4d6a-8d0f-9cfd23f8573f")
+		)
+		(pad "4" thru_hole circle
+			(at -3 7.68)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "ROW4")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "68b9cfe7-9a12-426f-a310-ca953ecb5e8a")
+		)
+		(pad "5" thru_hole circle
+			(at -3 10.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "ROW5")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "1347fd65-44e7-4512-864b-b8a0111921eb")
+		)
+		(pad "6" thru_hole circle
+			(at -3 12.8)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "ROW6")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "088ba61b-40f6-4e6c-b333-2444e044f476")
+		)
+		(pad "7" thru_hole circle
+			(at -3 15.36)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL1")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "0ca7fe7f-a78f-4842-9fa0-9d90a12b5b90")
+		)
+		(pad "8" thru_hole circle
+			(at -3 17.92)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL2")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "ad93e3c7-be12-49e1-8747-b6f7d4d2e953")
+		)
+		(pad "9" thru_hole circle
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL3")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "147742c1-73a6-4366-bee7-18d3d0f7aa23")
+		)
+		(pad "10" thru_hole circle
+			(at 0 2.56)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL4")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "ea4196ce-b733-4d66-8d2e-fff372ec5803")
+		)
+		(pad "11" thru_hole circle
+			(at 0 5.12)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL5")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "924713a5-4361-42fd-a7d6-a67ea840b650")
+		)
+		(pad "12" thru_hole circle
+			(at 0 7.68)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL6")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "272f0ee3-9e6d-452a-87d6-25f9316fdfb8")
+		)
+		(pad "13" thru_hole circle
+			(at 0 10.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL7")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "90f4847a-8417-41cc-98e9-063ae79cf8a8")
+		)
+		(pad "14" thru_hole circle
+			(at 0 12.8)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL8")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "9fa647c9-19e4-4d4c-b928-3af9a1cb79cc")
+		)
+		(pad "15" thru_hole circle
+			(at 0 15.36)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL9")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "64a126f9-a62f-4cc1-bb65-1d5495922ad4")
+		)
+		(pad "16" thru_hole circle
+			(at 0 17.92)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL10")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "8618618d-f4d9-4e0d-b78f-1c01833c9c4f")
+		)
+		(pad "17" thru_hole roundrect
+			(at 20 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.15)
+			(net "COL17")
+			(pintype "passive")
+			(uuid "340cd5a0-e01a-47ce-b624-44dd289acd18")
+		)
+		(pad "18" thru_hole circle
+			(at 20 2.56)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL16")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "e0d64b09-0622-4236-9973-c8e6947647f2")
+		)
+		(pad "19" thru_hole circle
+			(at 20 5.12)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL15")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "0a6d072f-c459-4aca-ae3d-6a6a0135e8dc")
+		)
+		(pad "20" thru_hole circle
+			(at 20 7.68)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL14")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "8842e82c-156f-4edc-93fe-4ff82b2c0ed1")
+		)
+		(pad "21" thru_hole circle
+			(at 20 10.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL13")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "980ffe9a-49e4-436f-91db-fb4f7b7f7f1e")
+		)
+		(pad "22" thru_hole circle
+			(at 20 12.8)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL12")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "9963c5a3-8fff-4271-abac-3a739497efe8")
+		)
+		(pad "23" thru_hole circle
+			(at 20 15.36)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "COL11")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "96b1dd80-66c5-46fa-85e2-9348686c413b")
+		)
+		(pad "24" thru_hole circle
+			(at 20 17.92)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(CNN1-Pad24)")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "894f12d1-5d7d-485e-865f-2295ff9f5cdd")
+		)
+		(pad "25" thru_hole circle
+			(at 23 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "rotA")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "a6ec03fa-b3aa-4549-9dce-a726d94a6fbc")
+		)
+		(pad "26" thru_hole circle
+			(at 23 2.56)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "rotC")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "eb07dacf-1db4-49a4-9515-e14cbee57926")
+		)
+		(pad "27" thru_hole circle
+			(at 23 5.12)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "rotB")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "ab4de057-503c-4c96-baab-58967ee9a8b2")
+		)
+		(pad "28" thru_hole circle
+			(at 23 7.68)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "rotSW")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "68469883-b3bc-4a89-957f-665d7514f700")
+		)
+		(pad "29" thru_hole circle
+			(at 23 10.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(CNN1-Pad29)")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "be18e7fd-7e00-4bf7-9af4-6bd82b9be7e5")
+		)
+		(pad "30" thru_hole circle
+			(at 23 12.8)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(CNN1-Pad30)")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "c593b917-3206-4b14-b97f-04fb6a59270a")
+		)
+		(pad "31" thru_hole circle
+			(at 23 15.36)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(CNN1-Pad31)")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "4f059b28-63b0-4d79-b1aa-e9ea29b529fb")
+		)
+		(pad "32" thru_hole circle
+			(at 23 17.92)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pintype "passive")
+			(thermal_bridge_angle 90)
+			(uuid "3de07119-7690-4958-94d5-6c831771bf07")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/mcuBoard/mcu_DaughterBoard.step"
+			(offset
+				(xyz -35.05 25.9 2.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "0ec7f2e0-0d1c-465e-a3fb-a0dc95b41460")
@@ -3301,6 +3803,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abcfb0c2-a53a-43e8-983f-c14bea2562d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3537,6 +4051,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd4129d0-fb40-477e-acb8-2bc492e8bb9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/17e5e0f5-d8f2-4918-b890-c3c3b876bbc1")
 		(sheetname "/")
@@ -3767,6 +4293,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe66ae8f-0a81-4829-ab13-6bdc87ae344c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4265,7 +4803,7 @@
 			(uuid "592dd839-3240-4966-83ee-b23a7f5e862a")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4591,7 +5129,7 @@
 			(uuid "732e7209-93eb-41b9-8102-388295dfe3fb")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4917,7 +5455,7 @@
 			(uuid "7182800a-1203-4d80-ad5a-b1074a87205f")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5195,6 +5733,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12ecc5d4-da2e-4778-863f-18a703ae9e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5693,7 +6243,7 @@
 			(uuid "cb864edd-611b-4583-a6b3-ba59d3c12743")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6019,7 +6569,7 @@
 			(uuid "c013eaf0-1315-42a7-9abd-b379100ae25e")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6080,6 +6630,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a69d943-7b0c-40e7-bdd7-655dcd1aab7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6316,6 +6878,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a6b5bee-5f53-47e4-8f9d-46ac7d72a0fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/64d75171-8a84-41f4-96e5-dcc04477a340")
 		(sheetname "/")
@@ -6501,7 +7075,7 @@
 		(layer "F.Cu")
 		(uuid "21acd116-0b5e-4342-9949-224609fbc1b2")
 		(transform
-			(translate 372.04 91.75)
+			(translate 368 97)
 			(rotate 0)
 			(scale 1 1)
 		)
@@ -6546,6 +7120,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C470742"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d4ecbe3-d4e0-4ddc-afa9-756587d4669c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7264,7 +7850,7 @@
 			(uuid "b186360f-ffec-481f-a7ed-3095ad0c6587")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7325,6 +7911,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68d5c25c-5d4b-4068-ac3b-2ebabfeb8042")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7823,7 +8421,7 @@
 			(uuid "e967b7c5-142b-4ded-9e62-79c29d5ecfb6")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7884,6 +8482,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "119ead76-c163-41bb-b7d0-1cbf14639cc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8382,7 +8992,7 @@
 			(uuid "e92bd545-8473-4bb1-b980-c7ab7193ee2a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8390,7 +9000,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -8708,7 +9318,7 @@
 			(uuid "c9d8709c-a264-42ff-9979-424baae742aa")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9034,7 +9644,7 @@
 			(uuid "7f56b970-de66-4176-89c1-e55a9227cea6")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9043,223 +9653,6 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-	)
-	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "2a375e6b-8e44-4623-a63d-1b4ef23c9fd3")
-		(transform
-			(translate 48.5 101.5)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H5"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "b881e724-553a-4d99-aaba-e6e6b9048190")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "8af09e2c-2a42-463b-a37f-f4ac58c888a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59cd3307-36fb-4cea-8c59-9c8cc53608dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "936689f1-341e-4390-b441-32984d6767bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/01b22803-1978-42f9-a178-3b08b31996a4")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "eba58e09-3869-4d8f-8274-a04567116310")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "055167f1-e2b9-406a-af7c-9cb6200defba")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "fc50bfc7-a16e-4f86-b586-bc10ce78902d")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "3d08e438-395c-445b-a282-e6491677aa50")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "cd949bb1-1f9b-462c-9537-a9f00a9200ff")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "75e2ce4e-bd1d-4d51-a049-3d7fdcefa5f6")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "43c85e4a-9db2-45c4-94d5-895fcbf077a8")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6118ddf1-b47b-4130-a03e-5c22a4019757")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "1675582b-11a6-4104-b0e2-525ebeb31ffe")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "eef0ad92-2e8a-430d-add6-8d1d689a27c3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a0fcc1ee-226c-479e-8994-7cb7341c64e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "dc8ed412-dfeb-4a2b-b665-fb15cb793585")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "af969e86-be40-4f9f-90e7-4cbf7de24bbd")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "ab0a7a22-a875-4523-8ed5-34e8b6ae3a2e")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a7916e97-c6db-4d3e-ab3e-30966fa2ee49")
-		)
-		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9577,7 +9970,7 @@
 			(uuid "967d5309-691b-440b-ba1e-38850c11ad3f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9585,7 +9978,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -9903,7 +10296,7 @@
 			(uuid "5c0663eb-fad4-4eb6-96a2-cb76f6a4521c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9964,6 +10357,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "783385e8-90b8-4200-a784-f16dd5b1c1e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10462,7 +10867,7 @@
 			(uuid "5a02731e-1742-4ff2-afa3-619f5575cc12")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10788,7 +11193,7 @@
 			(uuid "cbc288da-f819-4b7b-9605-5bd2eb087bfa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10796,7 +11201,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -10849,6 +11254,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e2c22ed-7fa5-420e-963b-dc1c60e1c1b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11082,6 +11499,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "351feb4a-3562-435c-890d-95e2d1051903")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11580,7 +12009,7 @@
 			(uuid "3d991879-40f8-462a-bf8f-c04e5b5cbc74")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11906,7 +12335,7 @@
 			(uuid "14c2f312-9a6f-42cc-a7d2-1b3261f24a29")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11914,7 +12343,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -11967,6 +12396,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47c22d15-f6e1-420f-a082-9f6e36e76a26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12682,7 +13123,7 @@
 			(uuid "e9336d65-7bb9-4a25-9b51-0fdb70ab2882")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12690,7 +13131,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -13008,7 +13449,7 @@
 			(uuid "3e8b2af1-e43b-43cf-9888-01c808ba4b43")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13069,6 +13510,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9294b6c-eca8-41ab-b087-dddcadeda8b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13305,6 +13758,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72d1adb3-f93b-424e-b52d-22bdbdfa255d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/e31f2a70-f7f8-4576-b823-435f77705495")
 		(sheetname "/")
@@ -13535,6 +14000,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd846af-8912-4130-bcde-5d7128434c04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14250,7 +14727,7 @@
 			(uuid "9c47e47e-40f5-4c0e-a7d4-37b6fbd826e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14258,7 +14735,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -14311,6 +14788,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38f12749-261a-490f-b451-bc98a6481424")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14544,6 +15033,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e45ed26-2abe-4c41-9e27-e51cbd994819")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15042,7 +15543,7 @@
 			(uuid "55b62f2c-07d8-44b9-9796-d0d3a151c9ab")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15368,7 +15869,7 @@
 			(uuid "237b5b11-03bb-47ab-b1f6-5ea25fd54317")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15376,7 +15877,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -15429,6 +15930,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03cffdb6-e360-4c9b-8769-7f62f38ec2cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15662,6 +16175,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ff1c1a1-0917-49c4-b042-dde0d1c7ffc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16160,7 +16685,7 @@
 			(uuid "d2babd7e-ac0c-4894-bf5e-57d0890ef254")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16486,7 +17011,7 @@
 			(uuid "762f5a33-44e3-4c75-b710-0ed13e14941c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16547,6 +17072,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acfa3964-9c2d-4150-92eb-196883f9fc95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16783,6 +17320,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1353cd-f0c2-4160-9d9a-d1982275c902")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/57dde5e6-9b20-4386-811d-63066ee1edf3")
 		(sheetname "/")
@@ -17016,6 +17565,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4330e897-e1d8-4b9e-b200-94bca75b965d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/91389eff-9f97-4fd4-b720-2d5912c0d6f7")
 		(sheetname "/")
@@ -17246,6 +17807,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c69500-4393-4d31-ad70-3716b123441d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17744,7 +18317,7 @@
 			(uuid "9122e83b-f428-4ffb-9f9d-bbaf782eba7c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18070,7 +18643,7 @@
 			(uuid "d4ca368f-0948-4ca5-a891-7b78a7ca93e0")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18396,7 +18969,7 @@
 			(uuid "f6f37884-9de2-4ade-823e-61d2668aaefa")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18722,7 +19295,7 @@
 			(uuid "2abc8fec-2560-4d1f-9116-d9a066fc451a")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18783,6 +19356,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "812837b8-6968-4071-9295-b1e3be181298")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19016,6 +19601,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4caf36af-ec8b-49ba-995b-1f991a5e04dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19514,7 +20111,7 @@
 			(uuid "b36051c4-9e69-48aa-bf4d-f34e2cf5b548")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19840,7 +20437,7 @@
 			(uuid "b3f5e266-7ae8-4a1c-852c-f4d54b0b86b7")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20166,7 +20763,7 @@
 			(uuid "79604eb5-bee8-4089-b34a-3aae6227755c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20227,6 +20824,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aed543c-415e-4903-ab27-ca92185d7c2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20725,7 +21334,7 @@
 			(uuid "8a834a36-517b-435e-ba95-0ea014d66087")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20786,6 +21395,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337ceb7c-b8d1-4f4e-acef-7c8cabcebbe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21284,7 +21905,7 @@
 			(uuid "ac227413-931a-430b-b50a-12d9128110e4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21292,7 +21913,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -21610,7 +22231,7 @@
 			(uuid "e49c1e08-b0e5-4b8f-a6e6-1fb516c5d6a3")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21671,6 +22292,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd1d871-4a0e-4bce-9d1c-8df965c438ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22169,7 +22802,7 @@
 			(uuid "35987bbd-10cb-4e5d-8fde-b02de90eb9d1")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22230,6 +22863,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80cc6dda-621a-46a9-ac01-ac8bf36b9888")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22466,6 +23111,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c490930c-e4a0-4681-8aff-6f2d68bae8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/789dc710-755b-48b1-8367-fb2f017e53ca")
 		(sheetname "/")
@@ -22696,6 +23353,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5443805b-1b5f-400b-9694-dc859efc3807")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23194,7 +23863,7 @@
 			(uuid "66358571-33c7-4f11-9128-d3102aff8c65")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23255,6 +23924,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48c60864-a0c3-4e32-9b5f-40704ce2d643")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23489,6 +24170,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a342644-1048-4766-9e75-1371b8e328b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23987,7 +24680,7 @@
 			(uuid "87e7d37b-31b7-40d2-879a-ad734b6619f5")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24048,6 +24741,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "749a8b36-1e92-4364-b9de-97936055d948")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -24284,6 +24989,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "801fd7cc-db74-4427-8689-f76892836d14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0f7fc1c5-d024-4980-ac45-d8b0bc033db4")
 		(sheetname "/")
@@ -24514,6 +25231,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a60dc4bd-3cf5-463e-a0b3-3e3637abef4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25012,7 +25741,7 @@
 			(uuid "6e07c4a6-b244-4c3f-adb6-217ff1038b92")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25338,7 +26067,7 @@
 			(uuid "47f734d4-9b15-410c-a089-4448a60b8e8e")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25399,6 +26128,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a75572b3-f104-4630-a42c-273a636a1647")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25635,6 +26376,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed73f2ac-b858-4ece-a42a-4565859bbd2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/69726c8d-ba80-4c69-891e-452306a4ced3")
 		(sheetname "/")
@@ -25865,6 +26618,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d77bf9-e730-4732-b8db-3ef134bacc07")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26101,6 +26866,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b860c7cd-d625-48dc-b6b5-994773c728f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/711007ea-6345-43ae-baab-a1822648dba4")
 		(sheetname "/")
@@ -26331,6 +27108,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "079835c9-1d19-45cc-8fe7-e45d741e4ca3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26567,6 +27356,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2c3c59f-044f-4d29-956b-4e9f292543d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/c1333b96-455d-44ac-b8e2-1c4e84134ad2")
 		(sheetname "/")
@@ -26797,6 +27598,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "011f24e9-6745-4c78-a17f-78eb65f8a290")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27033,6 +27846,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00f41489-3186-4e26-a7ec-a53f733dfc0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/138f4812-368e-4731-a432-db666f8934f3")
 		(sheetname "/")
@@ -27263,6 +28088,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67c78a08-571e-4264-b728-09bb537ab57d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27761,7 +28598,7 @@
 			(uuid "5d1cc78a-8627-4f1f-8c4a-f179f5b65e8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27769,7 +28606,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -27822,6 +28659,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35f449d-e5dd-4ee4-9804-c710bc3099e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28058,6 +28907,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "972e08a7-4d5c-410c-927a-beff775c3bd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/6cfc5a8c-d735-4976-82d9-1e93077c6ce1")
 		(sheetname "/")
@@ -28288,6 +29149,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd38b8b9-72af-4b6b-a0d0-db3feeaad238")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -28786,7 +29659,7 @@
 			(uuid "9ea407c4-1d36-4b5c-b62c-1550d7d73f18")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29112,7 +29985,7 @@
 			(uuid "4dbf4fb8-49bf-4701-84b0-c09b783fa7ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29120,7 +29993,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -29764,7 +30637,7 @@
 			(uuid "0fb40662-158a-4974-a968-e0b24e9ba5a4")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30090,7 +30963,7 @@
 			(uuid "48431585-92e1-4d02-9352-ea1a81efee43")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30151,6 +31024,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e754670-ca91-4224-b582-c9fdaedb0daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -30649,7 +31534,7 @@
 			(uuid "f18a9a6d-689f-47ec-bdf8-dd9a7fcc33b1")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30711,6 +31596,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "827a3a64-dc4e-495b-8d61-a9eff85cf852")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31209,7 +32106,7 @@
 			(uuid "1048188d-a399-428f-9046-8357b882cd6f")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31270,6 +32167,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beca6803-ee17-4a43-a4c6-adaaee12b228")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31768,7 +32677,7 @@
 			(uuid "f7307dff-6a07-46ed-aeea-9ad6aa925370")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31829,6 +32738,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98a0cc10-39f7-4584-b381-620a527d7636")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -32653,7 +33574,7 @@
 			(uuid "549fbf31-b9a5-47de-9c82-c0575eef89aa")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32979,7 +33900,7 @@
 			(uuid "6c1cb4b1-e82c-44ed-a662-fa6784a53b64")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33040,6 +33961,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "573ce506-7187-4762-861f-1b6b4bf2baae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -33538,7 +34471,7 @@
 			(uuid "0e7b38c9-de72-48b6-b06f-9e695fc7d6c7")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33864,7 +34797,7 @@
 			(uuid "a82dd110-af7b-4569-ac57-266684a26e79")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33925,6 +34858,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77025c51-8693-4291-b02e-aad941f52d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34158,6 +35103,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b003fc5c-f485-4327-a24b-6d41544527c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -34656,7 +35613,7 @@
 			(uuid "3b204049-0476-440b-9dc4-77aa27226124")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34664,7 +35621,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -34982,7 +35939,7 @@
 			(uuid "30ffcd9f-cdca-4619-8c25-ce4e2568763c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35308,7 +36265,7 @@
 			(uuid "ff9696f8-afaa-4f50-8e66-c2f79dae1fc2")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35317,223 +36274,6 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-	)
-	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "b9ae3f4e-41a0-4fd5-ba70-78b369f59705")
-		(transform
-			(translate 53 196.5)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H3"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "25979717-7a6f-4615-9828-ae3dc7100d92")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "cd6708ed-6fff-4282-932d-8e81a1ab847d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12df14f9-a0ee-47d1-b564-929e67062e1f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6594f1ea-fd79-4a70-ba07-c71513b9560c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/d8f9c954-1f19-4cc0-b064-73d14c4edec6")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "1951e46d-36ca-4fba-b969-8d98936fe093")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "010c631d-8c5b-4b95-a54c-c9dd9def4b75")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "dbbc22e7-c152-4b3c-bb32-f9baea2a55da")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2f0450d3-b28d-43f5-aa92-b2702510c955")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b62a3ba3-9485-4a92-bea3-90e0db94a08f")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "004843c7-3e37-4a8c-b57e-666fd741dbac")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "a0271456-cac8-4bd0-b59e-65e1241f556a")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "e7057d78-f3ba-49a9-a2e0-983be8efa298")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "9be02d45-146d-476a-b698-faff6cc3fcec")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "af7bd91a-6baf-4876-b65f-ebbc5b6fc7de")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f4f0e343-f113-44b0-a058-43170d3238a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1b7578c1-9754-40d2-97db-2d46fc63cb81")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "50190793-4d95-4742-8a74-db8aa7abaf1a")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "47d951cd-b889-4ff8-bb6c-7fa071a656be")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "0a2adf8f-c335-411a-b88d-0950d43a11fe")
-		)
-		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -35851,7 +36591,7 @@
 			(uuid "965df70b-54fe-4fb3-b543-fb363e62a601")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36129,6 +36869,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d85a0f5-6f79-41f6-a193-9137257151a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -36627,7 +37379,7 @@
 			(uuid "7e5d3543-8e79-4556-90aa-e90f708e6f21")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36953,7 +37705,7 @@
 			(uuid "06226c52-99f3-4c23-b9f9-b44e3eaf4997")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37279,7 +38031,7 @@
 			(uuid "da7fa92a-7d46-40ec-b8b0-b568fb43273c")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37340,6 +38092,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e386b14b-cc45-4d09-9eb8-970700c4c058")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37576,6 +38340,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd7b8687-6658-423e-b59c-2f6d1225aeda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/75d56205-35bb-4bbf-a690-a0483f1c4254")
 		(sheetname "/")
@@ -37806,6 +38582,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "909a4359-b1bf-457f-b0bc-e673f77790eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -38042,6 +38830,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039b2391-35dc-4a6b-bce4-5ec4f7adcab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0e33fdda-8d1c-44dc-93fd-8531d682935a")
 		(sheetname "/")
@@ -38272,6 +39072,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c018c382-f770-434f-af4f-68fb41f3029f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -38770,7 +39582,7 @@
 			(uuid "9978fbbf-0bfd-453c-bd3b-e5135dc40a88")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38831,6 +39643,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ead321-896c-4d5b-8229-3ab43c405481")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -39064,6 +39888,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8b48e08-e8a4-463e-95df-bcf221f732f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -39562,7 +40398,7 @@
 			(uuid "6aef58e7-7a43-42ce-b3fa-26cfee21948b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39570,7 +40406,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -39623,6 +40459,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0416f40-9185-4017-a196-30fc27f85d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -39856,6 +40704,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af731ac7-3fe6-44eb-a39c-620e00ab6977")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -40354,7 +41214,7 @@
 			(uuid "193dde40-6e39-40f9-afea-bb68a0d728f2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40362,7 +41222,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -40415,6 +41275,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96162b24-1908-4fc7-95a7-377006f0bc47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -40651,6 +41523,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef66296-c7a6-4166-ba17-c27a51de946c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0e145b7f-4c6c-4342-9ae5-eee8f8755ae9")
 		(sheetname "/")
@@ -40881,6 +41765,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4573ff43-f0d2-41bd-87cb-8678e908e0f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -41379,7 +42275,7 @@
 			(uuid "637014bf-c06e-4d8f-b277-95fb162678a9")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41705,7 +42601,7 @@
 			(uuid "d6595691-551e-4072-b12f-8d79348cb5d2")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42031,7 +42927,7 @@
 			(uuid "e356241a-0efd-441d-b691-e4bf564f0b95")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42357,7 +43253,7 @@
 			(uuid "3dcfb535-5838-4a43-9245-2659022b3095")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42683,7 +43579,7 @@
 			(uuid "db921a05-7ec6-4e9a-8bd1-95553977d6f7")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43009,7 +43905,7 @@
 			(uuid "71260fe0-67a1-4c31-839f-2aa7c6758db9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43017,7 +43913,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -43070,6 +43966,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "381feb82-be3f-4489-944d-280bd7273cdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43568,7 +44476,7 @@
 			(uuid "2b6fa4d3-7ac6-4e47-bbab-b8d0f3dfeb0f")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43629,6 +44537,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1007962d-7a76-414c-8cc4-9227aa6fc6ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -43865,6 +44785,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7520ba12-d76d-40ee-ae4d-e0e0aa7e1ad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0ef0deab-8181-4ee7-adb7-63d81eda6db8")
 		(sheetname "/")
@@ -44046,223 +44978,6 @@
 			)
 		)
 	)
-	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "e5375bba-69e8-491d-a583-19670758f7e7")
-		(transform
-			(translate 287 196.5)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H6"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "c343c227-79e4-411f-a8ea-3e857a67d219")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "3cfe32fb-b0a5-48ee-9721-dc96261af3dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ca18dec-de65-4ac4-b2dc-d064561f89c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "143d13f1-f862-41fe-ab1b-5573aef0fd18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/8ed2e901-d9ed-4689-a188-265a83ecc49a")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f468dae3-cb9f-4a41-926a-66d3a9e74260")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2eb7c3fb-5c66-44d4-bdc4-90e8776545a4")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6788548c-6651-4cbe-b37c-72fa1b480a7a")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "0b0515de-276a-46d4-ad79-73c77c9064c1")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6cc07c6a-3afc-4e1d-98f3-6e2f462096d6")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "fe360944-fb5b-4868-a240-1f196fc5e43c")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "7c605b54-3d32-43e6-b830-d5e21ae6909e")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f240f9ee-d246-433d-9402-ffe12c0ba061")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "45fa5225-3bdf-43da-b904-64118be71aa6")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "959c1be4-c4ab-43fa-a8ed-f6d992073092")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "39d3dabc-9d0f-4dd5-bb8b-f6610129ad3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "58b9fbea-9c95-4e53-a9d4-b8df6382c3e7")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d270a1d4-a268-4404-85f4-cb7681eb01fb")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9ce0918c-be51-456c-9b12-8c39a45f29c9")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2c172f8e-9f20-4291-8d9b-aa77976daf2f")
-		)
-		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "e53f847a-05e1-411f-86d8-6b4ecd26cea2")
@@ -44312,6 +45027,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bf293c1-6ab7-4a55-ae0a-fae1ccafe26d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -44548,6 +45275,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99b74808-b4dd-4d68-a735-2ba1f6fb8a30")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/413be420-729c-4d66-8253-b1d572e28962")
 		(sheetname "/")
@@ -44781,6 +45520,18 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cc99f2d-d859-4fa1-b9c7-8703ca9944e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/9bceeaa7-2b34-49e4-b927-687ea35f605e")
 		(sheetname "/")
@@ -44959,223 +45710,6 @@
 			)
 			(rotate
 				(xyz 0 0 180)
-			)
-		)
-	)
-	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "e8f0a95f-d5e3-45e2-a044-f5c852a351fe")
-		(transform
-			(translate 284.75 162.5)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H2"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "daee28fa-c3ec-4f85-a904-33a7c05b1971")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "84420af1-4c01-4316-a56c-6049e60836a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09ca23cc-b0a1-4e3d-9b01-d2d6dce73558")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c952514d-d146-41f1-95f2-fb5723854778")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/a3c1c418-c013-40d6-b8b0-29b08e6accb5")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "4accb13e-28f5-409c-9f8a-c59282040772")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "243f2aae-f4cb-47ea-b935-e76cf82c695a")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "a3b54346-3b2b-4ee8-bf74-c044d56fc81f")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f9a5c0a8-e212-439d-b26d-06500a08aa9a")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "867c04d2-b915-47c8-923f-951c850daff5")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5095719b-6ff9-4f1b-aa62-d4a8ee212e13")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "4c1ae3a3-8560-4dc5-8492-52acb2020023")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "da38d8c8-18b1-42a2-8ecd-629ffb0a7fd9")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "fdf07b32-8d6f-48dd-a8b1-6f70ee880bdf")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b3bc64de-384e-490c-b118-2f7e1f4f1e09")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3780acd0-8750-43e7-b851-ca5dbc8f6233")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "695dcda1-2164-45e3-b13a-8952497d7e7e")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9bc65e63-89e5-4f71-9599-79a39d7ca3b4")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "311d3c2e-c8bd-4684-a167-74c6fabdacf7")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "4e79d159-0219-4774-b97e-a72c85178b68")
-		)
-		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -45493,7 +46027,7 @@
 			(uuid "8f670ef3-400f-4cfe-9312-e910687d013e")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45554,6 +46088,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de41ca32-d42f-43ff-89f5-1e764aa55f75")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -45787,6 +46333,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4adde40e-a025-487a-84d2-8dbbb3fa3059")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46285,7 +46843,7 @@
 			(uuid "0832da0e-c742-48ec-b180-6ea6bcbff768")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46346,6 +46904,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5a2a157-8224-42ba-ad72-08570315c8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -46844,7 +47414,7 @@
 			(uuid "10bcbc4e-2d06-40ef-9652-9f1b0079a063")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47170,7 +47740,7 @@
 			(uuid "33e15d75-9fbb-4495-8f6d-c4236b1d02e5")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47496,7 +48066,7 @@
 			(uuid "37be0461-4bce-491e-89b4-3d0c05533668")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47822,7 +48392,7 @@
 			(uuid "6c9dcb14-83bd-4367-8b51-de68a85bc358")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48148,7 +48718,7 @@
 			(uuid "a4fae62a-695a-4fc9-a471-51fd79736386")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48474,7 +49044,7 @@
 			(uuid "d5fbd6e5-ee40-4135-ba41-039d043abd58")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48535,6 +49105,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C258182"
+			(at 0 0 -90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b507bb-5489-40d6-b5b9-e849247e8303")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -48722,6 +49304,7 @@
 	(gr_rect
 		(start 25 83)
 		(end 379 215)
+		(radius 10)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -48732,7 +49315,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "38049c17-cf38-4dc9-81ec-0a2df2290fe1")
 		(pts
 			(xy 35 205) (xy 25 215)
@@ -48758,7 +49341,7 @@
 		)
 		(gr_text "10"
 			(at 33.85 210 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "38049c17-cf38-4dc9-81ec-0a2df2290fe1")
 			(effects
 				(font
@@ -48770,7 +49353,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "5debb29f-476e-462f-9e21-98a855792c2a")
 		(pts
 			(xy 333 166) (xy 333.5 171)
@@ -48796,7 +49379,7 @@
 		)
 		(gr_text "5"
 			(at 331.85 168.5 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "5debb29f-476e-462f-9e21-98a855792c2a")
 			(effects
 				(font
@@ -48808,7 +49391,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "6539acf0-43e3-4bfe-91eb-a091337fd224")
 		(pts
 			(xy 315 205) (xy 315 215)
@@ -48834,7 +49417,7 @@
 		)
 		(gr_text "10"
 			(at 313.85 210 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "6539acf0-43e3-4bfe-91eb-a091337fd224")
 			(effects
 				(font
@@ -48846,7 +49429,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08")
 		(pts
 			(xy 35 205) (xy 25 215)
@@ -48872,7 +49455,7 @@
 		)
 		(gr_text "10"
 			(at 30 203.85 0)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08")
 			(effects
 				(font
@@ -48884,7 +49467,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "751d21f1-2318-4241-88a4-3cb4d0e95ba9")
 		(pts
 			(xy 315 205) (xy 305 205)
@@ -48910,7 +49493,7 @@
 		)
 		(gr_text "10"
 			(at 310 203.85 0)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "751d21f1-2318-4241-88a4-3cb4d0e95ba9")
 			(effects
 				(font
@@ -48922,7 +49505,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d")
 		(pts
 			(xy 369 205) (xy 379 215)
@@ -48948,7 +49531,7 @@
 		)
 		(gr_text "10"
 			(at 367.85 210 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d")
 			(effects
 				(font
@@ -48960,7 +49543,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "7e298354-0170-408f-99dd-17ff9b34e7cc")
 		(pts
 			(xy 35 110) (xy 25 83)
@@ -48986,7 +49569,7 @@
 		)
 		(gr_text "10"
 			(at 30 108.85 0)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "7e298354-0170-408f-99dd-17ff9b34e7cc")
 			(effects
 				(font
@@ -48998,7 +49581,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db")
 		(pts
 			(xy 305 205) (xy 305 215)
@@ -49024,7 +49607,7 @@
 		)
 		(gr_text "10"
 			(at 303.85 210 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db")
 			(effects
 				(font
@@ -49036,7 +49619,45 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
+		(uuid "a1e38950-4aa7-4b9f-8e6e-628005158d86")
+		(pts
+			(xy 305 93) (xy 315 87)
+		)
+		(height -7.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 310 83.7 0)
+			(layer "Dwgs.User")
+			(uuid "a1e38950-4aa7-4b9f-8e6e-628005158d86")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
 		(uuid "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a")
 		(pts
 			(xy 305 93) (xy 305 83)
@@ -49062,12 +49683,202 @@
 		)
 		(gr_text "10"
 			(at 303.85 88 90)
-			(layer "F.CrtYd")
+			(layer "Dwgs.User")
 			(uuid "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
+		(pts
+			(xy 379 215) (xy 369 205)
+		)
+		(height -10.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 374 204 0)
+			(layer "Dwgs.User")
+			(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "cd366fa1-3166-4ac2-880b-383440128106")
+		(pts
+			(xy 369 132) (xy 379 132.5)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 374 130.85 0)
+			(layer "Dwgs.User")
+			(uuid "cd366fa1-3166-4ac2-880b-383440128106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "d4983f39-7e77-42cf-ad47-019650978266")
+		(pts
+			(xy 35 93) (xy 25 83)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 33.85 88 90)
+			(layer "Dwgs.User")
+			(uuid "d4983f39-7e77-42cf-ad47-019650978266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
+		(pts
+			(xy 305 110) (xy 305 120)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 303.85 115 90)
+			(layer "Dwgs.User")
+			(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "e923a5d7-c546-4675-aeb0-389eecca5660")
+		(pts
+			(xy 318 87) (xy 318 83)
+		)
+		(height 6.5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "4"
+			(at 322.7 85 90)
+			(layer "Dwgs.User")
+			(uuid "e923a5d7-c546-4675-aeb0-389eecca5660")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
 				)
 			)
 		)
@@ -49113,82 +49924,6 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.CrtYd")
-		(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
-		(pts
-			(xy 379 215.5) (xy 369 205.5)
-		)
-		(height -10.5)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "10"
-			(at 374 204 0)
-			(layer "F.CrtYd")
-			(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.CrtYd")
-		(uuid "cd366fa1-3166-4ac2-880b-383440128106")
-		(pts
-			(xy 369 132) (xy 379 132.5)
-		)
-		(height 0)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "10"
-			(at 374 130.85 0)
-			(layer "F.CrtYd")
-			(uuid "cd366fa1-3166-4ac2-880b-383440128106")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.CrtYd")
 		(uuid "ce66cada-d9cf-43dc-85cb-770c851d91f8")
 		(pts
 			(xy 35 110) (xy 35 120)
@@ -49216,82 +49951,6 @@
 			(at 33.85 115 90)
 			(layer "F.CrtYd")
 			(uuid "ce66cada-d9cf-43dc-85cb-770c851d91f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.CrtYd")
-		(uuid "d4983f39-7e77-42cf-ad47-019650978266")
-		(pts
-			(xy 35 93) (xy 25 83)
-		)
-		(height 0)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "10"
-			(at 33.85 88 90)
-			(layer "F.CrtYd")
-			(uuid "d4983f39-7e77-42cf-ad47-019650978266")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.CrtYd")
-		(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
-		(pts
-			(xy 305 110) (xy 305 120)
-		)
-		(height 0)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "10"
-			(at 303.85 115 90)
-			(layer "F.CrtYd")
-			(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
 			(effects
 				(font
 					(size 1 1)
@@ -50669,6 +51328,86 @@
 		(uuid "f7030b9f-7de9-47dc-b6d6-cd357e8fa95f")
 	)
 	(segment
+		(start 342.5 90)
+		(end 342.5 88.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotA")
+		(uuid "9d1f9145-c471-4fe1-b565-47b84cbd35a7")
+	)
+	(segment
+		(start 342.5 90)
+		(end 356.75 104.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotA")
+		(uuid "ac70347c-c3d2-40ed-a3dd-91bacfa94d30")
+	)
+	(segment
+		(start 342.5 88.5)
+		(end 341 87)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotA")
+		(uuid "da62f07e-6098-438b-9f1e-5a54a85d6e06")
+	)
+	(segment
+		(start 356.75 104.25)
+		(end 365.46 104.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotA")
+		(uuid "e94d5edd-47d4-4744-a1bb-3bdd77686d08")
+	)
+	(segment
+		(start 341 92.12)
+		(end 354.88 106)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotB")
+		(uuid "1d4549f7-465e-41a4-9353-83d21f72919f")
+	)
+	(segment
+		(start 354.88 106)
+		(end 368.79 106)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotB")
+		(uuid "39167e8c-e1a5-4828-b0f3-7a9156f905a7")
+	)
+	(segment
+		(start 368.79 106)
+		(end 370.54 104.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotB")
+		(uuid "930fbf22-38b5-4bfe-9650-9545a6ebf7a3")
+	)
+	(segment
+		(start 366.75 105.5)
+		(end 356.94 105.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotC")
+		(uuid "2fc5842c-6af0-4858-a771-e79edd9d28b1")
+	)
+	(segment
+		(start 356.94 105.5)
+		(end 341 89.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotC")
+		(uuid "7890012e-887c-42c7-97b3-6d4887e30cd6")
+	)
+	(segment
+		(start 368 104.25)
+		(end 366.75 105.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "rotC")
+		(uuid "df1049ab-0393-49e6-a0eb-fe5aebcef316")
+	)
+	(segment
 		(start 208.3 117.8)
 		(end 204.7 117.8)
 		(width 0.2)
@@ -51597,28 +52336,12 @@
 		(uuid "e24274f2-cdd8-47a2-b6c1-d067f6da919f")
 	)
 	(segment
-		(start 288.501 123.999)
-		(end 293.5 119)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D69-A)")
-		(uuid "46fc30e1-e3e7-4327-8276-51419511d208")
-	)
-	(segment
 		(start 283.6 127.833136)
-		(end 287.434136 123.999)
+		(end 287.433136 124)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D69-A)")
-		(uuid "63eaf878-6bdf-46db-8171-2cbda37bd99d")
-	)
-	(segment
-		(start 289.75 158.699)
-		(end 283.6 152.549)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D69-A)")
-		(uuid "665ff241-6b6c-4dcc-9113-bdbef32383a5")
+		(uuid "06a3828e-49db-4754-9637-8610dcd7b257")
 	)
 	(segment
 		(start 283.6 152.549)
@@ -51626,15 +52349,31 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D69-A)")
-		(uuid "6a69429d-5b12-4d87-bf34-28ed9bf826e4")
+		(uuid "1f17c1ef-ea5b-4c1d-8e52-b020a1befbd0")
 	)
 	(segment
-		(start 287.434136 123.999)
-		(end 288.501 123.999)
+		(start 287.433136 124)
+		(end 288.5 124)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D69-A)")
-		(uuid "aab6063b-ea21-4bda-87df-5c259933859e")
+		(uuid "3135ca41-9ab1-4626-83f4-8269313c24d1")
+	)
+	(segment
+		(start 288.5 124)
+		(end 293.5 119)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D69-A)")
+		(uuid "3f82d419-815c-402d-9dbf-f5db63682fa9")
+	)
+	(segment
+		(start 289.75 158.699)
+		(end 283.6 152.549)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D69-A)")
+		(uuid "e20160ff-0f2a-4ea9-a023-1bbf9cf73510")
 	)
 	(segment
 		(start 169.4 119)
@@ -53173,20 +53912,20 @@
 		(uuid "eb484b91-1937-4c1e-a752-b67ed0deca31")
 	)
 	(segment
-		(start 270.5 131.5)
-		(end 270.5 126)
+		(start 274 125.5)
+		(end 274 122.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D61-A)")
-		(uuid "35d6d632-0a66-487e-b1fb-643da03cee12")
+		(uuid "2eaf5e31-7354-46ae-8ef8-fba6cef49140")
 	)
 	(segment
-		(start 270.5 126)
+		(start 274 122.5)
 		(end 277.5 119)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D61-A)")
-		(uuid "714d71c3-b27f-4081-a91c-fa64086b279c")
+		(uuid "8f560643-3ec8-45c2-bd4c-6d53e0b4cbfa")
 	)
 	(segment
 		(start 256 135.5)
@@ -53205,7 +53944,7 @@
 		(uuid "7790bf6c-1080-4578-b054-f88afde6dbb3")
 	)
 	(via
-		(at 270.5 131.5)
+		(at 274 125.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -53218,15 +53957,7 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net "Net-(D61-A)")
-		(uuid "6fd0d4d9-80fd-43f3-9c1e-1726aaa8ba0a")
-	)
-	(segment
-		(start 270.5 131.5)
-		(end 260 131.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "Net-(D61-A)")
-		(uuid "88366b2a-6482-4f3d-a2a6-966aaf77ad22")
+		(uuid "9faeeee5-5130-48cd-a089-134518436acf")
 	)
 	(segment
 		(start 261.5 140.5)
@@ -53235,6 +53966,22 @@
 		(layer "B.Cu")
 		(net "Net-(D61-A)")
 		(uuid "a07ec95b-adc4-4e6d-8fb6-455c07f43aa1")
+	)
+	(segment
+		(start 274 125.5)
+		(end 268 131.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(D61-A)")
+		(uuid "adb94bd7-a933-41ab-9b1d-662ebe126800")
+	)
+	(segment
+		(start 268 131.5)
+		(end 260 131.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(D61-A)")
+		(uuid "af6a0f1b-88cc-4335-a367-3b9e00e2ec82")
 	)
 	(segment
 		(start 224.5 144.219101)
@@ -53474,15 +54221,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D59-A)")
-		(uuid "46a6633f-63b8-4dae-8de0-4f3487cc2c8c")
-	)
-	(segment
-		(start 283.5 111)
-		(end 278 105.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D59-A)")
-		(uuid "64d7e289-4dd1-4b7e-8b9a-b3eb52e07598")
+		(uuid "2bc56471-929c-4ad8-8f27-433e0f8851ba")
 	)
 	(segment
 		(start 283.5 117)
@@ -53490,7 +54229,23 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D59-A)")
-		(uuid "a6808582-cc03-4706-ac3e-1836bacf3d56")
+		(uuid "5a90d29b-2fbd-44a4-87bb-5b7edd63e499")
+	)
+	(segment
+		(start 283.5 111)
+		(end 277.55 105.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D59-A)")
+		(uuid "6c2a7ca0-b76b-45f6-845d-1ec4f60cb424")
+	)
+	(segment
+		(start 277.55 105.05)
+		(end 254.35 105.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(D59-A)")
+		(uuid "82c866fe-8d16-4fee-a500-fd18a9ac0399")
 	)
 	(segment
 		(start 285.5 119)
@@ -53498,38 +54253,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(D59-A)")
-		(uuid "b8414c46-43ac-4d98-99e2-00df824e3526")
-	)
-	(segment
-		(start 276.55 105.05)
-		(end 254.35 105.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D59-A)")
-		(uuid "c53fee72-2a6d-4e14-a157-42b829d5c935")
-	)
-	(segment
-		(start 277 105.5)
-		(end 276.55 105.05)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D59-A)")
-		(uuid "c829c972-4ea2-45d9-954f-31e990c3693e")
-	)
-	(segment
-		(start 278 105.5)
-		(end 277 105.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(D59-A)")
-		(uuid "ddafdf14-30b4-47af-8035-cd94753e0d03")
-	)
-	(group ""
-		(uuid "2244554d-6fac-4b18-a303-f48a29878037")
-		(members "5debb29f-476e-462f-9e21-98a855792c2a" "751d21f1-2318-4241-88a4-3cb4d0e95ba9"
-			"afe5178a-7a64-4f58-9220-cb8f3e85b797" "ce66cada-d9cf-43dc-85cb-770c851d91f8"
-			"e14bf537-4269-4d69-9479-3a0a84cf94ff"
-		)
+		(uuid "9badcf0c-7cd2-40c0-a567-ef69d347faac")
 	)
 	(constraint
 		(type coincident)
@@ -53590,6 +54314,14 @@
 		(members
 			(member "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d" start)
 			(member "c33870f0-fa1c-4f3e-877a-7771a5622123" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "4fda7f38-42de-410a-bd4a-da6d386cc5b2")
+		(members
+			(member "2406c4fe-6979-4f34-a7fe-00a062466a9c" start)
+			(member "f4a3be86-e33a-4510-ab0e-2748eff20efe" end)
 		)
 	)
 	(constraint
@@ -53701,6 +54433,14 @@
 		(uuid "e67ff78b-e7ef-46c1-aeda-8e2fda73bf54")
 		(members
 			(member "ce66cada-d9cf-43dc-85cb-770c851d91f8" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "f9519715-945f-4032-9831-9e39236be648")
+		(members
+			(member "a1e38950-4aa7-4b9f-8e6e-628005158d86" start)
+			(member "f4a3be86-e33a-4510-ab0e-2748eff20efe" end)
 		)
 	)
 	(constraint

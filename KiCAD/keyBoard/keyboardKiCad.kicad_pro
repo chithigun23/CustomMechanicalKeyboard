@@ -556,7 +556,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "keyboardKiCad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -680,7 +680,7 @@
         "uuid": "102e35b7-9115-4b00-8ef1-9a3f70bfd656"
       }
     ],
-    "used_designators": "D7-11,D54-58,S7-11,S54-58",
+    "used_designators": "#PWR20,D7-11,D54-58,S7-11,S54-58,CNN1",
     "variants": []
   },
   "sheets": [
