@@ -3,4 +3,5 @@
 	(lib (name "keyswitches") (type "KiCad") (uri "${KICAD_USER_TEMPLATE_DIR}/KiCAD/kbProjectLib/keyswitches.pretty") (options "") (descr ""))
 	(lib (name "keyswitches") (type "KiCad") (uri "${KICAD_USER_TEMPLATE_DIR}/KiCAD/kbProjectLib/keyswitches.pretty") (options "") (descr ""))
 	(lib (name "keyswitches") (type "KiCad") (uri "${KICAD_USER_TEMPLATE_DIR}/KiCAD/kbProjectLib/keyswitches.pretty") (options "") (descr ""))
+	(lib (name "keyswitches") (type "KiCad") (uri "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/keyswitches.pretty") (options "") (descr ""))
 )

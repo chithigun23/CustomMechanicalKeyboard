@@ -15,8 +15,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 8.89 0)
+			(property "Reference" "SW1"
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Value" "RotaryEncoder_Switch_MP"
-				(at 0 6.35 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -35,7 +35,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "kbProjectLib/lcscImports:SW-TH_EC11XXXXXXXX"
 				(at -3.81 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,6 +59,17 @@
 			)
 			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
 				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C470742"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -371,34 +382,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "S1"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S1"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,14 +402,32 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "S2"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S2"
+					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13097,7 +13108,7 @@
 		(pin "MP"
 			(uuid "d70a8290-5b37-4391-b9b7-b2b74b0612c5")
 		)
-		(pin "S2"
+		(pin "D"
 			(uuid "4de2e1e7-6659-4b59-ba38-7803f77dea54")
 		)
 		(pin "C"
@@ -13106,7 +13117,7 @@
 		(pin "B"
 			(uuid "968ac8b8-6d74-49db-bc5c-bd9c84026d1a")
 		)
-		(pin "S1"
+		(pin "E"
 			(uuid "78221d2b-c5bf-424a-90cc-fdbea6d1855e")
 		)
 		(instances
