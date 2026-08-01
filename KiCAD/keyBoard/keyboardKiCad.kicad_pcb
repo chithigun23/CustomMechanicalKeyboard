@@ -131,223 +131,6 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "01568957-d087-4e21-bf57-deff4cb0424a")
-		(transform
-			(translate -117.6681 8.2369)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H2"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "7747765e-1322-4f93-b53c-c3f63bff92f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "ac3e677e-2b7b-4d6b-80a3-985474b519ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "451e4347-00be-4b9d-978d-cd08aaeb0e88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8d83224-0ea5-483f-a1da-59c338bc54a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/a3c1c418-c013-40d6-b8b0-29b08e6accb5")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "d209e54f-8385-4767-bf25-4384e8e2c686")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6dbe8ac2-27f8-48a7-825d-5c1712b90d45")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "784d2c3c-34e7-4ff7-b52f-c237d7a2a39e")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8409e97c-1549-4d29-90c6-63d0293b59d7")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "695b4af6-6988-47ff-9292-0d9858ea8b3c")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "915e39f6-c005-45e8-80b1-f14a6b89398f")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8651ef42-63ff-498c-a1bc-e88ca04b56db")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c432ebf0-484e-4673-a563-ce09bedcd2b4")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "e22887d2-3493-4d15-96ba-25f27c38479e")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "ff444113-81d7-49ea-b00e-502bc3271486")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "edc84a14-09a6-4b6b-84ca-e54ce05a5cdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "01677c64-83da-4a80-96f8-a5f186abaa54")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "60e7fc92-05a1-4594-886b-15ad0eec79e0")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1cd6528e-2aa3-4b6d-94e4-f449985ae77c")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "22570bb5-b6e3-4c11-8c62-55af595676ce")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "01c3aee0-8add-4786-8c96-f6d1ffbc23d1")
@@ -2432,7 +2215,7 @@
 			(uuid "7b71d83e-b0f1-429b-9e96-b0ec95dd80d6")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4494,223 +4277,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
-		(layer "F.Cu")
-		(uuid "14c985b3-73d6-4659-8a4a-2655f89af6da")
-		(transform
-			(translate -228.0061 198.0069)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 6.25u")
-		(tags "MX Keyboard Stabilizer 6.25u Cutout")
-		(property "Reference" "H16"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "f380f26a-ccec-43a9-8156-5d9b982527dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "f5f13c07-db24-4459-8ba1-4f2e9a6af18a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f7160b8d-02dd-4afb-9f80-2bbe6a8d671a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fac57504-5473-43fe-b012-3217b7a15d6f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/4b8174f6-5cf1-4672-832b-45a60e8bb09b")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "4eaa866b-d602-447c-9653-e8a82e4493a3")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "66cfe9b9-6cb6-4271-a9a5-f5cb9929506f")
-		)
-		(fp_line
-			(start -53.375 -5.53)
-			(end -53.375 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "303604c8-1972-4132-bf96-ad6e729d6519")
-		)
-		(fp_line
-			(start -53.375 6.77)
-			(end -46.625 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "dc72918d-a86a-4f5f-8067-f281f279787d")
-		)
-		(fp_line
-			(start -46.625 -5.53)
-			(end -53.375 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "556d9556-e9dd-41b6-8332-699decdc9f43")
-		)
-		(fp_line
-			(start -46.625 6.77)
-			(end -46.625 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6a35eb6c-2ff2-4020-b128-361ba58b5264")
-		)
-		(fp_line
-			(start 46.625 -5.53)
-			(end 46.625 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "dd665a38-86dc-49a1-8329-56b6063032d1")
-		)
-		(fp_line
-			(start 46.625 6.77)
-			(end 53.375 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8f89a1a8-c4e2-47bc-9a3b-438c4c8fcf2d")
-		)
-		(fp_line
-			(start 53.375 -5.53)
-			(end 46.625 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "62aa9373-8e17-4991-907e-4fe5162f647e")
-		)
-		(fp_line
-			(start 53.375 6.77)
-			(end 53.375 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "0cefbe93-4b53-48e1-aaf1-08d677311912")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "c0979d16-aee6-4f44-97bc-834b32139275")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -50 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "3b5049ff-a468-4ce0-9807-b4e62c5d926a")
-		)
-		(pad "" np_thru_hole circle
-			(at -50 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "344b4124-ffcf-4bf0-99f0-d2c62ff85279")
-		)
-		(pad "" np_thru_hole circle
-			(at 50 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "51d7b059-0927-4fd7-a98a-96435b772407")
-		)
-		(pad "" np_thru_hole circle
-			(at 50 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b6c1412e-11dd-432a-bd3c-e682126a9af1")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_6.25u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "16b8590c-0ed9-4043-8133-ecf27b5e3850")
@@ -5360,6 +4926,223 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
+			)
+		)
+	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "1a219b1c-4f95-41b1-bbc2-a16a81abdc8f")
+		(transform
+			(translate 55.25 179.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H1"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "a534717a-8bd4-4a87-bc83-7850210c5efe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "1d9dcd2a-6654-4449-a814-d8927c97d0c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c9596f2-5906-4757-a2d3-087a6152f1de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "231abd90-8362-4682-936a-f20b9171d34c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ffed06b4-8dbf-4efd-a0f6-3f75536d67c3")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "95411a20-c918-4998-a2d5-1d75ae7c3b9f")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b8eddcea-18f2-48fd-ac2d-c45d9a4a1c3b")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "94ee5d9b-68ed-4eb1-b20e-655fe900d660")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "8521e7f0-92de-4bf0-80ae-40fb4de2b036")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "bd9c4dd1-4763-4e86-8fca-8872ea75942d")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "15de43f9-c31c-476a-97fc-57617a4003f2")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "5178a2ec-a3fa-4805-884b-4a99ef27cbb5")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "6445ec6f-3ea2-4ef4-a2ec-17a3fc15f406")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "a6b6c3b7-8c9e-4828-a01f-7cc2b91b7be8")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "790edd5f-2531-49fc-a439-ed234cd4e858")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eac660d3-2e15-4421-8b51-b8fda250a67f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "84f05e48-a9f0-41f1-ac2e-9f062fd0a862")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "097ae5b1-58a1-4928-b429-0c2232fbeed7")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "452596f9-8d81-42f5-8d6d-402ef5b997b3")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2547752c-c07a-4737-a884-65b02b2bae2b")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9263,6 +9046,223 @@
 			)
 		)
 	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "2a375e6b-8e44-4623-a63d-1b4ef23c9fd3")
+		(transform
+			(translate 48.5 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H5"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "b881e724-553a-4d99-aaba-e6e6b9048190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "8af09e2c-2a42-463b-a37f-f4ac58c888a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59cd3307-36fb-4cea-8c59-9c8cc53608dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "936689f1-341e-4390-b441-32984d6767bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/01b22803-1978-42f9-a178-3b08b31996a4")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "eba58e09-3869-4d8f-8274-a04567116310")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "055167f1-e2b9-406a-af7c-9cb6200defba")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "fc50bfc7-a16e-4f86-b586-bc10ce78902d")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "3d08e438-395c-445b-a282-e6491677aa50")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "cd949bb1-1f9b-462c-9537-a9f00a9200ff")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "75e2ce4e-bd1d-4d51-a049-3d7fdcefa5f6")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "43c85e4a-9db2-45c4-94d5-895fcbf077a8")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "6118ddf1-b47b-4130-a03e-5c22a4019757")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "1675582b-11a6-4104-b0e2-525ebeb31ffe")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "eef0ad92-2e8a-430d-add6-8d1d689a27c3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a0fcc1ee-226c-479e-8994-7cb7341c64e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "dc8ed412-dfeb-4a2b-b665-fb15cb793585")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "af969e86-be40-4f9f-90e7-4cbf7de24bbd")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ab0a7a22-a875-4523-8ed5-34e8b6ae3a2e")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a7916e97-c6db-4d3e-ab3e-30966fa2ee49")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_6.25u"
 		(layer "F.Cu")
 		(uuid "2d25a31b-68cc-4eaf-bd58-d177c7fdd184")
@@ -9578,223 +9578,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "2f10ba76-a470-471e-b7cc-5ce4db7c1627")
-		(transform
-			(translate -88.8043 27.9648)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H7"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "7f649d42-71d5-42b9-a3b0-abae38524ce8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "5d9e79f8-6782-4ec0-b8f8-fdb86d23dc8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29704c0a-44be-45f5-b3c3-21f7d03ea325")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "355ea93c-98f2-44df-b30a-b5f5a52ee448")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/472c9719-045c-4f52-b6db-97c21cffdbf3")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a020bb99-c4b8-41fe-a902-9783cc900fb4")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "62407c86-8581-4a00-b8e7-d4035b4093c5")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "385f3f36-9a0f-417f-a7b5-615000c98fe6")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "20cb6268-8462-420f-ae12-f52487203702")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "9d2b0c9e-a000-4cbc-b9c6-fc856a469743")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "7c1268b3-f2ef-45bf-ba1e-9a5105f41c61")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "a53cd7a2-cba6-4440-919d-c8f0200520c5")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "34cc62ad-630d-42d1-859a-8de497aeac6b")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2b12ca9e-6e75-4076-9054-b8cbac4e6a74")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "069323eb-21b3-4745-90c1-946355ab9340")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "7d5fb429-64bf-4c83-93fa-1636615f12d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "485a0e01-6218-4981-839f-f9ecd7296098")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "175c34df-8c4f-45a6-9924-e51b5e6ac5c7")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f4b9b3b0-7054-40b4-8a19-3755182639cb")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "0c84fff6-6d98-4a7d-8973-c93410a429e8")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10362,223 +10145,6 @@
 			)
 			(rotate
 				(xyz 0 0 180)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "37a0f820-afe9-4e50-9a91-97b777605adb")
-		(transform
-			(translate -117.6681 47.6927)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H4"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "16ffddc6-e1f4-486a-a16e-c5c377d7f0fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "0e58754b-7908-4893-8c26-a82d9f2f4811")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be9b8bd8-8e67-40ae-8daa-971243cf1337")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "680205cf-becb-4590-a94f-5b0c5e6d83fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/9a225595-39d5-4413-92cc-c0cfadf93713")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3e8e6b39-73bb-47e6-ab9f-58a9e83cad7b")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "14d997f6-f966-45ed-94dd-c64fdab0a131")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "215fb31e-000a-46f7-8b71-3fe0f784eb11")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "d53ba1f1-d64d-4aa1-856b-9f385c21ccf9")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "23911efb-2a19-42b1-b98e-a7e9e2b7f57b")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "773139ca-52b2-46e2-b95b-79896acf06db")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5ea9b3ff-1de0-4574-b19e-4ef3435e1244")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b7c2eb4f-7059-4dbb-842e-554ea9a6c3fa")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "7d3af694-dfe8-459b-bbbc-577714df1056")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5c5b4630-b15e-4b7a-8de2-b76de974eb74")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a434b702-4adb-4eed-b5a7-d6314db9f7a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "57e87f22-d2dd-4964-90e8-28c520e06b38")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b4341e7c-ebd7-47f3-9668-6c6b9950a618")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a777c375-437f-49ac-bc73-b67a9e0efb96")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f56c285f-2be6-475e-a6d5-46d01d0e828a")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11223,223 +10789,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "3d7d2a7a-36bd-4247-accf-1401a975b94c")
-		(transform
-			(translate -59.9405 27.9648)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H11"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "b5f84578-2a80-4dc8-82b8-82d66d236264")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "a77974f0-9c75-4523-9c13-f27fd532b255")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d8e6260-542d-4621-b867-8101f5c6f46f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e956cdcd-6d6d-45a9-aae3-85591a751f2a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/cb72b00e-8597-4efe-8d18-e3c4315747f4")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "4893859c-cdd3-4c50-b678-a2e262bb51b7")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "a4eb2d2e-01fd-48eb-b554-0d7c3b02bf77")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "cadcec1d-2d60-45c5-9b41-bd3b2f699cdd")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "26388df7-db87-4baf-bd6e-b59e6e8e85a2")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "4d5ca41b-f54f-4b59-87ee-34d6cfb9dc7b")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8141a45a-20fe-4c3d-8903-187edfcd11ae")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c16ff1c6-cd1f-44c6-ab19-cdcea2021a9a")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f3670e1f-7c77-4750-a779-76433e22b924")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "e8eff4cb-1d24-45a6-aec9-500d2aec778f")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "777f9acd-cedc-4477-9f81-cdd4c2a015a7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "335b4b6a-9b4a-4d16-aa2d-7416c1ea4d15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "5110790d-addb-4912-9d29-a82a887a4c34")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "4c26547b-dec7-4fd2-9b39-d44be66cdab3")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "e257363b-4343-4479-b2c8-4083f7ac5bf1")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "7ba5293d-8dcc-4c20-ba81-eb1e55dddd74")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12802,6 +12151,223 @@
 			)
 		)
 	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "44709a01-2da2-4d55-b468-00c04fa1f6b1")
+		(transform
+			(translate 50.75 162.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H4"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "6e0962f3-2224-414a-a7d2-a63226cd9f39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "7e4fdbc4-ff9e-4c7a-b108-9f389f3e15a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aca27603-1daf-450c-856b-1dd6cf9f5426")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78d2e9dd-1787-4e2e-b82c-1769d28d490f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/9a225595-39d5-4413-92cc-c0cfadf93713")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "280ff168-461f-473c-88fb-10d3db46d2de")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2df0c5b0-2320-4849-b54b-72f8ef0cbeca")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "9ebfbd43-f911-4179-9f1f-289edec0a2de")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "22f972d0-d3ca-4767-ab2c-09eda6f2c0e1")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "367a4f09-1069-4507-927b-6c7d788c4173")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "bf76858c-5b7c-4295-a294-bfa34452ce87")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "afc9841c-b029-4714-b51e-ab027ae89b86")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "aa11daf5-838c-4961-b8b2-f28c3182dce0")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "ce3ef524-42fb-4748-ba10-d07a61b7bf8f")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "1d2705ce-bdf4-4f96-bffe-2ae9a5d088b5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c8f714f7-021d-4b71-a431-4931050c5d5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b67c4f13-0094-42dd-9d08-dd8d939fb74d")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9eff93ac-becb-492c-a201-64fd77f9a64b")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d14f4b75-18f6-4704-9415-b31c474e0d58")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9fe2902c-2dc3-4f1d-a75f-48308a8e8164")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.75u"
 		(layer "F.Cu")
 		(uuid "48b2a709-211c-4cee-b4cc-9c3e42fa0c34")
@@ -13117,223 +12683,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "49e2dfa7-9b7f-4926-8f46-7a5d9aa8848e")
-		(transform
-			(translate -59.9405 47.6927)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H12"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "51fbb052-acc4-4607-9ce4-46448b0314e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "346e4ce1-e64d-472c-adfc-27e999aa883b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9604810-5868-4dd9-a36a-fceb7497f965")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d943142-dad2-4186-879b-400ba08ecd31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/723cc935-5733-4cef-860f-428c198c9e5d")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bb237b0f-fefe-479c-8c97-d1309f4c04d6")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fcafaca3-1f01-43eb-a28f-ce5ba811050b")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6721f20c-58d5-4dbb-8705-d02c3632b929")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f150d745-0ddc-43ea-81c2-5afc8a9e7dea")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "fb3b7d3a-f000-40ca-baea-b1480229d780")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "0098be55-2330-4f81-92b4-9aff024ac6ff")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "84cb8633-f76a-4ca0-b14e-8f847becd8ab")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "38f30659-90e0-4c88-aece-e46e09053bab")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2c941964-75a7-43f5-abdd-52cca275aada")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "10ac2bab-7450-4423-b610-6b0490a9bf37")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "fe830184-b2a0-4c61-86e1-79593677b70c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "73fbd57e-0eab-4d3b-984c-277fa6b59d74")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b63a1b52-79d7-462e-b6e2-63b578e1eca1")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6a0a6139-f27f-4ad0-8ab2-50f0bda53de6")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "7515241a-f19f-41b9-93a3-c29d809dda9a")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14367,6 +13716,223 @@
 			)
 			(rotate
 				(xyz 0 0 180)
+			)
+		)
+	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_6.25u"
+		(layer "F.Cu")
+		(uuid "4fea92f6-24c7-44a4-b78a-2832d85249a8")
+		(transform
+			(translate 172.25 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 6.25u")
+		(tags "Cherry MX Keyboard Stabilizer 6.25u Cutout")
+		(property "Reference" "H8"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "de8a3e51-820d-439f-b465-24e214d5a312")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "24931d15-4c6a-489c-a149-9e450e40277e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af69fb65-706f-4653-bf3e-eb0f0eb80bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "552307e3-9bac-4c8a-81d3-27c47b1199ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/b7b781f2-3c38-439e-87cd-adecb71aed72")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0a97dc75-7307-40a2-ac23-74975297c7fd")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "bc5ecbdb-f367-445e-a628-2b1f95838ce6")
+		)
+		(fp_line
+			(start -53.375 -5.53)
+			(end -53.375 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "50602f4f-6668-4f61-a1fe-dd024ef979cc")
+		)
+		(fp_line
+			(start -53.375 6.77)
+			(end -46.625 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "4c6b6a16-29d8-49ef-b011-5aa4f56b85ec")
+		)
+		(fp_line
+			(start -46.625 -5.53)
+			(end -53.375 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "a6c6595a-f178-49ef-a863-5e5850afc1cf")
+		)
+		(fp_line
+			(start -46.625 6.77)
+			(end -46.625 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "ab1c3a18-82cb-4e8c-a684-3742236f70d2")
+		)
+		(fp_line
+			(start 46.625 -5.53)
+			(end 46.625 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "4c49a09d-79b3-4603-af4d-a78cd2dfaad9")
+		)
+		(fp_line
+			(start 46.625 6.77)
+			(end 53.375 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "b2842936-212c-46f4-8e79-fa717683ead2")
+		)
+		(fp_line
+			(start 53.375 -5.53)
+			(end 46.625 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "940107ad-ff1d-404d-b347-0efaebc727ad")
+		)
+		(fp_line
+			(start 53.375 6.77)
+			(end 53.375 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "dcb3bd8f-fcce-4df2-9f94-d08f576ae208")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7fe10236-dac8-453c-b330-b1b0cbb3821b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -50 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "577c845e-9b56-44b6-879e-39a986508c06")
+		)
+		(pad "" np_thru_hole circle
+			(at -50 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a1ea05d6-6aa5-4772-a412-93dfffbdd088")
+		)
+		(pad "" np_thru_hole circle
+			(at 50 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3e16decf-a6ba-4802-9eaa-55d3d297d6f8")
+		)
+		(pad "" np_thru_hole circle
+			(at 50 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9d15d0ac-6bcb-4df0-a1ab-0c8e1f9c289b")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_6.25u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -21171,440 +20737,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "6bacc9ef-cbc8-4711-9718-93b087ecf2f6")
-		(transform
-			(translate -117.6681 27.9648)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H3"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "dc4e9b2a-b72d-4cd4-ab92-91c6485224ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "663a2ee4-ae4e-4120-b503-5cd3eff8d2ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef9839b8-7300-43fc-b315-b54e49840761")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1a23762-6bd4-49b1-9b7e-dfc1521f1329")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/d8f9c954-1f19-4cc0-b064-73d14c4edec6")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "df957de5-f286-4982-9848-87cdc725ea26")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "838b3f1b-5dc7-475b-898a-f4ef912ef30e")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "587d4631-b58b-439f-beb7-a58fa2f43ebd")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "957662a2-3660-496d-8a3f-01df6eb813c7")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2cd7fb46-34a1-47f2-92fb-446079306e59")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b50fb54d-69ae-40d2-997b-ecc4fc711ced")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "15907fb9-b253-4a39-8c83-8b6c261227de")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "4ee09f62-e31e-4490-b6df-ce26436682ea")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "abe16d45-ce4a-4a4c-9f0f-56b1a3803c9a")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "e8449a9c-45e3-4684-a405-cf8ffefc3489")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "89799a24-5c47-4419-aca7-18b646589d1c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f58801c5-9354-4caf-9ced-67ac5b18f8a5")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "41dfe293-0b9e-404b-b9e4-fbd442218814")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d886b4aa-a090-4648-b449-38d843e20e4f")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "5e4aee1d-af50-4875-9026-a4e684324e0b")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "6c21a571-02fc-45c4-b2d3-fc0b1f520bf9")
-		(transform
-			(translate -82.495 123.885)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H1"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "416219e8-7c32-4100-abeb-099eb939d831")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "8c266a1a-7dad-4c23-870b-02b83fcdedfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9b83d76-afd8-4aea-b08b-09bc9f31655c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0e950142-bef4-41f1-9e02-7cad14390ee6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/ffed06b4-8dbf-4efd-a0f6-3f75536d67c3")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "7a027c25-dc39-4c71-92ce-cfbaf95546fa")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3d249d19-daa7-41f2-a782-975e935118d6")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "10da1a7d-94ef-4be5-984b-20964225910c")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c90652cd-402f-4155-a914-f8009109a6c6")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "68a05baf-3a89-4993-bf9d-1a087faf1e0b")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "15d8b52c-3156-4839-b929-896e8ef13ff9")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6382cd1d-04df-47c2-a1b1-ec08c2fe4f57")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "45251d09-140c-4738-bd33-cd85096457f2")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "7e84a821-2cd7-4c16-96d8-6cbb28f7137b")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "293d5318-c916-437e-8251-dd357c261921")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a0115db7-e88a-4a15-8d1d-0149dff5f922")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c860537a-255d-492a-9ab4-5ebea07645bb")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "61c2f413-d4d5-47a7-a85a-519e2f5331c6")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "950292c6-40dd-41ff-8c98-dcfc6cbaf744")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d47a1853-b2ab-496a-916d-29d2f5933012")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "6cdb1f93-2582-4df3-943b-81839a1f3df6")
@@ -24071,223 +23203,6 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "78c3d671-eccc-46e1-a72a-1b593f0ce52a")
-		(transform
-			(translate -88.8043 47.6927)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H8"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "e78881ae-fe86-4a97-bd89-35002e9296a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "34396a98-f4d6-4c25-84b8-11ac096cd779")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9038c148-72c7-4331-949a-3f048cc3caf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b62641fc-6a03-4414-8fca-52aee47427b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/b7b781f2-3c38-439e-87cd-adecb71aed72")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fb9e0389-206b-475a-a76e-bf92d4a19432")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "1ada96bc-bdbc-4237-b82b-fc8d15f9887a")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "da1dd3f7-7e4d-478f-9ad4-47171c88afb7")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c0f51c90-512d-458a-be0e-ad3547bf9cd8")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "08920497-8474-4158-8d36-b774f89e5ab3")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b90f67ac-c749-4dcf-84fe-924c96bfb769")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "dd8c5326-46b1-4b4a-bb9c-4126961f9fce")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c48f6c87-a9e8-45ea-818d-9be0b6e3064d")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "fd59d887-9257-48a8-81b0-7d3634e3ab45")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2c4f7cbd-06c2-4549-aa9f-959bd6c043a9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "36b842aa-ceb4-4f76-aafb-54134735bd8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "61168c68-5db4-4d96-8dfb-64f0fb934d57")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "e0f6ebea-71eb-431a-88a2-a6667f2a9701")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "977fdc31-4870-4611-a2ae-68ebc1eeb874")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "0c945a43-ebb2-4431-9e00-962ef70d0004")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29091,478 +28006,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
-		(layer "F.Cu")
-		(uuid "92b14ea8-e86d-48d8-bbbb-b424db247941")
-		(transform
-			(translate -108.309 142.1824)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX keyswitch plate cutout 2.00u")
-		(tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u")
-		(property "Reference" "H14"
-			(at 0 -8 0)
-			(layer "F.SilkS")
-			(uuid "230208de-a96b-42ea-8d01-123fd3860681")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 8 0)
-			(layer "F.Fab")
-			(uuid "43584257-17fb-4e6a-b088-c7689bb5c858")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "037b9fa1-e240-406b-851b-48e8aa9578d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7130a6c7-6ae7-4048-aaf8-ed6b65f79b45")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/9440bdf4-0f6b-4127-be30-6dddb090645b")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -23.241 -2.286)
-			(end -22.3774 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "49ad79c7-b2cd-40ba-be2a-f445356672fd")
-		)
-		(fp_line
-			(start -23.241 0.508)
-			(end -23.241 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "56bde5ce-444e-444c-87b4-5d20b1723fb2")
-		)
-		(fp_line
-			(start -22.3774 -5.6896)
-			(end -15.7226 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "28995033-d832-448e-8e3c-704939700e2b")
-		)
-		(fp_line
-			(start -22.3774 -2.286)
-			(end -22.3774 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "45d62426-8a6d-44e1-89c1-a2603bd2d93a")
-		)
-		(fp_line
-			(start -22.3774 0.508)
-			(end -23.241 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "c78557e2-853c-496b-94b3-44a4ee5e023a")
-		)
-		(fp_line
-			(start -22.3774 6.604)
-			(end -22.3774 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "de451594-dae8-4fdb-a209-bc9ac99bafc4")
-		)
-		(fp_line
-			(start -20.574 6.604)
-			(end -22.3774 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "67b27c0e-b4ef-40a7-8ba8-9a3edea2a49b")
-		)
-		(fp_line
-			(start -20.574 7.7724)
-			(end -20.574 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "eda27e49-63e1-4d76-88ab-2c27b6327be3")
-		)
-		(fp_line
-			(start -17.526 6.604)
-			(end -17.526 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "11dda317-4546-4922-9e44-b69aea08bbf2")
-		)
-		(fp_line
-			(start -17.526 7.7724)
-			(end -20.574 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "b9f8c90b-4eba-43b5-8b9f-e6dacfc0d0cb")
-		)
-		(fp_line
-			(start -15.7226 -5.6896)
-			(end -15.7226 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "712d82d5-eb38-4721-9a9c-d0b4d7684918")
-		)
-		(fp_line
-			(start -15.7226 -2.3)
-			(end -7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ed41a938-cc8e-4236-8cf3-beae5725d723")
-		)
-		(fp_line
-			(start -15.7226 2.3)
-			(end -15.7226 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2b1730f8-66cd-469f-a68d-93cdb891ea22")
-		)
-		(fp_line
-			(start -15.7226 6.604)
-			(end -17.526 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "8b3dbb28-f5e8-4b96-8efd-e03f720e98b9")
-		)
-		(fp_line
-			(start -7 -7)
-			(end -7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "67d3b8ae-3948-449d-bceb-ef1e425ba773")
-		)
-		(fp_line
-			(start -7 -7)
-			(end 7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7e91235a-cf31-4972-8e4b-d709d81638e0")
-		)
-		(fp_line
-			(start -7 2.3)
-			(end -15.7226 2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7da1c075-720a-46c9-a857-19d281b43984")
-		)
-		(fp_line
-			(start -7 2.3)
-			(end -7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "29901da0-8bda-4005-b169-66392db665ed")
-		)
-		(fp_line
-			(start -7 7)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0871c0ab-76b3-4927-ab47-c6661c267270")
-		)
-		(fp_line
-			(start 7 -7)
-			(end 7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "b90e4cbb-48f2-4b3b-819b-0d9652a1001d")
-		)
-		(fp_line
-			(start 7 2.3)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "067e60ab-95c2-4e2b-aa60-656ba8ffd3a7")
-		)
-		(fp_line
-			(start 7 2.3)
-			(end 15.7226 2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7b935d72-a6e9-4889-9be2-01bb3f2c5cc9")
-		)
-		(fp_line
-			(start 15.7226 -5.6896)
-			(end 15.7226 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e664a73c-df02-4cfd-9767-b7b7685e51ba")
-		)
-		(fp_line
-			(start 15.7226 -2.3)
-			(end 7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "67e83c51-c483-4f9a-afc5-4612021dfc62")
-		)
-		(fp_line
-			(start 15.7226 2.3)
-			(end 15.7226 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "308f07e9-1c38-44a7-9e27-6ca6e6d7095c")
-		)
-		(fp_line
-			(start 15.7226 6.604)
-			(end 17.526 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "65bf390b-2691-4b2f-8f48-43e2d418014f")
-		)
-		(fp_line
-			(start 17.526 6.604)
-			(end 17.526 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "442386ed-d468-4e0f-abfb-e76b6147f607")
-		)
-		(fp_line
-			(start 17.526 7.7724)
-			(end 20.574 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "42bbe0a2-1acd-41e1-a3b0-a2ca2f7e625c")
-		)
-		(fp_line
-			(start 20.574 6.604)
-			(end 22.3774 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a1a4a7ed-4755-4287-b4d4-10e2fd095ba5")
-		)
-		(fp_line
-			(start 20.574 7.7724)
-			(end 20.574 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bfbc1e46-8609-4058-a97b-519eeeac8960")
-		)
-		(fp_line
-			(start 22.3774 -5.6896)
-			(end 15.7226 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ca763af5-7ff5-409f-8888-31837f5862ae")
-		)
-		(fp_line
-			(start 22.3774 -2.286)
-			(end 22.3774 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6cd3a1f4-9224-429b-823c-a603805aa639")
-		)
-		(fp_line
-			(start 22.3774 0.508)
-			(end 23.241 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0500ba48-c62a-4c0b-ae46-32f126951089")
-		)
-		(fp_line
-			(start 22.3774 6.604)
-			(end 22.3774 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "12cd9435-e656-4ddd-882f-a1a1b7003f9b")
-		)
-		(fp_line
-			(start 23.241 -2.286)
-			(end 22.3774 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7468d5ac-fd52-4463-b7dc-66b7074e7bf7")
-		)
-		(fp_line
-			(start 23.241 0.508)
-			(end 23.241 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "b55e1837-d842-4741-bcd4-2b3fc9ee6a31")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "eaaa5d4c-5505-41b4-b0e9-1631f17b075e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(group ""
-			(uuid "4204219b-b458-4066-9f45-c4aae6e95d8a")
-			(members "0500ba48-c62a-4c0b-ae46-32f126951089" "067e60ab-95c2-4e2b-aa60-656ba8ffd3a7"
-				"0871c0ab-76b3-4927-ab47-c6661c267270" "11dda317-4546-4922-9e44-b69aea08bbf2"
-				"12cd9435-e656-4ddd-882f-a1a1b7003f9b" "28995033-d832-448e-8e3c-704939700e2b"
-				"29901da0-8bda-4005-b169-66392db665ed" "2b1730f8-66cd-469f-a68d-93cdb891ea22"
-				"308f07e9-1c38-44a7-9e27-6ca6e6d7095c" "42bbe0a2-1acd-41e1-a3b0-a2ca2f7e625c"
-				"442386ed-d468-4e0f-abfb-e76b6147f607" "45d62426-8a6d-44e1-89c1-a2603bd2d93a"
-				"49ad79c7-b2cd-40ba-be2a-f445356672fd" "56bde5ce-444e-444c-87b4-5d20b1723fb2"
-				"65bf390b-2691-4b2f-8f48-43e2d418014f" "67b27c0e-b4ef-40a7-8ba8-9a3edea2a49b"
-				"67d3b8ae-3948-449d-bceb-ef1e425ba773" "67e83c51-c483-4f9a-afc5-4612021dfc62"
-				"6cd3a1f4-9224-429b-823c-a603805aa639" "712d82d5-eb38-4721-9a9c-d0b4d7684918"
-				"7468d5ac-fd52-4463-b7dc-66b7074e7bf7" "7b935d72-a6e9-4889-9be2-01bb3f2c5cc9"
-				"7da1c075-720a-46c9-a857-19d281b43984" "7e91235a-cf31-4972-8e4b-d709d81638e0"
-				"8b3dbb28-f5e8-4b96-8efd-e03f720e98b9" "a1a4a7ed-4755-4287-b4d4-10e2fd095ba5"
-				"b55e1837-d842-4741-bcd4-2b3fc9ee6a31" "b90e4cbb-48f2-4b3b-819b-0d9652a1001d"
-				"b9f8c90b-4eba-43b5-8b9f-e6dacfc0d0cb" "bfbc1e46-8609-4058-a97b-519eeeac8960"
-				"c78557e2-853c-496b-94b3-44a4ee5e023a" "ca763af5-7ff5-409f-8888-31837f5862ae"
-				"de451594-dae8-4fdb-a209-bc9ac99bafc4" "e664a73c-df02-4cfd-9767-b7b7685e51ba"
-				"ed41a938-cc8e-4236-8cf3-beae5725d723" "eda27e49-63e1-4d76-88ab-2c27b6327be3"
-			)
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
-			(offset
-				(xyz 0 0 -5.1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "9342827b-c783-4cd2-b9a5-bdd5922c112d")
@@ -30995,7 +29438,7 @@
 			(uuid "c3e56ad9-27ad-4098-a077-0ce8a1f61aea")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33570,223 +32013,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "a76f9e04-c46b-4bc2-8a78-b4803bd93796")
-		(transform
-			(translate -88.8043 8.2369)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H6"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "503382f3-52a4-4de0-8323-d8a2ebd415e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "3ed3b70f-665a-410f-ba9d-1935b0a0f756")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c2b80d9-f109-48cf-8826-73772b527be3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "296dbc16-d8f3-442a-9781-1522f2c7c0c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/8ed2e901-d9ed-4689-a188-265a83ecc49a")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "d9b1bfe0-12ef-4a3a-8048-6be5c5282a19")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bda884c2-96ca-438a-a5a0-696713fcd815")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "d4e89c57-5bfc-4d02-801c-c900369587f3")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "9e6d0b15-b6a7-4a9d-9580-3df2621d5c48")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "66e1f10d-66a0-4676-842b-970bab0f0abc")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "09c4b794-e25c-4acb-95c9-af51154448d9")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "4439a743-97f1-45c1-871f-c112f9b79218")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8cd1e398-e7ba-4980-b626-7e4c838ed47e")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6b9954d2-218e-4e49-ba11-30d3ffb973eb")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "a52ef6d6-f18c-4002-b598-78253737d3c2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "d183d85e-1eca-4abd-a2fe-65566e1ffbfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b2e947d4-3a84-47be-b761-8c17ce1bbfad")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1b905c14-da88-4f37-a2bf-51c17eba44d1")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "0f8bdea4-7d9f-475b-a325-f278aaf88a02")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "db5f2af8-8218-4c8d-8df2-accdbac7bf02")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a825beb6-ac75-445c-b716-dea155dcf1bc")
@@ -34101,7 +32327,7 @@
 			(uuid "1842b8dd-6f93-4f47-a3ef-010276ca0479")
 		)
 		(embedded_fonts no)
-		(model "${KEYBOARD_PROJ_DIR}/KiCAD/otherLibraries/3d/blue.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35650,223 +33876,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
-		(layer "F.Cu")
-		(uuid "b182e95f-f389-4cc2-aff6-7782bfeaa3ba")
-		(transform
-			(translate -228.0061 178.279)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 6.25u")
-		(tags "MX Keyboard Stabilizer 6.25u Cutout")
-		(property "Reference" "H15"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "d4883654-2714-49f9-a8b5-c5ac01fea191")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "e6d6d37f-2a9c-4e35-b927-6dcf0f40fa25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30e83a1c-84da-4eb1-b86d-e8930d211804")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e16b81b3-abfd-4ac3-a92b-901941749186")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/4fc7a704-65d6-45f6-ad4a-98d8fac47793")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "4cc5e14f-e448-4e85-bcf6-d4430c9abdbd")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "69328183-45c2-4e6a-8d79-0f8770f98b8a")
-		)
-		(fp_line
-			(start -53.375 -5.53)
-			(end -53.375 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "5b9ca856-e238-4508-847a-280d9444159d")
-		)
-		(fp_line
-			(start -53.375 6.77)
-			(end -46.625 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "2b1daf27-1c05-450c-8efa-6e41fe6af5ae")
-		)
-		(fp_line
-			(start -46.625 -5.53)
-			(end -53.375 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f4030afb-1e9e-4971-bb50-af5a2bc63454")
-		)
-		(fp_line
-			(start -46.625 6.77)
-			(end -46.625 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "a5c46fe9-a6ef-4569-b462-ec89fe40938a")
-		)
-		(fp_line
-			(start 46.625 -5.53)
-			(end 46.625 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "ecfaafc7-b1ca-480b-8181-6f5f4d869cb7")
-		)
-		(fp_line
-			(start 46.625 6.77)
-			(end 53.375 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c7ffe22e-d0eb-4741-91a7-8f6099ef0599")
-		)
-		(fp_line
-			(start 53.375 -5.53)
-			(end 46.625 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "290a0d2b-4a9b-42a3-8955-cbaeddd86715")
-		)
-		(fp_line
-			(start 53.375 6.77)
-			(end 53.375 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "6361d1f8-51d6-4278-8279-bbf334b04367")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "28f2c70a-f875-4436-ae1e-88193fcb525e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -50 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "b0814484-1156-473a-8e28-da5754219080")
-		)
-		(pad "" np_thru_hole circle
-			(at -50 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "eb690c7b-a10a-42ea-8421-b48d4beadeb0")
-		)
-		(pad "" np_thru_hole circle
-			(at 50 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "d672012b-a90d-4c0e-bd8d-d255ec991a3d")
-		)
-		(pad "" np_thru_hole circle
-			(at 50 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9f5a0468-30f4-422d-92c1-ed0144c5012e")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_6.25u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "b18c5585-f1d7-4f29-93e4-9be4ec096051")
@@ -36100,223 +34109,6 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "b40048bc-14a0-4844-8571-b59f99e350ad")
-		(transform
-			(translate -59.9405 -11.491)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H9"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "21ba5ebe-733b-4ceb-b263-ebc18bec3209")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "9b1e5714-67e6-46fa-8b21-33dd541122c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "966db288-c1be-4a5c-a809-65ba45488d1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3f7eb4e-2465-4cb1-9a6a-23bc96ca5d3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/5fccd290-8354-486d-bebb-08ecccef3d2c")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "f743fc41-070f-426e-9f23-2f540d50b359")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0039a60f-297c-4137-bc9f-b6153be73db2")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f51321b6-75aa-42b2-9e78-3935f7d3d7b4")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "f6ccdb3b-c3ca-4fb7-a81a-df37718112b7")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "ac1bd9d4-1aef-4943-aaa1-7a619e8370d9")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "009165a7-a46b-4eac-8597-6871b0ccc257")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "541b3fd2-576c-49f0-ae58-2e6a4fdf6952")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "1baeb4bf-b947-48e2-9af2-f2f0c5db198b")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "67368b6a-6c93-4df6-8131-75da74056191")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "3e71329f-0942-4d3a-b672-f606d6ee2db8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "3632892a-2137-4058-bd0e-33a24a747a53")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "3c8fa15b-c9bd-49bb-8886-bedf1f0710cc")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "6b063203-3dbc-4626-bd8b-79ed082f55aa")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c703cf2a-8ad3-4da2-9975-383f5360a04c")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "3dab9be0-9afd-499d-8a78-414530e70e31")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "b610589d-df6d-4de2-9042-f28ccb742092")
@@ -36547,223 +34339,6 @@
 			)
 			(rotate
 				(xyz 0 0 180)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-		(layer "F.Cu")
-		(uuid "b62f83cb-e296-4201-82ba-31103643a061")
-		(transform
-			(translate -88.8043 -11.491)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H5"
-			(at 0 -2 0)
-			(layer "F.SilkS")
-			(uuid "c9c48160-f1a6-4a49-b4a3-e0e16f339fc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 2 0)
-			(layer "F.Fab")
-			(uuid "c3216b3b-9f74-42ee-a296-c37c43c9d820")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "30f0b13f-6ccc-424f-84cc-be34ec1afce9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d7cfb766-5bf2-4336-b716-a4b0b7e13a9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/01b22803-1978-42f9-a178-3b08b31996a4")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -2 0)
-			(end 2 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c777f009-a483-47f8-ac14-3875489f98ca")
-		)
-		(fp_line
-			(start 0 2)
-			(end 0 -2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "0e20eb22-52a7-44dc-ba09-7e36259fe3ee")
-		)
-		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "df882f8e-d2ea-4c96-8595-0edfaf8c6e41")
-		)
-		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "9214de0b-3ecc-42cb-8080-d2264dc1b800")
-		)
-		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "69049efa-02c2-4ad6-9296-9717360ccee6")
-		)
-		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "d7fdeedf-2976-421d-b85f-5ad109483394")
-		)
-		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "b163adbe-a37c-41c9-9ca1-c55b60a5cf4b")
-		)
-		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "1048bb33-92e4-40bf-b08c-297850c07416")
-		)
-		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "c63fb319-8499-4b64-b801-7064ec2723f7")
-		)
-		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Eco1.User")
-			(uuid "8ad89ef9-c7a1-487c-bc7e-513a902d212d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "8e27a8aa-7a00-4c78-8a59-08c85ffe6389")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c832c33e-e170-491d-971c-c50dde15cc56")
-		)
-		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2f7d43fa-7af4-4f8e-adc7-142b1721e747")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
-			(size 3.048 3.048)
-			(drill 3.048)
-			(layers "*.Cu" "*.Mask")
-			(uuid "0db0929c-3808-4e1f-acd6-7ee76166c64f")
-		)
-		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
-			(size 3.9878 3.9878)
-			(drill 3.9878)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f6113f88-bc5c-4607-a710-dc1b04618899")
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -37745,6 +35320,223 @@
 			)
 		)
 	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "b9ae3f4e-41a0-4fd5-ba70-78b369f59705")
+		(transform
+			(translate 53 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H3"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "25979717-7a6f-4615-9828-ae3dc7100d92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "cd6708ed-6fff-4282-932d-8e81a1ab847d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12df14f9-a0ee-47d1-b564-929e67062e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6594f1ea-fd79-4a70-ba07-c71513b9560c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/d8f9c954-1f19-4cc0-b064-73d14c4edec6")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "1951e46d-36ca-4fba-b969-8d98936fe093")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "010c631d-8c5b-4b95-a54c-c9dd9def4b75")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "dbbc22e7-c152-4b3c-bb32-f9baea2a55da")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "2f0450d3-b28d-43f5-aa92-b2702510c955")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "b62a3ba3-9485-4a92-bea3-90e0db94a08f")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "004843c7-3e37-4a8c-b57e-666fd741dbac")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "a0271456-cac8-4bd0-b59e-65e1241f556a")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "e7057d78-f3ba-49a9-a2e0-983be8efa298")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "9be02d45-146d-476a-b698-faff6cc3fcec")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "af7bd91a-6baf-4876-b65f-ebbc5b6fc7de")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f4f0e343-f113-44b0-a058-43170d3238a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1b7578c1-9754-40d2-97db-2d46fc63cb81")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "50190793-4d95-4742-8a74-db8aa7abaf1a")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "47d951cd-b889-4ff8-bb6c-7fa071a656be")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0a2adf8f-c335-411a-b88d-0950d43a11fe")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "b9c7e761-a359-458e-bc33-5cdf20a09a90")
@@ -38071,20 +35863,20 @@
 			)
 		)
 	)
-	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_3.00u"
 		(layer "F.Cu")
-		(uuid "be43403f-221a-4c9c-a78c-4f2b4ac5050f")
+		(uuid "bad887b0-1296-426c-9a04-4c9074f9180d")
 		(transform
-			(translate -59.9405 8.2369)
+			(translate 280.25 179.5)
 			(rotate 0)
 			(scale 1 1)
 		)
-		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
-		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
-		(property "Reference" "H10"
+		(descr "Cherry MX PCB Stabilizer 3.00u")
+		(tags "Cherry MX Keyboard Stabilizer 3.00u Cutout")
+		(property "Reference" "H7"
 			(at 0 -2 0)
 			(layer "F.SilkS")
-			(uuid "64f97c82-6b3d-4c70-8ff5-f11099f07bdb")
+			(uuid "0bfcd5a8-c7c1-4acb-8850-9ac62e122248")
 			(effects
 				(font
 					(size 1 1)
@@ -38095,7 +35887,7 @@
 		(property "Value" "~"
 			(at 0 2 0)
 			(layer "F.Fab")
-			(uuid "5099847c-05b5-4093-875c-db39f9e499c0")
+			(uuid "e46b4ce4-f52c-4a36-9f78-7ce6e89fd6d5")
 			(effects
 				(font
 					(size 1 1)
@@ -38107,7 +35899,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3aa26d34-423b-40cf-a69b-1142e643af08")
+			(uuid "ab644c1b-1394-47e7-ba9c-ce174fd9000e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38118,7 +35910,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32ea505d-49b0-419e-8bb7-152c9090ab6c")
+			(uuid "4d8e7d80-c5a2-488f-8391-c81378c4f90d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38126,7 +35918,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*")
-		(path "/8b415b00-6db1-46eb-a028-852bd18caa8e")
+		(path "/472c9719-045c-4f52-b6db-97c21cffdbf3")
 		(sheetname "/")
 		(sheetfile "keyboardKiCad.kicad_sch")
 		(units
@@ -38144,7 +35936,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "87cb7727-77f4-4d40-89c8-784402bdfd75")
+			(uuid "024f8954-28c5-4dd3-9151-e1f86e8b53f0")
 		)
 		(fp_line
 			(start 0 2)
@@ -38154,92 +35946,92 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "c35b6e90-c0c7-436a-8416-b2ec530fb14f")
+			(uuid "6df51673-76b7-4c04-855c-93d97126aea0")
 		)
 		(fp_line
-			(start -15.313 -5.53)
-			(end -15.313 6.77)
+			(start -22.425 -5.53)
+			(end -22.425 6.77)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "8baa1623-b6f3-4850-958b-26f67ce68001")
+			(uuid "b355c7dc-4cc7-4c91-83c8-44a6f5ac0747")
 		)
 		(fp_line
-			(start -15.313 6.77)
-			(end -8.563 6.77)
+			(start -22.425 6.77)
+			(end -15.675 6.77)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "0660eac1-9d27-4b72-bf8a-c85ace416a02")
+			(uuid "e434b167-d4f2-449d-a308-a768c10cbad5")
 		)
 		(fp_line
-			(start -8.563 -5.53)
-			(end -15.313 -5.53)
+			(start -15.675 -5.53)
+			(end -22.425 -5.53)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "f9c22735-beea-442d-b0bc-bf2f2fdee4fe")
+			(uuid "ee9088ee-d5da-4ea9-9f3d-2c97237c94d9")
 		)
 		(fp_line
-			(start -8.563 6.77)
-			(end -8.563 -5.53)
+			(start -15.675 6.77)
+			(end -15.675 -5.53)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "a01af4bc-ae2d-4eb5-a3e7-152df28d0998")
+			(uuid "afd4db7a-14d2-4609-919f-bd42577099ab")
 		)
 		(fp_line
-			(start 8.563 -5.53)
-			(end 8.563 6.77)
+			(start 15.675 -5.53)
+			(end 15.675 6.77)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "007d7346-7665-48fa-9443-167ba9b17c02")
+			(uuid "fdb6aa15-0fe7-45a5-a2b5-e30c4fb3a888")
 		)
 		(fp_line
-			(start 8.563 6.77)
-			(end 15.313 6.77)
+			(start 15.675 6.77)
+			(end 22.425 6.77)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "cec364a4-58de-427e-ae97-fd8b2b2bd9ef")
+			(uuid "66037231-10d4-41fa-999d-9e71e952999c")
 		)
 		(fp_line
-			(start 15.313 -5.53)
-			(end 8.563 -5.53)
+			(start 22.425 -5.53)
+			(end 15.675 -5.53)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "663b33f2-9db4-4d68-a515-6d8770801b44")
+			(uuid "aff8e61a-0053-4773-a878-88464edfd2f6")
 		)
 		(fp_line
-			(start 15.313 6.77)
-			(end 15.313 -5.53)
+			(start 22.425 6.77)
+			(end 22.425 -5.53)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "e506d123-d788-41d2-bfba-357036c443d0")
+			(uuid "3ccc2a61-17c5-42f3-8585-e98e4ecbf76f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "50293a77-5349-48c8-b28b-aa40090b205e")
+			(uuid "a8755f2b-b868-4b28-a112-02df354540fb")
 			(effects
 				(font
 					(size 1 1)
@@ -38248,35 +36040,35 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -11.938 -6.985)
+			(at -19.05 -6.985)
 			(size 3.048 3.048)
 			(drill 3.048)
 			(layers "*.Cu" "*.Mask")
-			(uuid "1cd17cb2-448a-4946-8b70-077fff206edc")
+			(uuid "d387f4cc-ab07-49d0-9c29-21bbaf4e975e")
 		)
 		(pad "" np_thru_hole circle
-			(at -11.938 8.225)
+			(at -19.05 8.225)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "b18f3efe-c8dc-44e8-8424-0aaeb1cbd86d")
+			(uuid "5c537f3a-8220-4b5e-b83f-80ab35aa6440")
 		)
 		(pad "" np_thru_hole circle
-			(at 11.938 -6.985)
+			(at 19.05 -6.985)
 			(size 3.048 3.048)
 			(drill 3.048)
 			(layers "*.Cu" "*.Mask")
-			(uuid "0d35967e-133a-406e-8642-a59383266580")
+			(uuid "ae259603-a6eb-4d29-a22d-f287f7dfc3d5")
 		)
 		(pad "" np_thru_hole circle
-			(at 11.938 8.225)
+			(at 19.05 8.225)
 			(size 3.9878 3.9878)
 			(drill 3.9878)
 			(layers "*.Cu" "*.Mask")
-			(uuid "e6c53119-7c4c-4b96-83bc-33d511e28075")
+			(uuid "ef0f7188-b4c8-461e-9765-53688c5ae9ef")
 		)
 		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Stabilizer.3dshapes/Stabilizer_MX_2.00u.step"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_3.00u.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46254,6 +44046,223 @@
 			)
 		)
 	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "e5375bba-69e8-491d-a583-19670758f7e7")
+		(transform
+			(translate 287 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H6"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "c343c227-79e4-411f-a8ea-3e857a67d219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "3cfe32fb-b0a5-48ee-9721-dc96261af3dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ca18dec-de65-4ac4-b2dc-d064561f89c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "143d13f1-f862-41fe-ab1b-5573aef0fd18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8ed2e901-d9ed-4689-a188-265a83ecc49a")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "f468dae3-cb9f-4a41-926a-66d3a9e74260")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "2eb7c3fb-5c66-44d4-bdc4-90e8776545a4")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "6788548c-6651-4cbe-b37c-72fa1b480a7a")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "0b0515de-276a-46d4-ad79-73c77c9064c1")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "6cc07c6a-3afc-4e1d-98f3-6e2f462096d6")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "fe360944-fb5b-4868-a240-1f196fc5e43c")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "7c605b54-3d32-43e6-b830-d5e21ae6909e")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "f240f9ee-d246-433d-9402-ffe12c0ba061")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "45fa5225-3bdf-43da-b904-64118be71aa6")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "959c1be4-c4ab-43fa-a8ed-f6d992073092")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "39d3dabc-9d0f-4dd5-bb8b-f6610129ad3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "58b9fbea-9c95-4e53-a9d4-b8df6382c3e7")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d270a1d4-a268-4404-85f4-cb7681eb01fb")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9ce0918c-be51-456c-9b12-8c39a45f29c9")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2c172f8e-9f20-4291-8d9b-aa77976daf2f")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 		(layer "F.Cu")
 		(uuid "e53f847a-05e1-411f-86d8-6b4ecd26cea2")
@@ -46950,6 +44959,223 @@
 			)
 			(rotate
 				(xyz 0 0 180)
+			)
+		)
+	)
+	(footprint "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+		(layer "F.Cu")
+		(uuid "e8f0a95f-d5e3-45e2-a044-f5c852a351fe")
+		(transform
+			(translate 284.75 162.5)
+			(rotate 0)
+			(scale 1 1)
+		)
+		(descr "Cherry MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
+		(tags "Cherry MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
+		(property "Reference" "H2"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "daee28fa-c3ec-4f85-a904-33a7c05b1971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "84420af1-4c01-4316-a56c-6049e60836a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09ca23cc-b0a1-4e3d-9b01-d2d6dce73558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c952514d-d146-41f1-95f2-fb5723854778")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a3c1c418-c013-40d6-b8b0-29b08e6accb5")
+		(sheetname "/")
+		(sheetfile "keyboardKiCad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2 0)
+			(end 2 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "4accb13e-28f5-409c-9f8a-c59282040772")
+		)
+		(fp_line
+			(start 0 2)
+			(end 0 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "243f2aae-f4cb-47ea-b935-e76cf82c695a")
+		)
+		(fp_line
+			(start -15.313 -5.53)
+			(end -15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "a3b54346-3b2b-4ee8-bf74-c044d56fc81f")
+		)
+		(fp_line
+			(start -15.313 6.77)
+			(end -8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "f9a5c0a8-e212-439d-b26d-06500a08aa9a")
+		)
+		(fp_line
+			(start -8.563 -5.53)
+			(end -15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "867c04d2-b915-47c8-923f-951c850daff5")
+		)
+		(fp_line
+			(start -8.563 6.77)
+			(end -8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "5095719b-6ff9-4f1b-aa62-d4a8ee212e13")
+		)
+		(fp_line
+			(start 8.563 -5.53)
+			(end 8.563 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "4c1ae3a3-8560-4dc5-8492-52acb2020023")
+		)
+		(fp_line
+			(start 8.563 6.77)
+			(end 15.313 6.77)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "da38d8c8-18b1-42a2-8ecd-629ffb0a7fd9")
+		)
+		(fp_line
+			(start 15.313 -5.53)
+			(end 8.563 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "fdf07b32-8d6f-48dd-a8b1-6f70ee880bdf")
+		)
+		(fp_line
+			(start 15.313 6.77)
+			(end 15.313 -5.53)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Eco1.User")
+			(uuid "b3bc64de-384e-490c-b118-2f7e1f4f1e09")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3780acd0-8750-43e7-b851-ca5dbc8f6233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "695dcda1-2164-45e3-b13a-8952497d7e7e")
+		)
+		(pad "" np_thru_hole circle
+			(at -11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9bc65e63-89e5-4f71-9599-79a39d7ca3b4")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 -6.985)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(uuid "311d3c2e-c8bd-4684-a167-74c6fabdacf7")
+		)
+		(pad "" np_thru_hole circle
+			(at 11.938 8.225)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4e79d159-0219-4774-b97e-a72c85178b68")
+		)
+		(embedded_fonts no)
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -50257,478 +48483,6 @@
 			)
 			(rotate
 				(xyz -0 -0 -180)
-			)
-		)
-	)
-	(footprint "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
-		(layer "F.Cu")
-		(uuid "f9bedd89-9bea-4f83-9362-ffebe2fd7b99")
-		(transform
-			(translate -108.309 126.31)
-			(rotate 0)
-			(scale 1 1)
-		)
-		(descr "MX keyswitch plate cutout 2.00u")
-		(tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u")
-		(property "Reference" "H13"
-			(at 0 -8 0)
-			(layer "F.SilkS")
-			(uuid "245dc130-ac5f-4841-adca-887c0df4e81f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 8 0)
-			(layer "F.Fab")
-			(uuid "95f2f917-c568-47f2-b4e7-61f9dd11f269")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e70ff65c-e7f0-481f-a99d-41a3ddd05ea5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2098c2a8-c956-4c7d-b021-606e4b8d7156")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/60d6fc93-50b0-4532-9e74-2f8a7819a41e")
-		(sheetname "/")
-		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -23.241 -2.286)
-			(end -22.3774 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0fac0d76-fcca-4634-8bf4-66ed7aa06eb1")
-		)
-		(fp_line
-			(start -23.241 0.508)
-			(end -23.241 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "fd1db20d-cfbd-4524-a8d6-532bf43f6d1c")
-		)
-		(fp_line
-			(start -22.3774 -5.6896)
-			(end -15.7226 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a623a770-9bac-4251-9a29-a8ac4be4f325")
-		)
-		(fp_line
-			(start -22.3774 -2.286)
-			(end -22.3774 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3d785c17-bd9c-488c-ac05-f3b530444514")
-		)
-		(fp_line
-			(start -22.3774 0.508)
-			(end -23.241 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "9dcc3fb9-ce77-43bf-b852-877019e4167f")
-		)
-		(fp_line
-			(start -22.3774 6.604)
-			(end -22.3774 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a9b62048-8b06-42b4-8bf7-fe78f2517549")
-		)
-		(fp_line
-			(start -20.574 6.604)
-			(end -22.3774 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "da1752f4-5902-4f24-9f07-8d4a2fc579ed")
-		)
-		(fp_line
-			(start -20.574 7.7724)
-			(end -20.574 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "d1fb042f-bfac-4797-82ec-0dbc09b4d93e")
-		)
-		(fp_line
-			(start -17.526 6.604)
-			(end -17.526 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "c1c85e07-300a-4ec2-bda5-bab0a22570af")
-		)
-		(fp_line
-			(start -17.526 7.7724)
-			(end -20.574 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "e6ad967c-dd2e-440f-a085-5cd35aa51461")
-		)
-		(fp_line
-			(start -15.7226 -5.6896)
-			(end -15.7226 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5aa37260-762f-4dfd-96ac-91169453d161")
-		)
-		(fp_line
-			(start -15.7226 -2.3)
-			(end -7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "c65ac2c2-25d9-4c6d-8364-b8dfea687879")
-		)
-		(fp_line
-			(start -15.7226 2.3)
-			(end -15.7226 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6b646036-d7fe-496a-bfdb-aeb54d92371a")
-		)
-		(fp_line
-			(start -15.7226 6.604)
-			(end -17.526 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f5b420b6-8ecb-48d3-86e3-006f4e076a70")
-		)
-		(fp_line
-			(start -7 -7)
-			(end -7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "307835db-515b-4b4c-b9be-d9e6fc97c093")
-		)
-		(fp_line
-			(start -7 -7)
-			(end 7 -7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6a280d42-a0d1-4ae7-a1a3-df2082a02a24")
-		)
-		(fp_line
-			(start -7 2.3)
-			(end -15.7226 2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "85befbaf-2a2a-4993-9aef-554f6ff069b2")
-		)
-		(fp_line
-			(start -7 2.3)
-			(end -7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "996046de-81e9-45c7-a9dd-f40d6aca01a2")
-		)
-		(fp_line
-			(start -7 7)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "85e9f0c6-62e4-4d55-94b2-5aa5bde482c1")
-		)
-		(fp_line
-			(start 7 -7)
-			(end 7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3f66b2bf-d77f-4d18-b686-6eb8ba12d34e")
-		)
-		(fp_line
-			(start 7 2.3)
-			(end 7 7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3a7e5a62-a23b-4f78-adae-aa3b088a9d58")
-		)
-		(fp_line
-			(start 7 2.3)
-			(end 15.7226 2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "5efce4a0-6b94-4859-8744-62a17af16745")
-		)
-		(fp_line
-			(start 15.7226 -5.6896)
-			(end 15.7226 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "66000316-77d1-4c32-b6d4-14660b3ee999")
-		)
-		(fp_line
-			(start 15.7226 -2.3)
-			(end 7 -2.3)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a37ad801-dee8-4b20-a963-b866adc1d2bb")
-		)
-		(fp_line
-			(start 15.7226 2.3)
-			(end 15.7226 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "dbe07a5c-e418-4b48-a5db-1c447b5e54be")
-		)
-		(fp_line
-			(start 15.7226 6.604)
-			(end 17.526 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3fc5c00c-8f84-4efa-a226-938e5b7859a4")
-		)
-		(fp_line
-			(start 17.526 6.604)
-			(end 17.526 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f0f6bb3f-e585-4c5f-9b89-265182733104")
-		)
-		(fp_line
-			(start 17.526 7.7724)
-			(end 20.574 7.7724)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "966b770b-3710-4e58-9773-62df8437a522")
-		)
-		(fp_line
-			(start 20.574 6.604)
-			(end 22.3774 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bcdef4a7-0965-49f5-94c8-6a466f33d46f")
-		)
-		(fp_line
-			(start 20.574 7.7724)
-			(end 20.574 6.604)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "db83c8fa-bd3c-4cb3-b29e-236a4e5c30f7")
-		)
-		(fp_line
-			(start 22.3774 -5.6896)
-			(end 15.7226 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "dd035337-e1df-4411-a2e7-8ac9bb4674ea")
-		)
-		(fp_line
-			(start 22.3774 -2.286)
-			(end 22.3774 -5.6896)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "9c53db98-6715-4574-af45-49150ef19497")
-		)
-		(fp_line
-			(start 22.3774 0.508)
-			(end 23.241 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "44838e38-5402-4549-a615-0b505ebe25d1")
-		)
-		(fp_line
-			(start 22.3774 6.604)
-			(end 22.3774 0.508)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "da8376a1-2448-46a5-896a-c5d73f12662c")
-		)
-		(fp_line
-			(start 23.241 -2.286)
-			(end 22.3774 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "47bf7250-3a21-41b1-bad8-86e385595427")
-		)
-		(fp_line
-			(start 23.241 0.508)
-			(end 23.241 -2.286)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "13a7918d-e89f-4563-8f8d-b98c86b6a24b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "629800ad-c6a5-4f07-b0ea-8cefd27cae2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(group ""
-			(uuid "79c22983-2320-444d-9df1-4f3393b3c4ed")
-			(members "0fac0d76-fcca-4634-8bf4-66ed7aa06eb1" "13a7918d-e89f-4563-8f8d-b98c86b6a24b"
-				"307835db-515b-4b4c-b9be-d9e6fc97c093" "3a7e5a62-a23b-4f78-adae-aa3b088a9d58"
-				"3d785c17-bd9c-488c-ac05-f3b530444514" "3f66b2bf-d77f-4d18-b686-6eb8ba12d34e"
-				"3fc5c00c-8f84-4efa-a226-938e5b7859a4" "44838e38-5402-4549-a615-0b505ebe25d1"
-				"47bf7250-3a21-41b1-bad8-86e385595427" "5aa37260-762f-4dfd-96ac-91169453d161"
-				"5efce4a0-6b94-4859-8744-62a17af16745" "66000316-77d1-4c32-b6d4-14660b3ee999"
-				"6a280d42-a0d1-4ae7-a1a3-df2082a02a24" "6b646036-d7fe-496a-bfdb-aeb54d92371a"
-				"85befbaf-2a2a-4993-9aef-554f6ff069b2" "85e9f0c6-62e4-4d55-94b2-5aa5bde482c1"
-				"966b770b-3710-4e58-9773-62df8437a522" "996046de-81e9-45c7-a9dd-f40d6aca01a2"
-				"9c53db98-6715-4574-af45-49150ef19497" "9dcc3fb9-ce77-43bf-b852-877019e4167f"
-				"a37ad801-dee8-4b20-a963-b866adc1d2bb" "a623a770-9bac-4251-9a29-a8ac4be4f325"
-				"a9b62048-8b06-42b4-8bf7-fe78f2517549" "bcdef4a7-0965-49f5-94c8-6a466f33d46f"
-				"c1c85e07-300a-4ec2-bda5-bab0a22570af" "c65ac2c2-25d9-4c6d-8364-b8dfea687879"
-				"d1fb042f-bfac-4797-82ec-0dbc09b4d93e" "da1752f4-5902-4f24-9f07-8d4a2fc579ed"
-				"da8376a1-2448-46a5-896a-c5d73f12662c" "db83c8fa-bd3c-4cb3-b29e-236a4e5c30f7"
-				"dbe07a5c-e418-4b48-a5db-1c447b5e54be" "dd035337-e1df-4411-a2e7-8ac9bb4674ea"
-				"e6ad967c-dd2e-440f-a085-5cd35aa51461" "f0f6bb3f-e585-4c5f-9b89-265182733104"
-				"f5b420b6-8ecb-48d3-86e3-006f4e076a70" "fd1db20d-cfbd-4524-a8d6-532bf43f6d1c"
-			)
-		)
-		(embedded_fonts no)
-		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
-			(offset
-				(xyz 0 0 -5.1)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -55769,58 +53523,6 @@
 		(layer "F.Cu")
 		(net "Net-(D59-A)")
 		(uuid "ddafdf14-30b4-47af-8035-cd94753e0d03")
-	)
-	(group ""
-		(uuid "2b9efb5b-a949-4dec-8026-c5958a24ffd9")
-		(members "076d17a6-373d-4059-a310-dbfad66d4ed9" "07adc169-a349-43fa-8a6e-eb08f3a6ff94"
-			"07b274f9-20d7-4914-935f-094fe255c5f8" "07cad992-05e6-4140-a95e-72cbcf2fbd9e"
-			"080a9cd3-3a81-4be0-af84-5c2a9ffd5abc" "082ad2ea-dffa-4b01-bb90-367b0c1c62d6"
-			"089ca043-a45c-4aba-81d1-289554a8a47e" "14a61919-891d-4dc5-b300-8e3e3d92597e"
-			"16b8590c-0ed9-4043-8133-ecf27b5e3850" "17cbde15-5a77-461f-aefc-7edf0bfbf6a8"
-			"1cf9e7ed-cbb3-4b4b-980a-a86f8ffbb6bd" "1d98fb90-e85b-4175-acef-726c9ed573a0"
-			"21efdbfd-d02c-4128-9851-d94c038f032e" "2244554d-6fac-4b18-a303-f48a29878037"
-			"2369d27e-74b9-4be8-ada5-b5570f96f81e" "26795dd9-2cc6-402a-a867-5a2e48078f61"
-			"276a5541-4ca9-406f-9e48-e1faacf499eb" "29e4fa39-35f2-49f7-8f1c-2521d8b67b68"
-			"2d25a31b-68cc-4eaf-bd58-d177c7fdd184" "342e9055-95ca-4f7f-ac51-515835b1136f"
-			"37f0dec1-5a73-42c6-992b-fb96d4a6f502" "38049c17-cf38-4dc9-81ec-0a2df2290fe1"
-			"3d4cf34a-f87a-459c-a104-d6f866eab473" "4223f7fc-baee-4baa-89aa-a71ec440d41d"
-			"4308d04b-56c0-444a-a870-0675aa28f256" "48b2a709-211c-4cee-b4cc-9c3e42fa0c34"
-			"4aac0eb4-f3cf-4ae2-b6c3-46a0f472658c" "508485c3-fc2a-4c82-b6c3-8c4351718cfc"
-			"521d746b-976e-4d65-a971-c117a6c41b60" "531d5a2f-1e25-4120-a998-19d5fd47b8f5"
-			"56590a1f-58f1-4760-9d02-af4c80c63ffd" "57d02794-4477-4c60-a048-2b1637ce46df"
-			"5b93016a-b73f-4852-a31f-2101f8a775e1" "5bcae554-990b-481f-a4a8-2d63ad057e1f"
-			"5bd51b59-56b2-44a4-8b7d-f08b5f1487cd" "5f241fb4-c4f5-4566-868b-c8685fef8a56"
-			"61783269-a142-4639-9b5f-66daa12fdb6d" "64750e56-a8d0-4ca8-ac70-6edd317b567c"
-			"6539acf0-43e3-4bfe-91eb-a091337fd224" "65ab4d9c-e91c-4d67-9874-fcd53f10b7b6"
-			"6b26b281-eeb3-471f-b70e-066bd601a519" "6d42ebb9-38d4-4f73-8ba7-dfd335abb332"
-			"6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08" "6f3e20f0-849d-4625-9db8-c60a20971bd5"
-			"754a61cf-6506-4fa9-822d-6cf7ecf44412" "789fa0d0-11b9-443b-b095-1bffe022b0c1"
-			"798818a6-47cb-4a0a-a5da-dc2fc43a4a7d" "7c5cb57d-2487-4e15-b17d-f8db993d2030"
-			"7e298354-0170-408f-99dd-17ff9b34e7cc" "800540f9-1fc2-4de8-9b10-bf05ed36434a"
-			"80d0fd08-28a9-41b9-9d0a-7e649f970e4a" "90e04f95-eac7-4f4d-884e-7cab4aca75a4"
-			"951b3545-6012-4497-82be-6b7427b04e9c" "955cb04f-2754-45cd-990d-3e4335984a3e"
-			"971c02bc-e60b-432e-8060-3727c0617bd2" "99908061-1f17-4672-aece-16cd60bba4fd"
-			"9a827c25-9219-44bb-b933-9702e5d6f727" "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db"
-			"a2e9ab0f-f76a-4527-b05b-9c92e88e8385" "a4e94296-92e5-4ebc-bc21-3094492c0445"
-			"a6a17e35-5ec2-442e-81da-99427b671aea" "a825beb6-ac75-445c-b716-dea155dcf1bc"
-			"aace2c19-b911-4ff7-af88-76bccf811609" "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a"
-			"ad625f90-17a4-49c1-92b5-2b11c0166981" "aff5dc5f-85e6-4916-82c4-1b2d98f75b97"
-			"b1716ccf-752d-4e95-846b-ac4c0dd1a7e1" "b7d4a18e-a733-4a36-a74b-78db5c1d7ba4"
-			"b8d23e1d-fc65-4fb6-8638-ad0102768574" "b948a2fd-cbe0-4271-a5d5-f2b7cbe6386c"
-			"b9c7e761-a359-458e-bc33-5cdf20a09a90" "c0edffbc-25e5-4f5d-8d4d-6963161447e7"
-			"c0f3784e-4346-4e24-9041-719d540f11e0" "c144a9c7-3a1d-4e7c-97a4-827ac2b459ad"
-			"c33870f0-fa1c-4f3e-877a-7771a5622123" "cba61052-a87e-40cf-b466-4d016e2134a0"
-			"ccb898e5-4c85-4259-8e46-8b14debc5ca7" "cd366fa1-3166-4ac2-880b-383440128106"
-			"d21df2ab-4b17-43f5-898c-06f268beb0aa" "d4983f39-7e77-42cf-ad47-019650978266"
-			"d93d1af4-1639-4cf8-b0de-2729a9c931c7" "d95e5f03-70a8-4186-af6f-4c23f7413e8c"
-			"da1db755-19c0-45d8-b554-f80854c464bb" "da9138c1-fd7f-4574-9256-019cae86baa2"
-			"dc010c5f-4062-475f-9440-d8b46657acf5" "dc9caa01-aa2a-436f-99c4-4b6d34ae2af4"
-			"e2920b9c-4422-48c9-b3ca-b57117094a10" "ebd6ecf7-c064-4250-ac80-368a799766ec"
-			"ee54ff61-9fe0-42fd-ae72-579b53b0f172" "ef7322ff-3be1-482b-bca9-6e73c90c90cf"
-			"efa0a0ca-46c2-41b5-b9a2-0dadbfc5ba30" "f1dc79e8-f9cd-4534-875c-534c2094e02c"
-			"f25f4cb4-e827-4b19-b13d-e785f94ade03" "f3823463-6aac-441a-83d0-f8d332a696af"
-			"f62cb54d-0e1f-4527-b0c2-58cab335231c"
-		)
 	)
 	(group ""
 		(uuid "2244554d-6fac-4b18-a303-f48a29878037")

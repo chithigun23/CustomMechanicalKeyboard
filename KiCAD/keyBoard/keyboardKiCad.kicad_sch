@@ -5114,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
 			(at 179.07 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9609,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 158.75 162.56 0)
+		(at 189.23 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9620,7 +9620,7 @@
 		(fields_autoplaced yes)
 		(uuid "472c9719-045c-4f52-b6db-97c21cffdbf3")
 		(property "Reference" "H7"
-			(at 158.75 162.56 0)
+			(at 189.23 156.21 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 158.75 159.385 0)
+			(at 189.23 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9641,8 +9641,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 158.75 162.56 0)
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_3.00u"
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9653,7 +9653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 162.56 0)
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +9664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 162.56 0)
+			(at 189.23 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9760,82 +9760,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 195.58 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b8174f6-5cf1-4672-832b-45a60e8bb09b")
-		(property "Reference" "H16"
-			(at 195.58 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 195.58 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -10002,82 +9926,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 195.58 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fc7a704-65d6-45f6-ad4a-98d8fac47793")
-		(property "Reference" "H15"
-			(at 195.58 156.21 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 195.58 153.035 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
-			(at 195.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -11148,158 +10996,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 168.91 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fccd290-8354-486d-bebb-08ecccef3d2c")
-		(property "Reference" "H9"
-			(at 168.91 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 168.91 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 168.91 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 190.5 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60d6fc93-50b0-4532-9e74-2f8a7819a41e")
-		(property "Reference" "H13"
-			(at 190.5 156.21 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 190.5 153.035 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -12384,82 +12080,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 182.88 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "723cc935-5733-4cef-860f-428c198c9e5d")
-		(property "Reference" "H12"
-			(at 182.88 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 182.88 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 182.88 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -13951,82 +13571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 173.99 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b415b00-6db1-46eb-a028-852bd18caa8e")
-		(property "Reference" "H10"
-			(at 173.99 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 173.99 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 173.99 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 66.04 40.64 0)
 		(unit 1)
@@ -14110,7 +13654,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 182.88 156.21 0)
+		(at 184.15 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14121,7 +13665,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ed2e901-d9ed-4689-a188-265a83ecc49a")
 		(property "Reference" "H6"
-			(at 182.88 156.21 0)
+			(at 184.15 156.21 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14133,7 +13677,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 182.88 153.035 0)
+			(at 184.15 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14142,8 +13686,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 182.88 156.21 0)
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
+			(at 184.15 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14154,7 +13698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 156.21 0)
+			(at 184.15 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14165,7 +13709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 156.21 0)
+			(at 184.15 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14516,82 +14060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 190.5 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9440bdf4-0f6b-4127-be30-6dddb090645b")
-		(property "Reference" "H14"
-			(at 190.5 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 190.5 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 81.28 199.39 0)
 		(unit 1)
@@ -14873,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
 			(at 173.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -15364,7 +14832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
 			(at 163.83 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16315,7 +15783,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 163.83 162.56 0)
+		(at 194.31 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16326,7 +15794,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b781f2-3c38-439e-87cd-adecb71aed72")
 		(property "Reference" "H8"
-			(at 163.83 162.56 0)
+			(at 194.31 156.21 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16338,7 +15806,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 163.83 159.385 0)
+			(at 194.31 153.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16347,8 +15815,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 163.83 162.56 0)
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_6.25u"
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16359,7 +15827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 162.56 0)
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16370,7 +15838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 162.56 0)
+			(at 194.31 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17460,82 +16928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
-		(at 179.07 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb72b00e-8597-4efe-8d18-e3c4315747f4")
-		(property "Reference" "H11"
-			(at 179.07 162.56 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.2)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 179.07 159.385 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "H11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 40.64 66.04 0)
 		(unit 1)
@@ -18473,7 +17865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
 			(at 168.91 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -20092,7 +19484,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ffed06b4-8dbf-4efd-a0f6-3f75536d67c3")
 		(property "Reference" "H1"
 			(at 158.75 156.21 0)
@@ -20116,7 +19507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:Stabilizer_Cherry_MX_2.00u"
 			(at 158.75 156.21 0)
 			(hide yes)
 			(show_name no)

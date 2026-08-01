@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -9 0)
 		(layer "F.SilkS")
-		(uuid "f0ca4c2f-439c-4a2e-be5d-2f4f368735c8")
+		(uuid "3bb6b1f8-c225-496a-918e-69a11bc18cbe")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SW_Kailh_Choc_V2_1.50u"
 		(at 0 9 0)
 		(layer "F.Fab")
-		(uuid "7b4a61f6-5aef-41cb-afca-2c5179d9ee49")
+		(uuid "7b54325d-f377-4d10-b465-caf4154fc552")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f004e1eb-e325-4368-816d-5e00659bbc93")
+		(uuid "ba4efbe0-4cd0-46aa-be7e-3cb9f1e23d18")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c1a74e3b-3351-47e0-be78-fd5502731402")
+		(uuid "3cfa8d24-2901-4489-96fd-9277a3506036")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dfcfaa8a-4923-4eb5-9768-b262dbfa0d0f")
+		(uuid "f6f8b78c-56cb-4cb0-9251-368c7ffa922d")
 	)
 	(fp_line
 		(start -7.6 7.6)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "847102be-dc7c-4874-99bc-9dd9fd6d1f51")
+		(uuid "3e643828-8f23-434b-ae0d-45b604aa606b")
 	)
 	(fp_line
 		(start 7.6 -7.6)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e86f69c0-0e01-4bdf-ad29-5b46bd94add2")
+		(uuid "d61bcdfc-f12a-445d-863a-b7b36c1a5075")
 	)
 	(fp_line
 		(start 7.6 7.6)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "54e2fece-d1ed-46cf-9819-1816880b4b3b")
+		(uuid "1d6a506c-246a-4760-99e9-7901692916ce")
 	)
 	(fp_line
 		(start -13.5 -8.5)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "2621cdd8-4693-435f-acc0-4f53da140403")
+		(uuid "7040554e-30a5-4641-b373-53eddf9f2660")
 	)
 	(fp_line
 		(start -13.5 8.5)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "db46a7be-7579-4bfd-97fb-1e8d947fa8cf")
+		(uuid "89575c8d-81df-4cdd-8b99-63eca73bdcf1")
 	)
 	(fp_line
 		(start 13.5 -8.5)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "02352c60-1213-40d2-82cd-588bd90cc8b0")
+		(uuid "64d97c3b-2af0-4c12-84bb-5ca52ee1035f")
 	)
 	(fp_line
 		(start 13.5 8.5)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "4e99ed19-56e2-4ca5-be89-953ec314f05f")
+		(uuid "3e75634e-001b-4d5f-90ab-fe9309cbd61c")
 	)
 	(fp_line
 		(start -7.25 -7.25)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "86225d6e-892d-48f7-822f-033b76deadf7")
+		(uuid "14e977a0-0adf-41de-9dd7-6551f8ce9ead")
 	)
 	(fp_line
 		(start -7.25 7.25)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "3426bb05-b48b-4aa3-aba1-8a51801eb210")
+		(uuid "1eedee77-0648-4e2a-bb3c-ceac26a8ae42")
 	)
 	(fp_line
 		(start 7.25 -7.25)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "3067d6c8-49a2-4c78-99aa-1f355913068b")
+		(uuid "98ad43d3-548b-4421-993f-b41c87d666d4")
 	)
 	(fp_line
 		(start 7.25 7.25)
@@ -169,7 +169,7 @@
 			(type solid)
 		)
 		(layer "Eco1.User")
-		(uuid "0ebb079e-aa22-426b-9d5b-cc2c3206e3bb")
+		(uuid "acf7f76c-3fd1-410a-a0ac-cfc22f18e2d5")
 	)
 	(fp_line
 		(start -7.75 -7.75)
@@ -179,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d3e1689a-0fe9-4f2a-bb2b-9d20760b4ef9")
+		(uuid "6ef4461f-c593-4774-b353-32ecd83a73c2")
 	)
 	(fp_line
 		(start -7.75 7.75)
@@ -189,7 +189,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2256767e-fed7-4632-a404-d2565efbaf39")
+		(uuid "4e3d4306-ff8c-45ec-afe9-61e7326144c5")
 	)
 	(fp_line
 		(start 7.75 -7.75)
@@ -199,7 +199,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6396c7c7-bb2f-4b53-933b-897e28736962")
+		(uuid "2284c571-a491-4186-8459-771dc5da9dab")
 	)
 	(fp_line
 		(start 7.75 7.75)
@@ -209,7 +209,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "96d9f3cb-0fa0-49b7-944a-5b75afcb0245")
+		(uuid "1d9ecc64-82d9-4935-a961-c30714e58851")
 	)
 	(fp_line
 		(start -7.5 -7.5)
@@ -219,7 +219,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7f2d8d7e-8ff5-4839-83c2-764993209538")
+		(uuid "ceec9876-c460-4b5f-ba36-f6cdba965261")
 	)
 	(fp_line
 		(start -7.5 7.5)
@@ -229,7 +229,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "aac38ac0-04d6-488c-9909-51ea37af7f80")
+		(uuid "cee7e76c-d99d-4829-bcf4-f277fa7c5c71")
 	)
 	(fp_line
 		(start 7.5 -7.5)
@@ -239,7 +239,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "182a3897-67f2-4e25-bc4c-28726d2e5f3c")
+		(uuid "51f1e115-ba1c-479a-b85c-08a7168b4972")
 	)
 	(fp_line
 		(start 7.5 7.5)
@@ -249,12 +249,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "253cbc70-6a16-4138-ae8b-8e3cbf21bfd9")
+		(uuid "b77957be-4bb7-4fcf-91ec-42c749d7f33f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "a8aa7fcb-e70a-4639-8661-eb07b352361a")
+		(uuid "1c43ec48-3bb4-4a7d-9af5-62ffb77097c4")
 		(effects
 			(font
 				(size 1 1)
@@ -268,14 +268,14 @@
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "48c80678-b723-4efa-83ad-9a4ecd3c6e63")
+		(uuid "b418e1ea-3136-4db9-bb5e-177a04eced53")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 5.05 5.05)
 		(drill 5.05)
 		(layers "*.Cu" "*.Mask")
-		(uuid "1fe7549c-848c-47e8-8bfc-7175b2ddcde4")
+		(uuid "d6c6e2d4-de27-4049-8dd8-7ff353fd2c53")
 	)
 	(pad "1" thru_hole circle
 		(at 0 -5.9)
@@ -283,7 +283,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2c41e82b-f25e-42d2-9d31-3a01d3dc5b0a")
+		(uuid "a62a7b7c-79a3-49e4-9bde-affe34ec3e76")
 	)
 	(pad "2" thru_hole circle
 		(at 5 -3.8)
@@ -291,10 +291,10 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "43a8e843-a3d5-4412-8bb8-9ff0673f3fa3")
+		(uuid "7257cb47-08f1-4e34-b682-94a2bdafd03b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+	(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/3d/blue.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -302,7 +302,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -180)
 		)
 	)
 )
