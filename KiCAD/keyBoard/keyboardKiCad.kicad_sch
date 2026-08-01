@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260722)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "102e35b7-9115-4b00-8ef1-9a3f70bfd656")
 	(paper "A3" portrait)
 	(lib_symbols
@@ -1012,18 +1012,6 @@
 		(uuid "f26b61f2-d7f5-4553-a32c-603d47ca761d")
 	)
 	(junction
-		(at 63.5 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "003b71de-4c2c-49bd-b919-c3961314a884")
-	)
-	(junction
-		(at 68.58 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "005f47d6-1b66-4ba7-bffd-32effa1821a8")
-	)
-	(junction
 		(at 55.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1072,12 +1060,6 @@
 		(uuid "06706032-dfb7-4852-bc92-edcc99fdaaa2")
 	)
 	(junction
-		(at 50.8 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d9264b9-96b0-414c-a7ce-4cb0dfd2d1be")
-	)
-	(junction
 		(at 88.9 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1106,12 +1088,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13a43e48-2c02-4354-a7c8-1e4044632296")
-	)
-	(junction
-		(at 55.88 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "154f913b-fafc-4206-8446-1f9e5a036016")
 	)
 	(junction
 		(at 81.28 49.53)
@@ -1144,16 +1120,16 @@
 		(uuid "1e2187fa-9ad3-421a-ab68-c6a9329902b8")
 	)
 	(junction
-		(at 81.28 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21040b39-5e07-4c18-a3bf-0af1a318ac64")
-	)
-	(junction
 		(at 68.58 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b1a756-3a29-440a-92ea-0ac0253bdb93")
+	)
+	(junction
+		(at 81.28 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24313541-3b4f-4967-b930-653ba3f5f59c")
 	)
 	(junction
 		(at 43.18 240.03)
@@ -1210,22 +1186,16 @@
 		(uuid "36309cb0-1750-4061-85af-72f3f1c650a6")
 	)
 	(junction
-		(at 38.1 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3671a9cc-5712-4f56-ab99-a614d9db9af1")
-	)
-	(junction
 		(at 55.88 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c19426-05b0-4d5d-a186-0ea5c29c92ab")
 	)
 	(junction
-		(at 25.4 165.1)
+		(at 93.98 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "387c4949-a710-4cc2-97c8-04a44a6195d9")
+		(uuid "36e4637b-9a89-484b-93de-fe1115b47288")
 	)
 	(junction
 		(at 50.8 88.9)
@@ -1252,12 +1222,6 @@
 		(uuid "3df35f9a-b94e-44cf-b312-9fdbbb869d64")
 	)
 	(junction
-		(at 63.5 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e4f3854-33a9-40f1-9dc4-afb2dca3d607")
-	)
-	(junction
 		(at 50.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1276,10 +1240,28 @@
 		(uuid "4ac12926-e260-477c-8df8-f38ac97244fe")
 	)
 	(junction
+		(at 68.58 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af05a6b-4fcd-4554-83dc-7ef1c8f51959")
+	)
+	(junction
 		(at 55.88 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b3c1501-26bb-45f8-a023-fb3f3c63a496")
+	)
+	(junction
+		(at 63.5 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd29934-9e5b-4f9a-91c2-0fa7c92796ec")
+	)
+	(junction
+		(at 50.8 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "518e7000-0e7b-456b-8fb7-bb82a58db77f")
 	)
 	(junction
 		(at 38.1 88.9)
@@ -1304,12 +1286,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "589414af-77cb-4f45-83e0-567f8bb0c9a1")
-	)
-	(junction
-		(at 81.28 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59116300-778d-494f-9fd1-a7d2a042bbde")
 	)
 	(junction
 		(at 38.1 139.7)
@@ -1352,6 +1328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "645149a7-07e6-43bb-9694-cc097df5445a")
+	)
+	(junction
+		(at 38.1 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6787aba4-d8cb-445a-a6d5-d7e1651400de")
 	)
 	(junction
 		(at 43.18 138.43)
@@ -1402,6 +1384,12 @@
 		(uuid "7449ccb5-8ba0-4ad8-acb3-9808734ae41f")
 	)
 	(junction
+		(at 38.1 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76bc3f68-d4f5-47c6-b50f-95a9e6807656")
+	)
+	(junction
 		(at 43.18 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1412,12 +1400,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79fdae62-2a84-424d-893a-e361804dcf04")
-	)
-	(junction
-		(at 68.58 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a225175-81a6-41f6-a688-88a5326b8928")
 	)
 	(junction
 		(at 81.28 163.83)
@@ -1438,12 +1420,6 @@
 		(uuid "7bca7c51-637d-47bd-b9a3-ba555a0e0b87")
 	)
 	(junction
-		(at 43.18 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bd69498-ecfd-42d0-990b-56de394a1bb9")
-	)
-	(junction
 		(at 76.2 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1462,22 +1438,28 @@
 		(uuid "7fe2b0e8-8a7c-43d9-a189-b270f20ffa13")
 	)
 	(junction
-		(at 38.1 165.1)
+		(at 55.88 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "839132f5-69f6-4682-99cc-60d83250e12f")
+		(uuid "80e5a9c1-c877-468a-b2b2-59d66c23d806")
+	)
+	(junction
+		(at 93.98 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "832e24d1-0a6b-4e20-ab49-ba7da5006ac5")
+	)
+	(junction
+		(at 76.2 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84a07cb5-599a-4965-91df-60f89e529c3c")
 	)
 	(junction
 		(at 55.88 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85809e4f-876b-4e08-a357-c44d7e919ad3")
-	)
-	(junction
-		(at 43.18 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85b49e30-3e94-4c08-b1b8-c020f8e149dd")
 	)
 	(junction
 		(at 63.5 215.9)
@@ -1490,6 +1472,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89cccbf5-efaa-4732-8a37-09f16909f277")
+	)
+	(junction
+		(at 50.8 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a349dd6-c1d9-45ac-b15f-53056befedd1")
+	)
+	(junction
+		(at 55.88 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b74ffba-945a-4020-b0cb-38576fd2d972")
 	)
 	(junction
 		(at 38.1 228.6)
@@ -1550,6 +1544,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b7a5eb4-ca7f-4d89-880c-bc5e735a0214")
+	)
+	(junction
+		(at 68.58 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cbadb86-70f9-45db-86d7-16acb9361ed1")
 	)
 	(junction
 		(at 55.88 252.73)
@@ -1618,12 +1618,6 @@
 		(uuid "aa12ea59-3312-4c3c-b4e6-3074193e5f98")
 	)
 	(junction
-		(at 50.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af3740de-94c7-4a16-908a-d39b00666b58")
-	)
-	(junction
 		(at 68.58 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1660,6 +1654,12 @@
 		(uuid "b5f597ac-da62-4bf9-be54-f4ccbaab4941")
 	)
 	(junction
+		(at 63.5 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f069a0-3107-404b-8197-bb91d7c85e6e")
+	)
+	(junction
 		(at 25.4 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1670,6 +1670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd3d2342-4c37-44e2-b1bc-a0688e5da38e")
+	)
+	(junction
+		(at 88.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c122335a-32ea-4fee-a82f-aab90f85ee9a")
 	)
 	(junction
 		(at 55.88 100.33)
@@ -1726,6 +1732,12 @@
 		(uuid "d6279712-148d-443f-a37c-756505c53a28")
 	)
 	(junction
+		(at 76.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d71000ec-e6e7-4d9d-93d8-b0994f4ab988")
+	)
+	(junction
 		(at 63.5 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1768,12 +1780,6 @@
 		(uuid "e8ef40c7-b08d-45f7-92c8-16aea32339aa")
 	)
 	(junction
-		(at 76.2 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e916fb58-e66a-4459-b5ae-ae381d32c12e")
-	)
-	(junction
 		(at 76.2 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,12 +1790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecedd4c1-8302-4fed-b600-5a35b2d71026")
-	)
-	(junction
-		(at 76.2 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed24443f-8097-4b3c-83f5-c1ef60b994d7")
 	)
 	(junction
 		(at 25.4 203.2)
@@ -1816,12 +1816,6 @@
 		(uuid "f097a7dd-0572-493c-95e0-78c332a0360c")
 	)
 	(junction
-		(at 25.4 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f51deeaa-98e1-444e-a759-ef9eed798e57")
-	)
-	(junction
 		(at 68.58 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1840,6 +1834,12 @@
 		(uuid "f7639302-efb5-403e-a548-3a326b6457e9")
 	)
 	(junction
+		(at 81.28 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f777f934-bdc7-4ece-ab3e-68b6bac83e06")
+	)
+	(junction
 		(at 63.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1850,12 +1850,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9585ea4-9299-4527-81d1-d264f65cfbe0")
-	)
-	(junction
-		(at 55.88 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa1bc9bf-474a-4eea-a600-56bd322fe339")
 	)
 	(junction
 		(at 81.28 125.73)
@@ -1869,6 +1863,12 @@
 		(color 0 0 0 0)
 		(uuid "faf91874-575d-47b7-a0f2-b200ef30cc7d")
 	)
+	(junction
+		(at 88.9 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee84c3d-f277-47af-bcf5-c9e69548b2e9")
+	)
 	(wire
 		(pts
 			(xy 68.58 184.15) (xy 68.58 182.88)
@@ -1878,16 +1878,6 @@
 			(type default)
 		)
 		(uuid "00208dd1-4194-4294-8c9d-e6f9da52dee0")
-	)
-	(wire
-		(pts
-			(xy 30.48 176.53) (xy 43.18 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "029f4411-c529-4cc8-a83b-b3fbc2d3769d")
 	)
 	(wire
 		(pts
@@ -1941,6 +1931,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 176.53) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e0b71d-1a0b-4a46-b46c-56c042c3394c")
+	)
+	(wire
+		(pts
 			(xy 81.28 196.85) (xy 81.28 195.58)
 		)
 		(stroke
@@ -1951,23 +1951,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 88.9 63.5)
+			(xy 88.9 38.1) (xy 88.9 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "079c447e-b57d-4b18-8843-19cf54bfac56")
-	)
-	(wire
-		(pts
-			(xy 81.28 176.53) (xy 101.6 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e1733f-82fb-42dc-9d8b-3cbdf6688474")
 	)
 	(wire
 		(pts
@@ -1991,23 +1981,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 50.8) (xy 76.2 63.5)
+			(xy 76.2 38.1) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a6bfb0e-cf7b-4064-89c6-2a1c98568ba7")
-	)
-	(wire
-		(pts
-			(xy 55.88 62.23) (xy 68.58 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad9a357-88fa-410e-89dd-ea823311aeb5")
 	)
 	(wire
 		(pts
@@ -2091,6 +2071,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 171.45) (xy 43.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdd861c-32eb-4372-823e-0fe1244f71fa")
+	)
+	(wire
+		(pts
 			(xy 38.1 88.9) (xy 38.1 101.6)
 		)
 		(stroke
@@ -2098,6 +2088,16 @@
 			(type default)
 		)
 		(uuid "1092da41-c84b-44c5-9604-5a5aacb6285a")
+	)
+	(wire
+		(pts
+			(xy 55.88 176.53) (xy 68.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1277bab8-8d60-435e-8e1f-021358672c45")
 	)
 	(wire
 		(pts
@@ -2191,26 +2191,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 55.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a2addc8-e0fe-4bd3-9b0a-9632b119427d")
-	)
-	(wire
-		(pts
-			(xy 76.2 152.4) (xy 76.2 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8a8fe2-cb72-4f13-8963-c09f9074a57b")
-	)
-	(wire
-		(pts
 			(xy 55.88 107.95) (xy 55.88 106.68)
 		)
 		(stroke
@@ -2231,13 +2211,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 176.53) (xy 55.88 176.53)
+			(xy 93.98 171.45) (xy 93.98 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f19f9c8-1db7-47a8-8324-4bd08c5a55e5")
+		(uuid "22321a49-2ac1-42c5-8550-68fed639cf76")
 	)
 	(wire
 		(pts
@@ -2281,6 +2261,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 165.1) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2605e08c-86be-43e2-b9e4-f29145eb2fac")
+	)
+	(wire
+		(pts
 			(xy 68.58 69.85) (xy 68.58 68.58)
 		)
 		(stroke
@@ -2298,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "284db8c8-263e-479e-82ae-df6e71b8ba5a")
+	)
+	(wire
+		(pts
+			(xy 93.98 57.15) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a11ab0-855b-4c1f-97c1-549209f0fc4d")
 	)
 	(wire
 		(pts
@@ -2321,7 +2321,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 165.1) (xy 76.2 177.8)
+			(xy 68.58 171.45) (xy 68.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3eec2c-d65d-4477-9b0d-6e218dca9d6a")
+	)
+	(wire
+		(pts
+			(xy 76.2 152.4) (xy 76.2 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2348,16 @@
 			(type default)
 		)
 		(uuid "2d440c4d-85e6-4cfb-be1e-32ff18ba2670")
+	)
+	(wire
+		(pts
+			(xy 81.28 176.53) (xy 93.98 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d69201d-14a9-4fdc-9dbe-c954d1815208")
 	)
 	(wire
 		(pts
@@ -2371,6 +2391,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 171.45) (xy 81.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc7b5ce-9710-46eb-875c-ce23349f1475")
+	)
+	(wire
+		(pts
 			(xy 55.88 87.63) (xy 68.58 87.63)
 		)
 		(stroke
@@ -2378,6 +2408,16 @@
 			(type default)
 		)
 		(uuid "3012ac8a-e5fa-4aa0-8d6d-cfe066dc4770")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3015b491-079c-44e1-b2da-c2d5f79c171b")
 	)
 	(wire
 		(pts
@@ -2391,13 +2431,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 165.1) (xy 50.8 177.8)
+			(xy 68.58 176.53) (xy 81.28 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32903ed6-9426-4c64-b8cf-b6266e9304de")
+		(uuid "32b7c019-bcb7-4c13-b114-63eb25a0e61f")
 	)
 	(wire
 		(pts
@@ -2441,13 +2481,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 176.53) (xy 81.28 176.53)
+			(xy 81.28 62.23) (xy 93.98 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a48e4a1-20a3-423a-8d91-c896d1f276e3")
+		(uuid "3a6f22f8-b6f2-4f70-a91f-6b0ab1b31b8b")
 	)
 	(wire
 		(pts
@@ -2508,16 +2548,6 @@
 			(type default)
 		)
 		(uuid "3e75ba98-049b-4c0b-bc2b-2b481c9285cd")
-	)
-	(wire
-		(pts
-			(xy 68.58 57.15) (xy 68.58 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb3a9f2-04ad-49f9-8c01-13790753099b")
 	)
 	(wire
 		(pts
@@ -2591,16 +2621,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 62.23) (xy 43.18 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48045c0d-2bd4-4ebb-9350-085633a89aa6")
-	)
-	(wire
-		(pts
 			(xy 81.28 100.33) (xy 101.6 100.33)
 		)
 		(stroke
@@ -2631,16 +2651,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 76.2 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8b9c1f-eef2-4ced-b048-9d370143e5fd")
-	)
-	(wire
-		(pts
 			(xy 81.28 133.35) (xy 81.28 132.08)
 		)
 		(stroke
@@ -2658,16 +2668,6 @@
 			(type default)
 		)
 		(uuid "508cae1e-a680-44fa-b9c5-3b46e89ed1c5")
-	)
-	(wire
-		(pts
-			(xy 25.4 152.4) (xy 25.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50928025-d45f-4869-94fd-b4f45e520a46")
 	)
 	(wire
 		(pts
@@ -2701,13 +2701,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 171.45) (xy 43.18 170.18)
+			(xy 55.88 62.23) (xy 68.58 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54c10dfe-4ca7-46be-b5aa-13a31dbd556b")
+		(uuid "52465430-6924-4ada-83ae-6631f1536af1")
 	)
 	(wire
 		(pts
@@ -2717,7 +2717,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "58cb9678-0bc5-4784-9561-3aa44c3e3331")
+		(uuid "571bff33-8b21-4914-852e-41786fcd5092")
 	)
 	(wire
 		(pts
@@ -2791,16 +2791,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 62.23) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9c127d-01d6-4c3a-88a7-0ad433d54cd8")
-	)
-	(wire
-		(pts
 			(xy 30.48 227.33) (xy 43.18 227.33)
 		)
 		(stroke
@@ -2821,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 165.1) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ca377a-3317-41f8-b06f-c932f1935e8c")
+	)
+	(wire
+		(pts
 			(xy 55.88 214.63) (xy 101.6 214.63)
 		)
 		(stroke
@@ -2831,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 88.9 177.8)
+			(xy 88.9 101.6) (xy 88.9 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2871,6 +2871,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 165.1) (xy 88.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67301f8a-82b3-407d-91e4-4076c1451c2b")
+	)
+	(wire
+		(pts
 			(xy 38.1 190.5) (xy 38.1 203.2)
 		)
 		(stroke
@@ -2881,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 25.4 50.8)
+			(xy 25.4 38.1) (xy 25.4 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2901,23 +2911,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 165.1) (xy 25.4 177.8)
+			(xy 25.4 152.4) (xy 25.4 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ad641fa-a6b8-45d9-9034-ea88d5ad84fd")
-	)
-	(wire
-		(pts
-			(xy 63.5 50.8) (xy 63.5 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c0914fb-dd61-482c-b904-4b6b34798bf5")
 	)
 	(wire
 		(pts
@@ -2951,13 +2951,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 50.8 50.8)
+			(xy 50.8 38.1) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ef9b6ae-0161-42e9-9329-e81daa7dd3d2")
+	)
+	(wire
+		(pts
+			(xy 43.18 176.53) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ac71b5-a17c-4992-a898-11c9bb85078a")
 	)
 	(wire
 		(pts
@@ -2968,16 +2978,6 @@
 			(type default)
 		)
 		(uuid "73bcb246-4d2c-4f64-ae22-c169978a93f4")
-	)
-	(wire
-		(pts
-			(xy 81.28 171.45) (xy 81.28 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "741a4034-e22b-4ad1-8e45-a4c4141544c0")
 	)
 	(wire
 		(pts
@@ -3018,6 +3018,16 @@
 			(type default)
 		)
 		(uuid "781df856-9d62-4529-ad72-4b19ff186767")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b3c35e-8a51-4d43-8f11-c97edb52bd7e")
 	)
 	(wire
 		(pts
@@ -3091,26 +3101,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 171.45) (xy 30.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fbaf659-2b59-41ed-b054-38d902ee7852")
-	)
-	(wire
-		(pts
-			(xy 81.28 62.23) (xy 101.6 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fdc05ba-e793-480f-901e-5fb96ae61bba")
-	)
-	(wire
-		(pts
 			(xy 55.88 44.45) (xy 55.88 43.18)
 		)
 		(stroke
@@ -3141,13 +3131,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 43.18 55.88)
+			(xy 88.9 50.8) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82b0d0ec-736f-4cc6-8642-5a74b044e744")
+		(uuid "82c95e1f-f67f-48d8-81e2-9c7def8966e9")
 	)
 	(wire
 		(pts
@@ -3198,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "8576d980-d603-4a29-8a55-0e6fcc7e0e49")
+	)
+	(wire
+		(pts
+			(xy 55.88 171.45) (xy 55.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867849e2-5475-45ec-b463-a86324730949")
 	)
 	(wire
 		(pts
@@ -3258,16 +3258,6 @@
 			(type default)
 		)
 		(uuid "8a869f07-27de-4ade-8941-d25f80abd83e")
-	)
-	(wire
-		(pts
-			(xy 38.1 165.1) (xy 38.1 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b00bfa4-99d1-43ca-ac16-42a30e82035e")
 	)
 	(wire
 		(pts
@@ -3341,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 165.1) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9089baa3-0632-49e9-b52c-3d9a00633e7f")
+	)
+	(wire
+		(pts
 			(xy 43.18 163.83) (xy 55.88 163.83)
 		)
 		(stroke
@@ -3408,6 +3408,16 @@
 			(type default)
 		)
 		(uuid "99ff9501-d343-416e-8226-ae63164b14c5")
+	)
+	(wire
+		(pts
+			(xy 93.98 62.23) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0db145-2b17-41b2-a005-7843eaf06484")
 	)
 	(wire
 		(pts
@@ -3581,16 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 38.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad81672b-4e03-4edc-877d-aa71115d2bf7")
-	)
-	(wire
-		(pts
 			(xy 38.1 38.1) (xy 38.1 50.8)
 		)
 		(stroke
@@ -3671,6 +3671,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 57.15) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66dd4fd-4388-426a-9aba-1ab451bc3580")
+	)
+	(wire
+		(pts
 			(xy 30.48 252.73) (xy 43.18 252.73)
 		)
 		(stroke
@@ -3711,16 +3721,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 57.15) (xy 30.48 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6bbd55-b00d-4dc5-a8c2-b29170e48d5c")
-	)
-	(wire
-		(pts
 			(xy 55.88 151.13) (xy 68.58 151.13)
 		)
 		(stroke
@@ -3728,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "ba914a91-1027-4449-b935-e58bf41db715")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 81.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb58b7ea-fe18-48a6-82cc-f1f69b1bd534")
 	)
 	(wire
 		(pts
@@ -3768,16 +3778,6 @@
 			(type default)
 		)
 		(uuid "be63286f-bc9b-40b9-9625-82e805413d44")
-	)
-	(wire
-		(pts
-			(xy 55.88 176.53) (xy 68.58 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2d4c76-fbb0-4681-aec7-e47ec1786f36")
 	)
 	(wire
 		(pts
@@ -3931,6 +3931,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 50.8) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c834ebd1-d369-4209-acfe-3b4df355829f")
+	)
+	(wire
+		(pts
 			(xy 68.58 240.03) (xy 101.6 240.03)
 		)
 		(stroke
@@ -3938,6 +3948,16 @@
 			(type default)
 		)
 		(uuid "c956f430-ad37-4732-b892-f2d09442b791")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 63.5 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8d31f2-0238-45c0-b266-501306228267")
 	)
 	(wire
 		(pts
@@ -3981,6 +4001,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 62.23) (xy 55.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ac7c55-7ffc-4f2a-a509-08abbb6785a7")
+	)
+	(wire
+		(pts
 			(xy 38.1 76.2) (xy 38.1 88.9)
 		)
 		(stroke
@@ -3988,16 +4018,6 @@
 			(type default)
 		)
 		(uuid "d1b2b3e3-6df5-4605-8203-c6535d15bc73")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 50.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d28e4443-7911-4a36-ac6d-33f1d6267328")
 	)
 	(wire
 		(pts
@@ -4018,16 +4038,6 @@
 			(type default)
 		)
 		(uuid "d865f74a-2af3-4a74-8856-b86ff6463a4f")
-	)
-	(wire
-		(pts
-			(xy 68.58 171.45) (xy 68.58 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9ec40f4-65cc-4dff-bb7d-fc916b4ba03d")
 	)
 	(wire
 		(pts
@@ -4061,16 +4071,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 81.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d11ef2-0d57-46d5-bd17-68d76e092702")
-	)
-	(wire
-		(pts
 			(xy 43.18 234.95) (xy 43.18 233.68)
 		)
 		(stroke
@@ -4088,16 +4088,6 @@
 			(type default)
 		)
 		(uuid "e0effc88-2b65-4af1-8fc3-d1879015e951")
-	)
-	(wire
-		(pts
-			(xy 55.88 171.45) (xy 55.88 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32115c4-e753-433c-b84b-26ac8388d57c")
 	)
 	(wire
 		(pts
@@ -4138,6 +4128,16 @@
 			(type default)
 		)
 		(uuid "e62132ca-e0f3-4012-a417-1a2b11198fb3")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c1d622-86ae-48dc-a5bf-5dfa6c309a7f")
 	)
 	(wire
 		(pts
@@ -4241,26 +4241,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 165.1) (xy 63.5 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eea6d93d-ba93-445e-87c4-a088e4a69fbc")
-	)
-	(wire
-		(pts
-			(xy 25.4 50.8) (xy 25.4 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a8f83d-307b-427b-b5a0-66ecc05b120d")
-	)
-	(wire
-		(pts
 			(xy 63.5 63.5) (xy 63.5 76.2)
 		)
 		(stroke
@@ -4358,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "fe3c5947-d162-4f22-be13-dbee6c09845d")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc8dccb-ccc2-4d67-871f-b3c86d8cdb5d")
 	)
 	(global_label "COL11"
 		(shape input)
@@ -5009,89 +4999,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 30.48 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00cd5f97-bff2-4d9d-b655-2e8017a99b54")
-		(property "Reference" "D54"
-			(at 30.33 172.924 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 33.02 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 30.48 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02c5607d-139d-4346-95f4-3d20452bb91b")
-		)
-		(pin "2"
-			(uuid "49d6e1d9-2181-4e31-8f84-4a12aaa8f4d2")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 43.18 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -5125,7 +5032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -5283,7 +5190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -5366,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -5448,7 +5355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.50u"
 			(at 27.94 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -5581,6 +5488,89 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 55.88 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060f51df-0493-4c45-85ff-cfa1fdbc7a95")
+		(property "Reference" "D8"
+			(at 55.73 58.624 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 58.42 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 55.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df2ba71b-4570-45ca-bcf0-101e981434fc")
+		)
+		(pin "2"
+			(uuid "306f4116-859b-4421-846b-cdacd8f21217")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 68.58 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -5614,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +5769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5829,6 +5819,89 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 68.58 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ae26699-1c94-40ef-a233-9cbe407e636c")
+		(property "Reference" "D9"
+			(at 68.43 58.624 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 71.12 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 68.58 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f99bf020-b184-42c5-8283-febf79d01115")
+		)
+		(pin "2"
+			(uuid "a7254325-1a11-4dc9-8e4c-852341188e72")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 81.28 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -5862,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -5945,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -5995,6 +6068,89 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 55.88 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e33fdda-8d1c-44dc-93fd-8531d682935a")
+		(property "Reference" "D55"
+			(at 55.73 172.924 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 58.42 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 55.88 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd1271d2-db79-4d1f-8264-231acef0ec5b")
+		)
+		(pin "2"
+			(uuid "9f5c0545-1970-42d7-98ec-f179421b0905")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 55.88 212.09 0)
 		(unit 1)
 		(body_style 1)
@@ -6028,7 +6184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -6110,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.00u"
 			(at 78.74 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6275,7 +6431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -6357,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6407,6 +6563,89 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 81.28 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12a24a9e-5adf-4a0d-8f85-63940b0710a5")
+		(property "Reference" "D10"
+			(at 81.13 58.624 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 83.82 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 81.28 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37816c67-d0c4-4d25-a0fb-fb3152b610c3")
+		)
+		(pin "2"
+			(uuid "7b2a3cb1-76fe-457a-aa13-dc92e3a4afbb")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 81.28 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -6440,7 +6679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -6523,7 +6762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -6605,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.25u"
 			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6688,7 +6927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 212.09 90)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -6854,7 +7093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -6937,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -7020,7 +7259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -7102,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7313,7 +7552,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 81.28 59.69 0)
+		(at 68.58 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7322,9 +7561,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22c5b70a-13f3-4bfd-a740-cd82fedae97d")
-		(property "Reference" "D11"
-			(at 81.13 58.624 0)
+		(uuid "22fb4a69-7038-4e20-953c-ebc9d628bdba")
+		(property "Reference" "D56"
+			(at 68.43 172.924 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7337,7 +7576,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 83.82 59.69 90)
+			(at 71.12 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7346,8 +7585,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 81.28 59.69 90)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 68.58 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7358,7 +7597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 59.69 90)
+			(at 68.58 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 59.69 90)
+			(at 72.39 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7380,15 +7619,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2abfe42-fb45-4016-9706-4b12764c8fa8")
+			(uuid "b474651b-98f3-409b-87e9-80f1fec52fb0")
 		)
 		(pin "2"
-			(uuid "bed8613f-0108-4688-8e53-2fff59832392")
+			(uuid "3756b596-7fc5-4466-801e-1f42696d8db4")
 		)
 		(instances
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D11")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -7429,7 +7668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -7478,89 +7717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 81.28 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23c8c616-e803-46ab-bece-41bc055d4723")
-		(property "Reference" "D58"
-			(at 81.13 172.924 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 83.82 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 81.28 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c32363ec-e135-479a-954e-0fa38c327a7c")
-		)
-		(pin "2"
-			(uuid "7ae57ce9-1eb9-44af-905e-64d8e8bfbe4c")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 78.74 0)
 		(unit 1)
@@ -7594,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7644,6 +7800,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 91.44 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f5f7e1-e100-4343-8804-420683c56703")
+		(property "Reference" "S58"
+			(at 91.44 167.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.25u"
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72ce8b76-386f-49cc-8647-6f670bf571a7")
+		)
+		(pin "2"
+			(uuid "c9463d28-09f8-48d9-bbe2-5ed08f2b91d2")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 40.64 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -7676,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +7996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +8157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7969,6 +8207,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 78.74 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e320a6-46d4-4122-a2e1-ab9f5c6564e9")
+		(property "Reference" "S57"
+			(at 78.74 167.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 78.74 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 78.74 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18eca456-e3ee-41ab-8968-146bd43381c2")
+		)
+		(pin "2"
+			(uuid "21ac44fb-0020-40e6-9b74-141915f70a19")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 78.74 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -8001,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -8166,7 +8486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +8569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -8331,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8413,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8579,7 +8899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8744,7 +9064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8827,7 +9147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -8877,6 +9197,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 53.34 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a0bb82-3ec5-4b4f-b9bc-35ba3eae98b6")
+		(property "Reference" "S8"
+			(at 53.34 53.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 53.34 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 53.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7572c3ee-8a59-4537-aae1-3ca7025cf1ba")
+		)
+		(pin "2"
+			(uuid "f389cd3b-6d5e-40c0-a1b0-78a250c2ac8a")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 40.64 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -8909,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8991,7 +9393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9074,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -9157,7 +9559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -9282,89 +9684,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 43.18 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47d7aa33-5ecf-4fc6-afab-04a41ce9cb8c")
-		(property "Reference" "D8"
-			(at 43.03 58.624 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 45.72 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 43.18 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15351d56-505a-47d6-8324-ac8813078640")
-		)
-		(pin "2"
-			(uuid "02644fa8-0e04-415f-b73e-cf97d88d0963")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 142.24 0)
 		(unit 1)
@@ -9398,7 +9717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9557,7 +9876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -9640,7 +9959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -9765,6 +10084,88 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 40.64 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51156c38-11c3-4cf3-a19c-798fe45fb886")
+		(property "Reference" "S7"
+			(at 40.64 53.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 40.64 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 40.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3ce12ad-9a3b-4285-b1c6-e7a403871cd9")
+		)
+		(pin "2"
+			(uuid "0da1fed7-6433-45cd-be78-cda2a47923ed")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 55.88 85.09 0)
 		(unit 1)
@@ -9799,7 +10200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -9881,7 +10282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9963,7 +10364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10045,7 +10446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10127,7 +10528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.00u"
 			(at 91.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10209,7 +10610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +10692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -10373,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -10456,7 +10857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -10622,7 +11023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +11105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10747,88 +11148,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 66.04 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d29f18c-b7d3-4dde-8bef-06fca728d59c")
-		(property "Reference" "S10"
-			(at 66.04 53.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 66.04 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 66.04 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76131fb5-5869-4555-967e-0317def5b747")
-		)
-		(pin "2"
-			(uuid "a9ce3300-8fa0-4c37-a45a-7227da241b28")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -10988,7 +11307,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 68.58 173.99 0)
+		(at 81.28 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10997,9 +11316,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "627186a5-5b55-4053-8e09-ebe18d74f8a0")
+		(uuid "615aefc1-79fb-410a-a701-7e913d56f3d9")
 		(property "Reference" "D57"
-			(at 68.43 172.924 0)
+			(at 81.13 172.924 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11012,7 +11331,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 71.12 173.99 90)
+			(at 83.82 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11021,8 +11340,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 68.58 173.99 90)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 81.28 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 173.99 90)
+			(at 81.28 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 173.99 90)
+			(at 85.09 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,15 +11374,98 @@
 			)
 		)
 		(pin "1"
-			(uuid "35fa7c42-42f5-4422-bd00-cc8eefdd3e7b")
+			(uuid "90d05ced-1f3b-49fa-811d-17adc83de682")
 		)
 		(pin "2"
-			(uuid "6d12a70f-a781-4152-9054-de09e62b6873")
+			(uuid "a0cd8179-6b77-486e-9ca3-b53e63fda04d")
 		)
 		(instances
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 93.98 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6396663d-6314-46c6-9682-0a70f71a4663")
+		(property "Reference" "D58"
+			(at 93.83 172.924 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 93.98 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6a17ea3-8e34-4961-9793-cc8c7033b7c9")
+		)
+		(pin "2"
+			(uuid "9986cf22-3054-456e-9b52-7bfc7abb8858")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -11104,7 +11506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -11153,88 +11555,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 27.94 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "663b1da9-f125-4e15-bd28-da6a7becbd0e")
-		(property "Reference" "S54"
-			(at 27.94 167.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 27.94 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 27.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 169.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a6560e3-dcd8-4226-9f43-9d06cf591bb1")
-		)
-		(pin "2"
-			(uuid "0d933d11-9f75-426d-ac99-869020226d23")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 133.35 129.54 0)
 		(unit 1)
@@ -11266,7 +11586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "kbProjectLib/lcscImports:SW-TH_EC11XXXXXXXX"
 			(at 129.54 125.476 0)
 			(hide yes)
 			(show_name no)
@@ -11361,7 +11681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -11444,7 +11764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -11526,7 +11846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11575,6 +11895,88 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c7bc58f-86de-49e6-826e-fb419175e485")
+		(property "Reference" "S9"
+			(at 66.04 53.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 66.04 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b607094-2611-4143-9a09-79825471e9c7")
+		)
+		(pin "2"
+			(uuid "aae17d32-70ed-4db4-bdb1-168d0ba3cc80")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 68.58 110.49 0)
 		(unit 1)
@@ -11609,7 +12011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +12093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -11774,7 +12176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -11857,7 +12259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -11939,7 +12341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12097,7 +12499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.50u"
 			(at 53.34 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12179,7 +12581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12262,7 +12664,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -12345,7 +12747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -12427,7 +12829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12477,88 +12879,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 27.94 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "761668b8-82c1-4d4b-99d3-474580984690")
-		(property "Reference" "S7"
-			(at 27.94 53.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 27.94 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 27.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b12aa46-d589-47bb-b517-da22454b9435")
-		)
-		(pin "2"
-			(uuid "6a45b350-bf6a-40a2-855d-b3f4181d70c5")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 66.04 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -12591,7 +12911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12674,7 +12994,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 250.19 90)
 			(hide yes)
 			(show_name no)
@@ -12757,7 +13077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 93.98 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -12806,6 +13126,89 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 43.18 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b77856e-3df9-455a-9b7f-8df49eff100d")
+		(property "Reference" "D7"
+			(at 43.03 58.624 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 45.72 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 43.18 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bbfd067-0695-457b-a70c-a0d15629d26b")
+		)
+		(pin "2"
+			(uuid "b63efbda-172f-4b20-b0ce-a37221af6400")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 231.14 0)
 		(unit 1)
@@ -12839,7 +13242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -12921,7 +13324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13004,7 +13407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 93.98 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -13054,6 +13457,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 40.64 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa96c7b-5b19-48cb-b3d6-9fdadec4b57d")
+		(property "Reference" "S54"
+			(at 40.64 167.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 40.64 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 40.64 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f1db832-54d7-468f-9f53-b199dced9e61")
+		)
+		(pin "2"
+			(uuid "bc573d53-5b9f-42fe-bee4-5996c406d686")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 40.64 243.84 0)
 		(unit 1)
 		(body_style 1)
@@ -13086,7 +13571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -13168,7 +13653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -13218,171 +13703,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 30.48 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8467b125-fd0f-4905-838f-212ed501b256")
-		(property "Reference" "D7"
-			(at 30.33 58.624 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 33.02 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 30.48 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "faf7778d-4f77-44fb-b185-92a78f0cc518")
-		)
-		(pin "2"
-			(uuid "cf6f597c-2154-4df7-8b39-6e7e79d2721d")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 78.74 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84c5fb74-d309-411e-8084-c28c59dc9cf5")
-		(property "Reference" "S11"
-			(at 78.74 53.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 78.74 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
-			(at 78.74 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c95bcb6-79ed-4865-af30-2f2928765501")
-		)
-		(pin "2"
-			(uuid "7f186c86-edb9-4b5b-a8ca-07a8fb349464")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 68.58 199.39 0)
 		(unit 1)
 		(body_style 1)
@@ -13416,7 +13736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -13465,171 +13785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 40.64 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88f91d40-16ff-4889-98fa-8a0d842cb4f4")
-		(property "Reference" "S8"
-			(at 40.64 53.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 40.64 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 40.64 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d54670eb-85df-4d42-bc20-d495dbea575b")
-		)
-		(pin "2"
-			(uuid "45a1b0c4-ff2f-4623-bc36-d81def9dbf38")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 55.88 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8943cad9-a9d4-4b0b-a087-5aeee9bcf0ca")
-		(property "Reference" "D9"
-			(at 55.73 58.624 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 55.88 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86a62ffe-3aae-4ab5-add9-afb4e10164bf")
-		)
-		(pin "2"
-			(uuid "c66d6835-c888-487c-b82c-c505dd3593ad")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 68.58 135.89 0)
 		(unit 1)
@@ -13664,7 +13819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -13747,7 +13902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -13905,7 +14060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.75u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.75u"
 			(at 66.04 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13948,88 +14103,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c9f8a94-48a4-4a7f-a738-efab8ec660cb")
-		(property "Reference" "S9"
-			(at 53.34 53.34 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 53.34 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 53.34 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 55.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba59c1a1-6e3e-4d98-b3a4-767eefa27b24")
-		)
-		(pin "2"
-			(uuid "0d06cfb7-dbeb-4fd1-8705-cf4815d7dd6b")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -14146,7 +14219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -14228,7 +14301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14311,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 93.98 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -14394,7 +14467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 93.98 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -14553,7 +14626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -14603,89 +14676,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 68.58 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95593863-2f22-4526-a550-784574507e1c")
-		(property "Reference" "D10"
-			(at 68.43 58.624 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 71.12 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 68.58 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a90b671-7c16-4696-b047-f385ec43711a")
-		)
-		(pin "2"
-			(uuid "a64b45cb-4e31-42d3-9de9-2816434ef58d")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 55.88 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -14719,7 +14709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -14801,7 +14791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.00u"
 			(at 40.64 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14926,88 +14916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 53.34 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a51b6c6-0b03-42aa-bad1-03c1cdb01f4c")
-		(property "Reference" "S56"
-			(at 53.34 167.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 53.34 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 53.34 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 169.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d25aaf4-bddd-44a7-bb25-21eaf000a158")
-		)
-		(pin "2"
-			(uuid "aab5ea43-6bf7-4ed7-8435-fdba5a0addd2")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 55.88 224.79 0)
 		(unit 1)
@@ -15042,7 +14950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -15125,7 +15033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -15208,7 +15116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +15199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -15374,7 +15282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -15532,7 +15440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15615,7 +15523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -15698,7 +15606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 81.28 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -15781,7 +15689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 161.29 90)
 			(hide yes)
 			(show_name no)
@@ -15864,7 +15772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -15946,7 +15854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.25u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.25u"
 			(at 78.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15996,6 +15904,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 91.44 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac243932-284e-4f7f-96f7-170ab25a0826")
+		(property "Reference" "S11"
+			(at 91.44 53.34 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 91.44 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.25u"
+			(at 91.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 55.118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2273b8e8-1d27-437d-9079-1400b0fc26a8")
+		)
+		(pin "2"
+			(uuid "5a025532-6bf9-4ada-9353-940a6a4e8716")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 218.44 0)
 		(unit 1)
 		(body_style 1)
@@ -16028,7 +16018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -16110,7 +16100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.50u"
 			(at 53.34 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -16193,7 +16183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -16275,7 +16265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16318,88 +16308,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "S45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 78.74 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6873ff3-d3f3-4d65-8b5e-4d93848ea3f7")
-		(property "Reference" "S58"
-			(at 78.74 167.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 78.74 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
-			(at 78.74 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 169.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdfcf51f-09d0-4aff-b177-87bc6a4f4d45")
-		)
-		(pin "2"
-			(uuid "bded26e3-52d5-45be-bda7-e1638ce4c63d")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S58")
 					(unit 1)
 				)
 			)
@@ -16516,7 +16424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -16566,89 +16474,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 55.88 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b953facf-4087-49b4-b416-508b072b3630")
-		(property "Reference" "D56"
-			(at 55.73 172.924 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 55.88 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e08cca7c-94a4-4a71-9f97-6e20f9880953")
-		)
-		(pin "2"
-			(uuid "ccd25663-a85a-4157-be7f-08d0f9104898")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 30.48 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -16682,7 +16507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -16764,7 +16589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -16846,7 +16671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16929,7 +16754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -17012,7 +16837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -17094,7 +16919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.25u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.25u"
 			(at 66.04 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17144,88 +16969,6 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 66.04 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2d259ef-c5a1-48bc-8ee5-204c3a02fda9")
-		(property "Reference" "S57"
-			(at 66.04 167.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 66.04 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 169.418 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a5dbba2-cfcc-45a8-997e-2410734cf0a3")
-		)
-		(pin "2"
-			(uuid "c183fd73-d77e-490e-926b-419f53d426ff")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -17258,7 +17001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17340,7 +17083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17422,7 +17165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.75u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_2.75u"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17504,7 +17247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17586,7 +17329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17668,7 +17411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_6.25u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_6.25u"
 			(at 91.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -17826,7 +17569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +17652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -17991,7 +17734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18073,7 +17816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18156,7 +17899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 55.88 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -18238,7 +17981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18320,7 +18063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18402,7 +18145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -18452,6 +18195,88 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 53.34 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d369b47b-30fe-48a9-b2fb-051a3c1fe4dc")
+		(property "Reference" "S55"
+			(at 53.34 167.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 53.34 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 53.34 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ecfe47d-84f3-427f-b3ee-063ca2e68f22")
+		)
+		(pin "2"
+			(uuid "67582dd8-7afc-4788-b4cd-cb571d65b5d4")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 27.94 243.84 0)
 		(unit 1)
 		(body_style 1)
@@ -18484,7 +18309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -18534,7 +18359,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 40.64 167.64 0)
+		(at 78.74 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18543,9 +18368,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d75322c6-fdbf-459e-8597-ff1449aa2606")
-		(property "Reference" "S55"
-			(at 40.64 167.64 0)
+		(uuid "d65edac9-a541-43ec-ae7a-445e90df1782")
+		(property "Reference" "S10"
+			(at 78.74 53.34 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18557,7 +18382,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 40.64 171.45 0)
+			(at 78.74 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18566,8 +18391,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
-			(at 40.64 167.64 0)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18578,7 +18403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 169.418 0)
+			(at 76.2 55.118 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18589,7 +18414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 167.64 0)
+			(at 78.74 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18600,15 +18425,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bb32bbc-55fd-4645-a053-41b531bef5d4")
+			(uuid "2c85a0f3-9d7d-470e-b009-d1483dcd328d")
 		)
 		(pin "2"
-			(uuid "11e2a734-c7a8-41a8-8922-6c4ec1f3ca56")
+			(uuid "041fd63d-c51e-4c02-8e80-e05634cf5a07")
 		)
 		(instances
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "S55")
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -18692,6 +18517,171 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 93.98 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d98c0b1a-d3db-4b39-aadb-7455e4a76e05")
+		(property "Reference" "D11"
+			(at 93.83 58.624 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 96.52 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 93.98 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b938bf16-14ff-4512-b1ee-366feb0e2d02")
+		)
+		(pin "2"
+			(uuid "42d2ac61-dc16-4622-b8ed-732eb683dadf")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 66.04 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de0bce93-d340-446c-889e-2279493f2534")
+		(property "Reference" "S56"
+			(at 66.04 167.64 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 66.04 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
+			(at 66.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 169.418 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "199330f3-ccb1-4470-8145-ead7c3f2991f")
+		)
+		(pin "2"
+			(uuid "ee236b17-088f-4802-82e5-2005cb0992fe")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "S56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 68.58 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -18725,7 +18715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -18808,7 +18798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -18891,7 +18881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -18973,7 +18963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19055,7 +19045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 78.74 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -19138,7 +19128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -19221,7 +19211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 43.18 224.79 90)
 			(hide yes)
 			(show_name no)
@@ -19304,7 +19294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 68.58 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -19353,6 +19343,89 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Diode")
+		(at 43.18 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8e090ed-8820-4e60-a0c7-fc0ce3e0cb32")
+		(property "Reference" "D54"
+			(at 43.03 172.924 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" ""
+			(at 45.72 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
+			(at 43.18 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "198db662-63dc-4415-aa49-3fa5e67a82ce")
+		)
+		(pin "2"
+			(uuid "1753d816-7391-4756-974f-d0fe0847c6f9")
+		)
+		(instances
+			(project "keyboardKiCad"
+				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 27.94 154.94 0)
 		(unit 1)
@@ -19386,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -19468,7 +19541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19550,7 +19623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -19633,7 +19706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
+		(property "Footprint" "kbProjectLib/lcscImports:DO-35_BD2.0-L4.0-P8.00-D0.5-FD"
 			(at 30.48 237.49 90)
 			(hide yes)
 			(show_name no)
@@ -19715,7 +19788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 66.04 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -19797,7 +19870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 40.64 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -19879,7 +19952,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 27.94 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -19961,7 +20034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
+		(property "Footprint" "kbProjectLib/keyswitches:SW_Kailh_Choc_V2_1.00u"
 			(at 53.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20080,89 +20153,6 @@
 			(project "keyboardKiCad"
 				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 43.18 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fff17b74-d7a4-485e-b395-a4e42b11c5e4")
-		(property "Reference" "D55"
-			(at 43.03 172.924 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.127)
-					(bold yes)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" ""
-			(at 45.72 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 43.18 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ab76449-85e2-42ff-ab16-213f093f6e47")
-		)
-		(pin "2"
-			(uuid "c8e1fbf6-74cb-45b9-a21c-f65fa00c3aae")
-		)
-		(instances
-			(project "keyboardKiCad"
-				(path "/102e35b7-9115-4b00-8ef1-9a3f70bfd656"
-					(reference "D55")
 					(unit 1)
 				)
 			)
