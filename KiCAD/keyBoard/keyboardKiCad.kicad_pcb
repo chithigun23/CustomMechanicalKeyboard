@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20260206)
+	(version 20260624)
 	(generator "pcbnew")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -50,6 +50,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 25 215)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -61,6 +62,8 @@
 			(dashed_line_dash_ratio 12)
 			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
+			(pngdpi 300)
+			(pngantialias yes)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
@@ -90,7 +93,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "01568957-d087-4e21-bf57-deff4cb0424a")
-		(at -117.6681 8.2369)
+		(transform
+			(translate -117.6681 8.2369)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H2"
@@ -303,7 +310,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "01c3aee0-8add-4786-8c96-f6d1ffbc23d1")
-		(at -77.285 109.885)
+		(transform
+			(translate -77.285 109.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D84"
@@ -567,7 +578,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "04df9589-d2ed-43d4-9688-3b63d6b3c5fb")
-		(at -130.525 92.135)
+		(transform
+			(translate -130.525 92.135)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D10"
@@ -831,7 +846,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "076d17a6-373d-4059-a310-dbfad66d4ed9")
-		(at 366 154.101)
+		(transform
+			(translate 360.018286 157.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S82"
@@ -1153,7 +1172,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0781dee9-c9a2-4301-90cf-031016212c68")
-		(at -130.525 85.035)
+		(transform
+			(translate -130.525 85.035)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D8"
@@ -1417,7 +1440,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "07b274f9-20d7-4914-935f-094fe255c5f8")
-		(at 122 100.1)
+		(transform
+			(translate 116 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S23"
@@ -1739,7 +1766,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "07bb72af-7198-4fc1-9521-177b484ca127")
-		(at -117.215 88.585)
+		(transform
+			(translate -117.215 88.585)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D26"
@@ -2003,13 +2034,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "07cad992-05e6-4140-a95e-72cbcf2fbd9e")
-		(at 153.5 159.1)
+		(transform
+			(translate 147.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S31"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "e77ccc8d-fb4a-43de-9853-31c941fc5542")
+			(uuid "acf3850f-4b1e-4209-bac8-7c2ac3851272")
 			(effects
 				(font
 					(size 1 1)
@@ -2020,7 +2055,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "87a5363a-b851-4b83-8869-1eb4ff520de3")
+			(uuid "7a74e153-c921-4ef9-bf4b-e89f0896f791")
 			(effects
 				(font
 					(size 1 1)
@@ -2032,7 +2067,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33f06192-3415-405d-ac42-283742f73ef0")
+			(uuid "388d0e2b-acf9-4478-8e61-bfb54920b571")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2043,7 +2078,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5046e5f0-7d80-4154-a8fd-5a8f7c05dacd")
+			(uuid "fd769cc4-95cc-49f2-b953-5014c57f5608")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2360,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "080a9cd3-3a81-4be0-af84-5c2a9ffd5abc")
-		(at 348 137.101)
+		(transform
+			(translate 342.018286 140.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S77"
@@ -2647,7 +2686,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0859c429-31f3-48b9-81d0-6d3e4a32db52")
-		(at -117.215 81.485)
+		(transform
+			(translate -117.215 81.485)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D24"
@@ -2911,7 +2954,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "089ca043-a45c-4aba-81d1-289554a8a47e")
-		(at 348 176.1)
+		(transform
+			(translate 342.018286 179.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S79"
@@ -3233,7 +3280,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "09678ba2-b9fb-4d4a-99f0-81d788b31a1b")
-		(at -117.215 74.385)
+		(transform
+			(translate -117.215 74.385)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D22"
@@ -3497,7 +3548,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0c2a0485-348f-4f77-8c9f-195ca1eb8b6a")
-		(at -90.595 102.785)
+		(transform
+			(translate -90.595 102.785)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D64"
@@ -3761,7 +3816,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0ec7f2e0-0d1c-465e-a3fb-a0dc95b41460")
-		(at -130.525 106.335)
+		(transform
+			(translate -130.525 106.335)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
@@ -4025,7 +4084,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1261d920-963d-4332-9bfe-89f7b077edb3")
-		(at -117.215 60.185)
+		(transform
+			(translate -117.215 60.185)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D18"
@@ -4289,7 +4352,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "13506b0e-0de0-4f52-9a63-fa139029085b")
-		(at -90.595 109.885)
+		(transform
+			(translate -90.595 109.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D67"
@@ -4553,13 +4620,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
 		(layer "F.Cu")
 		(uuid "1408d638-d1ad-4638-bf77-b6c00c324d31")
-		(at 245.75 193.1)
+		(transform
+			(translate 239.75 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.25u")
 		(property "Reference" "S58"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "dda9c03d-1df2-4ef0-87e1-43a92904f738")
+			(uuid "957fed08-f518-46d4-82c9-0ba939fd1e3a")
 			(effects
 				(font
 					(size 1 1)
@@ -4570,7 +4641,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "ace56180-a38a-4683-bb51-67b3f9916b03")
+			(uuid "7fcdb974-0a66-46b8-bdf6-65ec78545cf0")
 			(effects
 				(font
 					(size 1 1)
@@ -4582,7 +4653,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e97b15f-5340-45b2-9d23-5283e51dd8aa")
+			(uuid "dd8bfe86-fc4d-48da-9703-5ef47164e6eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4664,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e53718a-6943-40a1-886c-0935227a4bfa")
+			(uuid "8348d6ec-bf9e-440b-a13d-da2dd6fd7d89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,13 +4946,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "14a61919-891d-4dc5-b300-8e3e3d92597e")
-		(at 185 142.1)
+		(transform
+			(translate 179 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S41"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "8a4eb823-42d6-4168-b57a-d05733e5668a")
+			(uuid "c89d90dd-c8b7-4e3a-92d4-3e2b7e262524")
 			(effects
 				(font
 					(size 1 1)
@@ -4892,7 +4967,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "cd041e1c-9d0d-409d-8ea3-0e6d65644723")
+			(uuid "69bb7b2d-8ed9-4ea3-aceb-dffe09be759a")
 			(effects
 				(font
 					(size 1 1)
@@ -4904,7 +4979,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee48eb9c-49c3-4e7e-ab4f-c7637730279f")
+			(uuid "a27a5f58-ab05-47ac-9ed3-15af0a64eda1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +4990,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1153cde7-ce53-43da-a83a-e3e08264b1cb")
+			(uuid "cdeb81c2-86ab-45c9-95e9-594336899c37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5272,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
 		(layer "F.Cu")
 		(uuid "14c985b3-73d6-4659-8a4a-2655f89af6da")
-		(at -228.0061 198.0069)
+		(transform
+			(translate -228.0061 198.0069)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 6.25u")
 		(tags "MX Keyboard Stabilizer 6.25u Cutout")
 		(property "Reference" "H16"
@@ -5410,7 +5489,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "16b8590c-0ed9-4043-8133-ecf27b5e3850")
-		(at 366 137.101)
+		(transform
+			(translate 360.018286 140.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S81"
@@ -5732,13 +5815,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "17cbde15-5a77-461f-aefc-7edf0bfbf6a8")
-		(at 99.5 159.1)
+		(transform
+			(translate 93.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S15"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "28f41772-b59e-4143-9b35-35da7201d481")
+			(uuid "000ae760-dc95-4c0e-b4cd-bda7793afe94")
 			(effects
 				(font
 					(size 1 1)
@@ -5749,7 +5836,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "0b429030-4a14-4e85-97aa-2f96719bfa9a")
+			(uuid "80e5d6a7-4126-4a68-a32a-d97f7b943aab")
 			(effects
 				(font
 					(size 1 1)
@@ -5761,7 +5848,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6ac6645-f7ff-40be-b0a3-b9c16b70eb6b")
+			(uuid "3d2c85ad-4b24-4f45-b1b4-eac20529cf02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5859,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65ee68ac-3ab8-494b-9318-bf9e6dbe2bf2")
+			(uuid "9322429c-8ce4-4e0d-bf49-1a653e044577")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6141,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1bd6c378-4012-42ee-926d-c55f4876fffb")
-		(at -103.905 77.935)
+		(transform
+			(translate -103.905 77.935)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D40"
@@ -6318,7 +6409,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "1d98fb90-e85b-4175-acef-726c9ed573a0")
-		(at 330 137.101)
+		(transform
+			(translate 324.018286 140.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S74"
@@ -6640,7 +6735,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "216b6ef0-a796-4da5-9f68-5ec1a21c6edd")
-		(at -117.215 102.785)
+		(transform
+			(translate -117.215 102.785)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D30"
@@ -6904,7 +7003,11 @@
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
 		(uuid "21acd116-0b5e-4342-9949-224609fbc1b2")
-		(at -82.495 123.885)
+		(transform
+			(translate -82.495 123.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
 		(property "Reference" "SW1"
@@ -7333,13 +7436,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "21efdbfd-d02c-4128-9851-d94c038f032e")
-		(at 207.5 159.1)
+		(transform
+			(translate 201.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S47"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "f052a8c1-7507-4f44-aeae-397d4a0f0b8c")
+			(uuid "d47ea160-a96d-4a85-86ba-57a6d5b7c3d5")
 			(effects
 				(font
 					(size 1 1)
@@ -7350,7 +7457,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "8dc801d5-bbb0-4b17-b2c4-6aae6a544ae1")
+			(uuid "a644ff92-7c28-4afa-be69-c42fc5063be6")
 			(effects
 				(font
 					(size 1 1)
@@ -7362,7 +7469,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a7424ef-c524-4441-a0c7-a7e7e66f3202")
+			(uuid "ebc77821-edd3-4ee8-8099-bdaab4936db6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7480,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a74490c-59bf-45f7-a446-b63733dfbb89")
+			(uuid "59e47a8d-3dda-4f18-8d3a-6a8179da8c5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7655,13 +7762,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "2369d27e-74b9-4be8-ada5-b5570f96f81e")
-		(at 189.5 159.101)
+		(transform
+			(translate 183.5 162.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S42"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "b244bca6-db4e-4c4d-b77f-aeeabaa9dbb5")
+			(uuid "34b39502-bc49-45d7-9366-c6ae3edddaab")
 			(effects
 				(font
 					(size 1 1)
@@ -7672,7 +7783,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "93ab08cd-777f-4c40-9b26-89c5a21f93e7")
+			(uuid "384455ce-2a36-42bd-8b04-30416b100db5")
 			(effects
 				(font
 					(size 1 1)
@@ -7684,7 +7795,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb0efd98-f967-4735-b484-02eb07f2f806")
+			(uuid "b7e4b80d-b8cc-409d-9d33-66918bed20c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7806,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d3e7c8f-4db2-4ee9-86e4-f72180695ab1")
+			(uuid "9552a69f-b939-420d-9719-d9396baec0ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8088,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "24d33839-4622-4bfc-a87f-ae666ad521b8")
-		(at -103.905 63.735)
+		(transform
+			(translate -103.905 63.735)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D36"
@@ -8241,13 +8356,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
 		(layer "F.Cu")
 		(uuid "26795dd9-2cc6-402a-a867-5a2e48078f61")
-		(at 293 193.1)
+		(transform
+			(translate 287 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.00u")
 		(property "Reference" "S69"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "c0ff4bc2-ec60-40db-8e58-0a75105838c3")
+			(uuid "a3f7e1d8-7f01-4eed-84a0-1316b1a56e97")
 			(effects
 				(font
 					(size 1 1)
@@ -8258,7 +8377,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "53dd732a-aff6-4071-b7a4-bb8ab5f0114f")
+			(uuid "be759639-e82d-4a34-97f0-5c7d8edb9943")
 			(effects
 				(font
 					(size 1 1)
@@ -8270,7 +8389,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6010dd13-5ab3-483d-957e-bf95f8e62612")
+			(uuid "b6fe646b-9e5b-4e24-9824-c73f39af07c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8400,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e952a35f-3a23-48ec-80a5-6d31a5cdf1cd")
+			(uuid "6fb39af6-894c-4a5e-90df-9ddd2cba2c98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,13 +8682,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "276a5541-4ca9-406f-9e48-e1faacf499eb")
-		(at 212 125.1)
+		(transform
+			(translate 206 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S50"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "8278379f-9f72-40d6-9778-1206ca28c374")
+			(uuid "d71e2dfb-3d04-48cb-9e86-460a0b4cfe9d")
 			(effects
 				(font
 					(size 1 1)
@@ -8580,7 +8703,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "da3774ef-f5c9-468b-b958-0c007f7b3df9")
+			(uuid "263b8d25-4e99-4ae4-84f3-fd040e2238ab")
 			(effects
 				(font
 					(size 1 1)
@@ -8592,7 +8715,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95f127c1-5415-41bc-967a-39de5bb9a1b4")
+			(uuid "fe2caca6-36d9-472f-81e4-27596dc64607")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8726,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f354b126-9e8a-4e13-9e22-705fc2a0ef7b")
+			(uuid "2beb9659-c82f-4766-9362-70955e6613fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,7 +9008,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2b282d27-690c-4921-8e5a-1741f3ba96de")
-		(at -90.595 81.485)
+		(transform
+			(translate -90.595 81.485)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D58"
@@ -9149,13 +9276,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_6.25u"
 		(layer "F.Cu")
 		(uuid "2d25a31b-68cc-4eaf-bd58-d177c7fdd184")
-		(at 178.25 193.1)
+		(transform
+			(translate 172.25 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 6.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 6.25u")
 		(property "Reference" "S33"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "f9c23839-261b-4ad4-9a36-41e6bd7d57c0")
+			(uuid "21f053be-4aff-45f6-8336-7ceee7890604")
 			(effects
 				(font
 					(size 1 1)
@@ -9166,7 +9297,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "68bce3c5-67b1-4e9b-bbfc-9d5f4d296929")
+			(uuid "85d833aa-cad1-4a8f-b2af-2e753e890682")
 			(effects
 				(font
 					(size 1 1)
@@ -9178,7 +9309,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2dd02459-bfce-400c-bacc-f6591a33ea27")
+			(uuid "9d6840c3-c33f-4908-aab6-593314bba501")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9320,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d532331-0b03-4083-8908-393db274af34")
+			(uuid "d0ea5be5-eabd-4f70-ab13-a52221bc0779")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9602,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "2f10ba76-a470-471e-b7cc-5ce4db7c1627")
-		(at -88.8043 27.9648)
+		(transform
+			(translate -88.8043 27.9648)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H7"
@@ -9684,7 +9819,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "37a0f820-afe9-4e50-9a91-97b777605adb")
-		(at -117.6681 47.6927)
+		(transform
+			(translate -117.6681 47.6927)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H4"
@@ -9897,13 +10036,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "37f0dec1-5a73-42c6-992b-fb96d4a6f502")
-		(at 162.5 176.1)
+		(transform
+			(translate 156.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S32"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "5657a2a7-4750-4a23-a7fc-22e8e3abca64")
+			(uuid "2d258582-571f-4eeb-8624-f01526ee4bfb")
 			(effects
 				(font
 					(size 1 1)
@@ -9914,7 +10057,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "8d5c04f8-7d2f-401c-88d1-0f6796fea183")
+			(uuid "e303c075-0222-4947-8b17-b96b18df9648")
 			(effects
 				(font
 					(size 1 1)
@@ -9926,7 +10069,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5efe879-d192-4876-a272-9726851316f6")
+			(uuid "c6f1dba9-9f6c-450f-94e9-82d5d87bde37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +10080,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "409e173d-f23c-454c-b6f0-f2c7cb78dcfb")
+			(uuid "41c1fa5c-8c38-4cf9-b5ac-0caae081f385")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,13 +10362,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "3ba209cd-9acf-43a1-8e6d-bad30d709b8a")
-		(at 77 142.1)
+		(transform
+			(translate 71 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S8"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "1853608c-74a1-4ecf-baa1-b48be92d8020")
+			(uuid "440b492d-05c7-4ddc-ac9e-f89381c7a609")
 			(effects
 				(font
 					(size 1 1)
@@ -10236,7 +10383,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "be0fe0dd-1c10-4b25-af9d-7626ca55a60e")
+			(uuid "aa32ca5a-d78b-4098-880b-8ddcab67473f")
 			(effects
 				(font
 					(size 1 1)
@@ -10248,7 +10395,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "719a9657-2097-4979-955f-e02c29462261")
+			(uuid "899aa3ea-ee14-4646-8435-7f2c71a5f56a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10406,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d683b4b4-503d-430f-a235-aa9e5a83d566")
+			(uuid "2e1d0e2c-b2c8-44a2-ba3d-106d3a2ea224")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10688,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "3d7d2a7a-36bd-4247-accf-1401a975b94c")
-		(at -59.9405 27.9648)
+		(transform
+			(translate -59.9405 27.9648)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H11"
@@ -10754,7 +10905,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "3f2059ec-9052-4bb1-878c-b6f0700f41c7")
-		(at -130.525 74.385)
+		(transform
+			(translate -130.525 74.385)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
@@ -11018,13 +11173,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "4223f7fc-baee-4baa-89aa-a71ec440d41d")
-		(at 113 142.101)
+		(transform
+			(translate 107 145.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S20"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "9b060ad4-8931-432e-a4ee-bed7cb61e1e3")
+			(uuid "cf2e2041-121f-41b0-840c-7f794278ae2b")
 			(effects
 				(font
 					(size 1 1)
@@ -11035,7 +11194,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "4401343d-3fa9-44f2-be70-0c5917ee9490")
+			(uuid "1a4d804e-137d-4e64-8722-f606ce1962e6")
 			(effects
 				(font
 					(size 1 1)
@@ -11047,7 +11206,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b68173be-bbee-4db4-8b2f-02d9f24bde25")
+			(uuid "5e2d6381-8302-4935-8fd2-dc3a9d86132f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11217,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38ff15c9-08ec-428f-b47e-5ac50c0937a3")
+			(uuid "150f4fc1-0841-410b-9dc2-dd3c48937218")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,13 +11499,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
 		(layer "F.Cu")
 		(uuid "4308d04b-56c0-444a-a870-0675aa28f256")
-		(at 293 125.1)
+		(transform
+			(translate 287 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.00u")
 		(property "Reference" "S71"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "13555732-6c5a-4092-b21a-8553c4a34afd")
+			(uuid "427cb30e-3c48-4df5-99cd-fca72def980d")
 			(effects
 				(font
 					(size 1 1)
@@ -11357,7 +11520,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "5a4aea9e-9f8e-403c-ad42-61399e3122e1")
+			(uuid "d49ce366-3ee2-4766-a5e2-0ccc71f94cd8")
 			(effects
 				(font
 					(size 1 1)
@@ -11369,7 +11532,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4df0c5e-ca62-4330-89ad-ae06b1981e35")
+			(uuid "5c0d951c-3cbc-418d-bb82-b781b64fd8a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11543,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14042cbd-8293-433f-a823-e61be731b555")
+			(uuid "5789eabe-9565-4b02-89bf-178215a4a060")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +11825,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4359ffb0-b17b-4c82-88c1-9602a577d219")
-		(at -130.525 60.185)
+		(transform
+			(translate -130.525 60.185)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
@@ -11926,7 +12093,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "47bac488-b203-4336-8306-70415347cdee")
-		(at -90.595 70.835)
+		(transform
+			(translate -90.595 70.835)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D55"
@@ -12190,13 +12361,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.75u"
 		(layer "F.Cu")
 		(uuid "48b2a709-211c-4cee-b4cc-9c3e42fa0c34")
-		(at 56.75 159.101)
+		(transform
+			(translate 50.75 162.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.75u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.75u")
 		(property "Reference" "S4"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "16ed1843-1e3d-4fd3-b124-33012a42126d")
+			(uuid "7e4ffe67-0359-4438-be39-e37e999e6ff7")
 			(effects
 				(font
 					(size 1 1)
@@ -12207,7 +12382,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "dd8c00bd-d2d4-44c3-a846-ebd9c713ac06")
+			(uuid "4e849af7-2bfa-4e8d-bc55-a8f95bf7f713")
 			(effects
 				(font
 					(size 1 1)
@@ -12219,7 +12394,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75c7a581-129e-45bc-beb7-c84416298137")
+			(uuid "d55facd0-b854-4595-88da-72a7648aca9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12405,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5513e0c8-3aeb-4c88-9965-be518419b005")
+			(uuid "c6471938-2539-4367-89b2-14f2cfb93b20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,7 +12687,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "49899fc7-c898-4cf7-a59e-5c7b072c954c")
-		(at -130.525 88.585)
+		(transform
+			(translate -130.525 88.585)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
@@ -12776,7 +12955,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "49e2dfa7-9b7f-4926-8f46-7a5d9aa8848e")
-		(at -59.9405 47.6927)
+		(transform
+			(translate -59.9405 47.6927)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H12"
@@ -12989,7 +13172,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4b3edeaf-760b-4892-b83c-cb0f6218dc53")
-		(at -103.905 113.435)
+		(transform
+			(translate -103.905 113.435)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D50"
@@ -13253,7 +13440,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4c91f9da-3309-4a1b-89d8-988369ef1360")
-		(at -77.285 92.135)
+		(transform
+			(translate -77.285 92.135)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D79"
@@ -13517,7 +13708,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4d5f0f83-a088-41a2-87e9-ee7894dc20a8")
-		(at -103.905 85.035)
+		(transform
+			(translate -103.905 85.035)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D42"
@@ -13781,13 +13976,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
 		(layer "F.Cu")
 		(uuid "508485c3-fc2a-4c82-b6c3-8c4351718cfc")
-		(at 297.5 142.101)
+		(transform
+			(translate 291.5 145.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.50u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.50u")
 		(property "Reference" "S72"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "7850f7e9-9829-4cae-b141-c94a7e251848")
+			(uuid "b0da88f4-2c74-4ee4-8ae6-1d017c672176")
 			(effects
 				(font
 					(size 1 1)
@@ -13798,7 +13997,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "7573805b-a43c-466e-9732-2fd93cfb91e6")
+			(uuid "54e709c3-659e-4de9-ba16-397e8f8f4c9b")
 			(effects
 				(font
 					(size 1 1)
@@ -13810,7 +14009,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "965b0a3c-bbc6-49c7-9ab0-9a0907800580")
+			(uuid "563e2d17-464f-4fe0-96a8-26e90a8d2e37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +14020,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9f3f794-5303-4217-a48b-e70be2fddbb1")
+			(uuid "34db498a-541c-4d10-83e6-7b2a1cd53131")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +14302,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "515abae1-e84a-48e2-a164-6704521989f5")
-		(at -77.285 102.785)
+		(transform
+			(translate -77.285 102.785)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D82"
@@ -14367,7 +14570,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5179e355-ce3a-4fb5-8c59-0065691303b7")
-		(at -103.905 99.235)
+		(transform
+			(translate -103.905 99.235)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D46"
@@ -14631,13 +14838,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "521d746b-976e-4d65-a971-c117a6c41b60")
-		(at 266 125.1)
+		(transform
+			(translate 260 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S66"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "b7864c86-e499-41d1-aa62-001909a932dd")
+			(uuid "fb86ff20-8336-496d-994e-47c19df8d0b6")
 			(effects
 				(font
 					(size 1 1)
@@ -14648,7 +14859,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "ecce7bf4-9645-45ca-a783-543c37ce5f40")
+			(uuid "b35616a3-0b81-458a-9dc7-b7bb2b797b40")
 			(effects
 				(font
 					(size 1 1)
@@ -14660,7 +14871,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03b4d62c-5784-4a20-a6d5-95918073fb17")
+			(uuid "c3a6d6f9-9d46-41b8-ba69-9d5bdeeab8e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14671,7 +14882,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f47ba25-cc98-4569-a2a0-e160bc0380f4")
+			(uuid "e3f00adc-b649-4998-9f49-1ef95808ed91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14953,13 +15164,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.25u"
 		(layer "F.Cu")
 		(uuid "531d5a2f-1e25-4120-a998-19d5fd47b8f5")
-		(at 290.75 159.1)
+		(transform
+			(translate 284.75 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.25u")
 		(property "Reference" "S68"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "17551f62-e3b2-462a-87bc-f347adeae4fd")
+			(uuid "a9b65964-c72c-44c6-a387-dac3dfe031fc")
 			(effects
 				(font
 					(size 1 1)
@@ -14970,7 +15185,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "07648807-957d-447b-8aca-a6938e5e84fc")
+			(uuid "44d48c01-8d16-412f-833e-5723da4de22a")
 			(effects
 				(font
 					(size 1 1)
@@ -14982,7 +15197,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d470f62-c910-40d8-adb1-73a75a8b3ad0")
+			(uuid "56680c8b-3629-45eb-9959-b5991365dac7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +15208,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6d8c072-a777-4e81-bc0d-acd44ab89edb")
+			(uuid "7cebc97d-127a-4429-bf0b-0544c7a94a3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,7 +15490,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "550f104e-3e0e-43f2-9443-0d8097c8269e")
-		(at -103.905 67.285)
+		(transform
+			(translate -103.905 67.285)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D37"
@@ -15539,13 +15758,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "5514b777-78c5-40d4-90de-63ad9479a3fd")
-		(at 230 125.1)
+		(transform
+			(translate 224 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S54"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "53e4ce0e-0b2c-4a30-a1c6-c4a09af2c3c2")
+			(uuid "749b15db-af30-40c2-b3a4-0b15011309c2")
 			(effects
 				(font
 					(size 1 1)
@@ -15556,7 +15779,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "9a0ce167-9b52-47c5-9b9d-f57d55aa763d")
+			(uuid "41c2498a-4111-4c85-a2ab-0ea12db9a7b9")
 			(effects
 				(font
 					(size 1 1)
@@ -15568,7 +15791,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f64e666b-a7ea-4d21-a5fb-0645bc265930")
+			(uuid "5bbe5d7b-c74d-4621-a121-ffdb20206a9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15579,7 +15802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2418ac63-6d20-451c-b712-46ecf73e8f5e")
+			(uuid "b58994e2-01e6-4815-bfd7-67266b8248a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +16084,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "55303c2d-4730-476b-9f1a-97c2fbaba31a")
-		(at -103.905 95.685)
+		(transform
+			(translate -103.905 95.685)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D45"
@@ -16125,13 +16352,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "56590a1f-58f1-4760-9d02-af4c80c63ffd")
-		(at 176 125.1)
+		(transform
+			(translate 170 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S40"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "5d5afbfa-a3df-4860-992f-835dc2fc2102")
+			(uuid "5d1ed8e6-2711-4510-a785-90788214be1e")
 			(effects
 				(font
 					(size 1 1)
@@ -16142,7 +16373,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "1c6cfe41-7656-493e-880a-7daf4943c637")
+			(uuid "6f586190-e8d9-4845-9d00-670ab2167bbe")
 			(effects
 				(font
 					(size 1 1)
@@ -16154,7 +16385,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e87250db-83f4-47bf-9066-b04900fbb7ec")
+			(uuid "10a69928-a807-4345-a0e3-9c5cc1a73268")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16165,7 +16396,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e15d5162-eb4d-46a5-843c-8726ce8d4797")
+			(uuid "27231bd5-26e8-435c-9b53-2be5f783de37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,13 +16678,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "57d02794-4477-4c60-a048-2b1637ce46df")
-		(at 167 142.1)
+		(transform
+			(translate 161 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S36"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "6dedefd2-5a7b-45a1-a34c-371b18e3e541")
+			(uuid "7678c7fe-efc9-45ae-92af-a286591b85bf")
 			(effects
 				(font
 					(size 1 1)
@@ -16464,7 +16699,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "cee5ae0d-23cc-4974-a702-b0e6ce6b4863")
+			(uuid "f70497f9-dfa1-49f5-bcaa-4ddc0b76e0e9")
 			(effects
 				(font
 					(size 1 1)
@@ -16476,7 +16711,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe487211-fa43-4845-b0f8-4c2557408546")
+			(uuid "0ffdc2a4-368d-42c2-b2da-12c4ed7e71a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16487,7 +16722,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06009dec-dad4-4cc4-b440-0823f02c833d")
+			(uuid "2e4381fc-f8c9-41b7-a584-885f909fe2ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16769,7 +17004,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "59233afa-b10f-4d3a-91d1-8cf82706ab19")
-		(at -130.525 99.235)
+		(transform
+			(translate -130.525 99.235)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D12"
@@ -17033,7 +17272,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "59bc721a-1001-4b5b-91f7-0447d32f0339")
-		(at -103.905 74.385)
+		(transform
+			(translate -103.905 74.385)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D39"
@@ -17297,7 +17540,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5adb176e-2e8e-4a08-80a1-20d3b56b911b")
-		(at -130.525 77.935)
+		(transform
+			(translate -130.525 77.935)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D6"
@@ -17561,7 +17808,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5b22f6cb-c82e-4dad-ae8c-f233ba17592c")
-		(at -117.215 77.935)
+		(transform
+			(translate -117.215 77.935)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D23"
@@ -17825,13 +18076,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "5bcae554-990b-481f-a4a8-2d63ad057e1f")
-		(at 221 142.1)
+		(transform
+			(translate 215 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S51"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "3417bf8c-05f9-4aaa-900c-ab54bd11a9e2")
+			(uuid "40e17fc1-27e3-4d17-aa4b-d6e4860843e6")
 			(effects
 				(font
 					(size 1 1)
@@ -17842,7 +18097,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "2b49ff32-081c-4592-9ec6-dcfb065ae16d")
+			(uuid "e164aab5-adfd-4d81-9b4f-0f922b84e9b1")
 			(effects
 				(font
 					(size 1 1)
@@ -17854,7 +18109,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "739c49e0-751a-4d6c-92ee-cf0bc55784fe")
+			(uuid "ca74a1be-092a-458f-8a19-f4bfa32dc6e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17865,7 +18120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2fae180-5294-403b-bc73-bddcc7ad2f1f")
+			(uuid "45769f2b-8b9f-47e2-a53c-974ab008bdb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18147,7 +18402,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "5bd51b59-56b2-44a4-8b7d-f08b5f1487cd")
-		(at 221 100.1)
+		(transform
+			(translate 215 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S49"
@@ -18469,7 +18728,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "5f241fb4-c4f5-4566-868b-c8685fef8a56")
-		(at 185 100.1)
+		(transform
+			(translate 179 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S39"
@@ -18791,7 +19054,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "60a116ba-e997-440c-85a1-18b454e09c51")
-		(at -103.905 70.835)
+		(transform
+			(translate -103.905 70.835)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D38"
@@ -19055,7 +19322,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "60db2258-8e73-42e6-ab27-b5e91a342c2e")
-		(at -90.595 95.685)
+		(transform
+			(translate -90.595 95.685)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D62"
@@ -19319,13 +19590,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "61783269-a142-4639-9b5f-66daa12fdb6d")
-		(at 135.5 159.101)
+		(transform
+			(translate 129.5 162.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S26"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "4cf2485e-e8d4-4c72-8491-0da8e61d6e5e")
+			(uuid "b0d21635-497d-45b8-8dae-c8010afcc683")
 			(effects
 				(font
 					(size 1 1)
@@ -19336,7 +19611,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "b169a5c1-3bc2-4001-b03c-920e8203cef4")
+			(uuid "80bb49cc-b9e9-4354-b7aa-45579bd3e3fd")
 			(effects
 				(font
 					(size 1 1)
@@ -19348,7 +19623,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "273ace7d-0ef9-4be7-87e8-87f5e55bb495")
+			(uuid "ce30c966-7086-42ea-85cc-f3274d712f16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19359,7 +19634,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3aab3edc-eba0-4dee-9caf-b49fd561e6c4")
+			(uuid "0e440784-a87b-4503-a1e3-fb1dcb4520a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,13 +19916,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
 		(layer "F.Cu")
 		(uuid "621146e8-d177-42e1-b574-6b177800d95f")
-		(at 88.25 193.101)
+		(transform
+			(translate 82.25 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.25u")
 		(property "Reference" "S11"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "073b5767-9204-4bf3-96f4-2146e40f3cca")
+			(uuid "fc2edc8c-3853-4d6f-9045-c17316e1d01d")
 			(effects
 				(font
 					(size 1 1)
@@ -19658,7 +19937,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "2f2f28a1-2d81-48a4-85b6-c31a3f116b83")
+			(uuid "08cb3805-0a1f-4248-9e41-db6898716416")
 			(effects
 				(font
 					(size 1 1)
@@ -19670,7 +19949,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f7f29c9-5170-4b5a-8d5c-73ffb9b8b5bf")
+			(uuid "db314678-b932-4625-ab2f-ca4ab0c7032a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19681,7 +19960,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af649bf7-5219-4146-bf95-730ce3711780")
+			(uuid "f4d46653-9f15-49fc-9b11-b97446c83244")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19963,13 +20242,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "64750e56-a8d0-4ca8-ac70-6edd317b567c")
-		(at 108.5 176.101)
+		(transform
+			(translate 102.5 179.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S16"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "a690f642-aabb-4a6f-a986-0fbbfc8c2ab0")
+			(uuid "bd34985b-4506-4b39-966f-4cd2449cab36")
 			(effects
 				(font
 					(size 1 1)
@@ -19980,7 +20263,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "4fff15c4-764c-4bd8-baa4-735918bf18b0")
+			(uuid "18f51781-497d-45da-887e-424f37471fd3")
 			(effects
 				(font
 					(size 1 1)
@@ -19992,7 +20275,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c612d36b-4a1a-470a-bdc6-65d667e9e5fe")
+			(uuid "eed9f151-81f7-464a-b6b5-04b2edca8942")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20286,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f36a874-43cb-4b3d-b97f-c02c326f8267")
+			(uuid "f055b9d7-0dee-4b7b-a439-e01b492a13dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20285,7 +20568,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "6b26b281-eeb3-471f-b70e-066bd601a519")
-		(at 167 100.1)
+		(transform
+			(translate 161 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S34"
@@ -20607,7 +20894,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "6bacc9ef-cbc8-4711-9718-93b087ecf2f6")
-		(at -117.6681 27.9648)
+		(transform
+			(translate -117.6681 27.9648)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H3"
@@ -20820,7 +21111,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "6c21a571-02fc-45c4-b2d3-fc0b1f520bf9")
-		(at -82.495 123.885)
+		(transform
+			(translate -82.495 123.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H1"
@@ -21033,7 +21328,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6cdb1f93-2582-4df3-943b-81839a1f3df6")
-		(at -90.595 99.235)
+		(transform
+			(translate -90.595 99.235)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D63"
@@ -21297,13 +21596,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.75u"
 		(layer "F.Cu")
 		(uuid "6d42ebb9-38d4-4f73-8ba7-dfd335abb332")
-		(at 286.25 176.1)
+		(transform
+			(translate 280.25 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.75u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.75u")
 		(property "Reference" "S63"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "83bb8a84-d319-49ff-bbd8-883a12349de7")
+			(uuid "9c91adcd-785c-41b4-aef2-485db7960423")
 			(effects
 				(font
 					(size 1 1)
@@ -21314,7 +21617,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "accecd55-116b-4c33-9828-2e8b13d6e564")
+			(uuid "6d8f8d03-4029-47ac-a678-6ac1cea668ae")
 			(effects
 				(font
 					(size 1 1)
@@ -21326,7 +21629,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c64dd276-c310-4688-b1c2-5f1f999093d7")
+			(uuid "f7222d17-0dd3-431d-8b48-6116ba833704")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21337,7 +21640,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "393299db-6548-4955-b0db-282d484494c7")
+			(uuid "9574cb49-ea67-426b-8c77-0ae82aeeba71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21619,7 +21922,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "6f3e20f0-849d-4625-9db8-c60a20971bd5")
-		(at 348 154.101)
+		(transform
+			(translate 342.018286 157.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S78"
@@ -21941,7 +22248,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "73226711-fa52-4255-94e1-400b5b99f73f")
-		(at -90.595 63.735)
+		(transform
+			(translate -90.595 63.735)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D53"
@@ -22205,13 +22516,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "754a61cf-6506-4fa9-822d-6cf7ecf44412")
-		(at 95 142.1)
+		(transform
+			(translate 89 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S14"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "01e0b3b0-31d1-461c-be82-b0511bc937ab")
+			(uuid "1a219deb-3c9e-4e64-948f-26b54f0f66ea")
 			(effects
 				(font
 					(size 1 1)
@@ -22222,7 +22537,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "1d56a28d-b3de-4596-89b0-f19617fda1b0")
+			(uuid "a3ef1fc7-ef98-459d-a790-aa5aee7ce13b")
 			(effects
 				(font
 					(size 1 1)
@@ -22234,7 +22549,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "deebd23d-e434-4521-83bb-d037cded6325")
+			(uuid "111ed06a-48fa-4370-8184-300d4a4277b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22245,7 +22560,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7cd4e19-abf3-4012-a9cb-e07fc4b8bd04")
+			(uuid "c260327d-adac-4b07-84f6-4f927e81dbbf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22527,7 +22842,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "765e50e3-9619-421e-b3c8-88bdeac9f215")
-		(at -90.595 113.435)
+		(transform
+			(translate -90.595 113.435)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D68"
@@ -22791,7 +23110,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "76e9757c-6f76-4f2c-9c66-5b5bdb02ba39")
-		(at -130.525 116.985)
+		(transform
+			(translate -130.525 116.985)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D17"
@@ -23055,7 +23378,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "77b1795b-b459-4fe2-a7b3-413edd2f830c")
-		(at -130.525 109.885)
+		(transform
+			(translate -130.525 109.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
@@ -23319,7 +23646,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "789fa0d0-11b9-443b-b095-1bffe022b0c1")
-		(at 284 100.1)
+		(transform
+			(translate 278 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S70"
@@ -23641,7 +23972,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "78c3d671-eccc-46e1-a72a-1b593f0ce52a")
-		(at -88.8043 47.6927)
+		(transform
+			(translate -88.8043 47.6927)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H8"
@@ -23854,7 +24189,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7a83c597-689c-4207-b5f8-f7c86109a9c6")
-		(at -130.525 67.285)
+		(transform
+			(translate -130.525 67.285)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
@@ -24118,7 +24457,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7b74e735-3bde-48e8-bf3d-21e098f3eee1")
-		(at -77.285 60.185)
+		(transform
+			(translate -77.285 60.185)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D70"
@@ -24382,13 +24725,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "7c5cb57d-2487-4e15-b17d-f8db993d2030")
-		(at 261.5 159.1)
+		(transform
+			(translate 255.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S62"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "277b862f-46b1-4277-aeef-32278e240481")
+			(uuid "1f84f60a-5453-4c8c-8db1-c4cce28acbe7")
 			(effects
 				(font
 					(size 1 1)
@@ -24399,7 +24746,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "ad565810-02da-48bb-b727-7c4b6d2ad64a")
+			(uuid "74a9fe4d-0249-4dcb-ad7c-ecbf1768dda2")
 			(effects
 				(font
 					(size 1 1)
@@ -24411,7 +24758,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db118bd8-67e3-401d-a3d7-08a7e02824c7")
+			(uuid "5539dc41-195a-47e3-acf8-95a7c430323d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24422,7 +24769,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "934146f9-9e2c-4455-9983-1243ee3861e1")
+			(uuid "0191268e-5939-4c76-830f-fe34fb31ab0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24704,7 +25051,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7dd9d8e9-7ded-4206-9e60-e348a8a603e0")
-		(at -117.215 95.685)
+		(transform
+			(translate -117.215 95.685)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D28"
@@ -24968,7 +25319,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e5688ba-cba6-4a64-bd15-0a77d9bff699")
-		(at -77.285 74.385)
+		(transform
+			(translate -77.285 74.385)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D74"
@@ -25232,7 +25587,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e979a29-c2c5-4c31-9a47-1cc29b59bfd6")
-		(at -77.285 99.235)
+		(transform
+			(translate -77.285 99.235)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D81"
@@ -25496,13 +25855,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "800540f9-1fc2-4de8-9b10-bf05ed36434a")
-		(at 248 125.1)
+		(transform
+			(translate 242 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S60"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "73b56db9-7e9f-4596-9293-210444b3be31")
+			(uuid "5b4deb60-0c09-4c5d-a5cf-d74b1710163a")
 			(effects
 				(font
 					(size 1 1)
@@ -25513,7 +25876,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "8ff8bf8a-eeb1-4723-86be-adc3233ee073")
+			(uuid "fbd699d5-422f-43bd-b6f6-686187669812")
 			(effects
 				(font
 					(size 1 1)
@@ -25525,7 +25888,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "733e1961-4f98-4ce6-a3cf-b503efcb102d")
+			(uuid "75922afc-f870-4af5-9597-1b413692797e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25536,7 +25899,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8db84966-f37b-4117-9567-de10b90f710d")
+			(uuid "83f01bea-6579-49b6-a498-a96f61a7a771")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25818,13 +26181,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "808ea0f1-7f4d-4bfe-8400-dd1e8f891873")
-		(at 90.5 176.1)
+		(transform
+			(translate 84.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S10"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "4c51c3d8-6093-45c9-9776-42480ecae5e0")
+			(uuid "5f2352c4-c509-4646-9b5d-a078e25ac11d")
 			(effects
 				(font
 					(size 1 1)
@@ -25835,7 +26202,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "68851db7-11fe-4cbd-be8b-88f27ec53958")
+			(uuid "b5823b1a-22e5-432f-a931-98ce626a7f94")
 			(effects
 				(font
 					(size 1 1)
@@ -25847,7 +26214,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7ed3739-8c7d-4ea8-81ea-180aa4c7599d")
+			(uuid "068b8e70-82d5-4ade-9d49-4191a9432cac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25858,7 +26225,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70c4d280-c4f4-4aa6-a7f2-ed339eef156c")
+			(uuid "3d627ef3-a8df-4da5-bbdb-a95d2cf4f02d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26140,13 +26507,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "80d0fd08-28a9-41b9-9d0a-7e649f970e4a")
-		(at 126.5 176.1)
+		(transform
+			(translate 120.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S22"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "2f7dec8b-2ae7-43d8-a81a-f6e67237991e")
+			(uuid "209d47af-8608-40cf-91ab-2713a79ba124")
 			(effects
 				(font
 					(size 1 1)
@@ -26157,7 +26528,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "08306284-4188-43b1-b9ee-c46342cc0420")
+			(uuid "a57fdb27-4b8a-41a1-bc1f-6f69a654e6d0")
 			(effects
 				(font
 					(size 1 1)
@@ -26169,7 +26540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7f17c5f-8e60-4d49-b415-2fc365c91608")
+			(uuid "8873d43f-1b3c-4720-89d0-4d42eaec3bb4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26180,7 +26551,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83bd699d-2d8b-4400-a76a-bb836aac6ec1")
+			(uuid "d7ce99aa-f4aa-41a8-9f9d-d54f5c5c04e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26462,7 +26833,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "82411f4e-9e6e-4a69-919d-bdfa61b0f5d6")
-		(at -117.215 63.735)
+		(transform
+			(translate -117.215 63.735)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D19"
@@ -26726,7 +27101,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "85c988f2-0fb6-46d5-8028-364dc79d192e")
-		(at -103.905 88.585)
+		(transform
+			(translate -103.905 88.585)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D43"
@@ -26990,7 +27369,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8692924f-ecd6-4b0e-abb8-2dee2e5b89bf")
-		(at -117.215 92.135)
+		(transform
+			(translate -117.215 92.135)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D27"
@@ -27254,7 +27637,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "89c78844-da2f-4010-9170-5552f9138914")
-		(at -103.905 102.785)
+		(transform
+			(translate -103.905 102.785)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D47"
@@ -27518,7 +27905,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8b020de8-7f85-494c-9d33-533deac1d3fb")
-		(at -77.285 67.285)
+		(transform
+			(translate -77.285 67.285)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D72"
@@ -27782,7 +28173,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8b9c33ec-8c84-4754-8a46-a9f765e46669")
-		(at -77.285 95.685)
+		(transform
+			(translate -77.285 95.685)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D80"
@@ -28046,7 +28441,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8ceef7c5-45e0-4ba6-a0a6-ca5209b619a1")
-		(at -117.215 109.885)
+		(transform
+			(translate -117.215 109.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D32"
@@ -28310,7 +28709,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8d36a345-fda7-4306-8045-026e58b8a089")
-		(at -103.905 106.335)
+		(transform
+			(translate -103.905 106.335)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D48"
@@ -28574,7 +28977,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8e12ffec-30b2-44f4-8cdc-796e940cbb5a")
-		(at -77.285 106.335)
+		(transform
+			(translate -77.285 106.335)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D83"
@@ -28838,13 +29245,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.00u"
 		(layer "F.Cu")
 		(uuid "90e04f95-eac7-4f4d-884e-7cab4aca75a4")
-		(at 59 193.101)
+		(transform
+			(translate 53 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.00u")
 		(property "Reference" "S6"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "23ad7e1b-0736-4b87-9e01-d2afc97cec43")
+			(uuid "e1f8a515-65f7-4a0a-b8c8-e3783491c94c")
 			(effects
 				(font
 					(size 1 1)
@@ -28855,7 +29266,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "6e8c7935-a5b0-4ae8-9145-64c87ae5d9d3")
+			(uuid "ac75fd72-eb6f-4a15-b213-ad1f18393b17")
 			(effects
 				(font
 					(size 1 1)
@@ -28867,7 +29278,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04aaa3eb-1f21-448a-9d31-181d206c9943")
+			(uuid "938436d7-8169-4808-af3f-d2d26589bc18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28878,7 +29289,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dacc54cb-5e1f-4a43-a0ac-e0def7641b56")
+			(uuid "28da4a2e-7ea5-49f6-979d-8b57ddc75a20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29160,7 +29571,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "90ed86ae-9a40-4295-960d-13ffb678bf48")
-		(at -103.905 92.135)
+		(transform
+			(translate -103.905 92.135)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D44"
@@ -29424,7 +29839,11 @@
 	(footprint "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
 		(layer "F.Cu")
 		(uuid "92b14ea8-e86d-48d8-bbbb-b424db247941")
-		(at -108.309 142.1824)
+		(transform
+			(translate -108.309 142.1824)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX keyswitch plate cutout 2.00u")
 		(tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u")
 		(property "Reference" "H14"
@@ -29892,7 +30311,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9342827b-c783-4cd2-b9a5-bdd5922c112d")
-		(at -117.215 106.335)
+		(transform
+			(translate -117.215 106.335)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D31"
@@ -30156,7 +30579,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "94417650-decd-4039-98bb-787e16f7fad6")
-		(at -103.905 116.985)
+		(transform
+			(translate -103.905 116.985)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D51"
@@ -30420,13 +30847,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "951b3545-6012-4497-82be-6b7427b04e9c")
-		(at 266 193.1)
+		(transform
+			(translate 260 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S64"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "009de0a9-8936-40fa-8e9c-51e2212b0367")
+			(uuid "51158bc3-18b4-4290-a64f-22426aae21a6")
 			(effects
 				(font
 					(size 1 1)
@@ -30437,7 +30868,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "7d7ff1c6-f15c-4ab6-9942-d35ee5e04782")
+			(uuid "192994b3-270a-460e-b01a-3b79d950768f")
 			(effects
 				(font
 					(size 1 1)
@@ -30449,7 +30880,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d118dd77-50b0-43f7-a90a-9bb5fdab1597")
+			(uuid "572b29e7-793c-49e1-a9ef-120e3851966d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30460,7 +30891,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f09676b1-9a31-409e-9fa3-5ec172597dbf")
+			(uuid "38ed71f4-9c95-49a1-bc19-2760fa29271a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30742,7 +31173,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
 		(layer "F.Cu")
 		(uuid "955cb04f-2754-45cd-990d-3e4335984a3e")
-		(at 54.5 100.1)
+		(transform
+			(translate 48.5 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.50u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.50u")
 		(property "Reference" "S1"
@@ -31064,13 +31499,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "971c02bc-e60b-432e-8060-3727c0617bd2")
-		(at 86 125.1)
+		(transform
+			(translate 80 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S13"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "b2eb136b-cbdf-4a61-98a0-558c8fb6c6ab")
+			(uuid "40b79d31-049c-4db7-9bd1-8273d66589ce")
 			(effects
 				(font
 					(size 1 1)
@@ -31081,7 +31520,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "860ef6db-f1be-4683-8870-afe33fa82c74")
+			(uuid "0b93298e-76d4-4142-8a06-727e18e613b6")
 			(effects
 				(font
 					(size 1 1)
@@ -31093,7 +31532,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "063a7fac-80b3-4935-b216-2f3206bec8c6")
+			(uuid "16ec2799-1c70-4455-9168-1cfe7456c2d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31104,7 +31543,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18350d77-dcb9-44bd-a2f6-66ee93f68ad9")
+			(uuid "fceb916c-b543-4c78-b37e-4b99a45f11b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31386,13 +31825,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "9a827c25-9219-44bb-b933-9702e5d6f727")
-		(at 122 125.1)
+		(transform
+			(translate 116 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S24"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "ac32b5a1-ef74-4d1a-8bed-a91cdae089da")
+			(uuid "40b6311c-72d9-4bff-b047-e27d5e1b58e2")
 			(effects
 				(font
 					(size 1 1)
@@ -31403,7 +31846,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "747cca7b-4f96-4258-b8dd-3b936ee48daa")
+			(uuid "727bdc3a-ab9a-4b78-a510-17177713ab2e")
 			(effects
 				(font
 					(size 1 1)
@@ -31415,7 +31858,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "95093fb0-0d4b-4d8f-aea8-31f6a46d774e")
+			(uuid "d5b038a2-32d9-4995-b582-5a16248f474e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31426,7 +31869,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4015b5ff-960d-4f9a-a924-34225b834d9d")
+			(uuid "fc89edd5-b6d3-4a3b-9c01-c97310fc3f36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31708,7 +32151,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d317390-2e3c-4539-a267-bc32945cd019")
-		(at -117.215 99.235)
+		(transform
+			(translate -117.215 99.235)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D29"
@@ -31972,13 +32419,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "9ee34b58-ee95-4b1d-8521-bad699f6648b")
-		(at 243.5 159.1)
+		(transform
+			(translate 237.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S56"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "ac8f5025-0f4c-4bd3-ab9d-00aaa7400750")
+			(uuid "1af32d91-1367-4f6b-b4d2-c25e7d87baee")
 			(effects
 				(font
 					(size 1 1)
@@ -31989,7 +32440,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "0dbe1058-5bf1-463d-a701-8dd073c4cfc5")
+			(uuid "feb00e82-6f13-4f67-8459-0759726ff9a1")
 			(effects
 				(font
 					(size 1 1)
@@ -32001,7 +32452,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2228983-5056-4db9-908e-26086d7da409")
+			(uuid "824fa92e-5df7-4c22-b123-4bb0b202810b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32012,7 +32463,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3be13cd7-c457-4f63-b2e6-0d17d96340d2")
+			(uuid "5ed777ad-cb6f-418c-af20-85b633902c02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32294,7 +32745,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a2e9ab0f-f76a-4527-b05b-9c92e88e8385")
-		(at 104 100.1)
+		(transform
+			(translate 98 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S18"
@@ -32616,7 +33071,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a4b56708-3dde-432a-8da2-8adeeb9c7731")
-		(at -90.595 116.985)
+		(transform
+			(translate -90.595 116.985)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D69"
@@ -32880,7 +33339,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a4e94296-92e5-4ebc-bc21-3094492c0445")
-		(at 330 154.101)
+		(transform
+			(translate 324.018286 157.501)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S75"
@@ -33202,7 +33665,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5a382b8-2729-4e2f-9cc4-df3c47416bd6")
-		(at -77.285 81.485)
+		(transform
+			(translate -77.285 81.485)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D76"
@@ -33466,13 +33933,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a6a17e35-5ec2-442e-81da-99427b671aea")
-		(at 171.5 159.1)
+		(transform
+			(translate 165.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S37"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "d2ae6b52-e169-42a1-a59a-e5930d9071f4")
+			(uuid "61a9ceae-3c6f-4462-b799-5310669e0c13")
 			(effects
 				(font
 					(size 1 1)
@@ -33483,7 +33954,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "48d972d1-d951-4291-9c16-e7169b98decf")
+			(uuid "cc7ab2fa-d093-4c49-b777-ff52ce20a05d")
 			(effects
 				(font
 					(size 1 1)
@@ -33495,7 +33966,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6536402-3ae9-47b1-b9ab-d9c267ae89d2")
+			(uuid "f9c999ad-50e2-46ac-ac52-db51f7e6b06e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33506,7 +33977,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fffc33fc-9ee0-47b0-b8d0-97a61c71b776")
+			(uuid "f5641a77-b08c-496b-adfc-2c6aa4d82b0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33788,7 +34259,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a6ea90ad-e569-4daf-9682-90b34a5d2a97")
-		(at -77.285 63.735)
+		(transform
+			(translate -77.285 63.735)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D71"
@@ -34052,7 +34527,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "a76f9e04-c46b-4bc2-8a78-b4803bd93796")
-		(at -88.8043 8.2369)
+		(transform
+			(translate -88.8043 8.2369)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H6"
@@ -34265,13 +34744,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "a825beb6-ac75-445c-b716-dea155dcf1bc")
-		(at 50 125.1)
+		(transform
+			(translate 44 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S2"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "479860ea-420b-47a4-8487-8bd941e78c8f")
+			(uuid "0d867fef-f959-4ab0-bd8e-7eea39ff4562")
 			(effects
 				(font
 					(size 1 1)
@@ -34282,7 +34765,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "18d289ae-d03d-4b2b-8227-f9539ec479d0")
+			(uuid "a0104dfa-9578-468a-b420-28e0b3232cc6")
 			(effects
 				(font
 					(size 1 1)
@@ -34294,7 +34777,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e69be52b-9c58-4b46-ab78-f0fa64b25676")
+			(uuid "3b7ae530-3683-485d-8329-06789774e112")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34305,7 +34788,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "438c44ee-fc7f-43d3-85aa-aa008c985e2c")
+			(uuid "1cd3d2a7-a160-4908-aaf9-7cffb3a397e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34315,12 +34798,6 @@
 		(path "/d116a713-64c6-4077-863f-0cfd475b0d79")
 		(sheetname "/")
 		(sheetfile "keyboardKiCad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34364,7 +34841,7 @@
 			(uuid "36491f6b-80ca-46dd-93b8-b1be6f155a26")
 		)
 		(fp_line
-			(start -9 -8.5)
+			(start -9 -8.4995)
 			(end -9 8.5)
 			(stroke
 				(width 0.1)
@@ -34572,7 +35049,7 @@
 			(uuid "1842b8dd-6f93-4f47-a3ef-010276ca0479")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(model "${KICAD_USER_TEMPLATE_DIR}/KiCAD/otherLibraries/3d/blue.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34580,20 +35057,24 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "aace2c19-b911-4ff7-af88-76bccf811609")
-		(at 257 142.1)
+		(transform
+			(translate 251 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S61"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "cdc4f382-a0e1-429a-ad97-fc0f14589e5d")
+			(uuid "d0075a08-0db3-44f9-a8fe-ba297751661a")
 			(effects
 				(font
 					(size 1 1)
@@ -34604,7 +35085,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "ba551680-6873-482e-a85c-fb9b24b1179a")
+			(uuid "73a05607-0cbb-4548-a26f-23d4eca138f3")
 			(effects
 				(font
 					(size 1 1)
@@ -34616,7 +35097,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e307998-d2bb-499f-b0cb-ff5e2cbf57e9")
+			(uuid "6f09bd55-050e-473f-826a-924bae27daff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34627,7 +35108,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65b2215c-093d-44d9-b56a-d8a89795083f")
+			(uuid "0f66f36c-0280-492e-87ab-90457ff135ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34909,13 +35390,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "ad625f90-17a4-49c1-92b5-2b11c0166981")
-		(at 225.5 159.1)
+		(transform
+			(translate 219.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S52"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "28a781a2-b142-4c49-8781-62a59da3a910")
+			(uuid "4bc1492f-d0f0-487e-bd8e-799836bb5c53")
 			(effects
 				(font
 					(size 1 1)
@@ -34926,7 +35411,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "323183df-f6d6-4049-9474-cbf109e0c624")
+			(uuid "0fc3a2ca-c0d3-4a97-b130-d82dde660cde")
 			(effects
 				(font
 					(size 1 1)
@@ -34938,7 +35423,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc4135a0-34ee-411c-aca4-015ef6b956b8")
+			(uuid "e5967dad-f4b1-4c52-bdba-92230ad5fc4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34949,7 +35434,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0b0f0e3-1300-4e2d-98d0-9b8429a2bbfc")
+			(uuid "191ef4e5-5b02-4ebc-a92d-69c929c37924")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35231,7 +35716,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "afe59fb1-de3e-45cf-8004-e1da9b349216")
-		(at -77.285 77.935)
+		(transform
+			(translate -77.285 77.935)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D75"
@@ -35495,13 +35984,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "aff5dc5f-85e6-4916-82c4-1b2d98f75b97")
-		(at 180.5 176.1)
+		(transform
+			(translate 174.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S38"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "ec15aed5-fb01-4d32-909e-68650b8873db")
+			(uuid "63d4ab73-4969-41eb-8438-2ad7dadb33e4")
 			(effects
 				(font
 					(size 1 1)
@@ -35512,7 +36005,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "a4388701-9b24-47f5-8097-b387831fba90")
+			(uuid "225148af-8a39-4aef-bd35-fe72ffea8dfe")
 			(effects
 				(font
 					(size 1 1)
@@ -35524,7 +36017,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1240eafd-59fd-493c-9142-62d758d50da6")
+			(uuid "39e39ee0-1410-4394-af4f-e8703c4c70f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35535,7 +36028,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a144c012-d9fb-4745-89a6-99bd9cfa20f8")
+			(uuid "20db329b-6e01-4deb-b459-8bc27ad09d38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35817,7 +36310,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "b1716ccf-752d-4e95-846b-ac4c0dd1a7e1")
-		(at 266 100.1)
+		(transform
+			(translate 260 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S65"
@@ -36139,7 +36636,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_6.25u"
 		(layer "F.Cu")
 		(uuid "b182e95f-f389-4cc2-aff6-7782bfeaa3ba")
-		(at -228.0061 178.279)
+		(transform
+			(translate -228.0061 178.279)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 6.25u")
 		(tags "MX Keyboard Stabilizer 6.25u Cutout")
 		(property "Reference" "H15"
@@ -36352,7 +36853,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b18c5585-f1d7-4f29-93e4-9be4ec096051")
-		(at -130.525 63.735)
+		(transform
+			(translate -130.525 63.735)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
@@ -36616,7 +37121,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "b40048bc-14a0-4844-8571-b59f99e350ad")
-		(at -59.9405 -11.491)
+		(transform
+			(translate -59.9405 -11.491)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H9"
@@ -36829,7 +37338,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b508d389-8232-465f-b97d-7d0217cf30be")
-		(at -90.595 74.385)
+		(transform
+			(translate -90.595 74.385)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D56"
@@ -37093,7 +37606,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b610589d-df6d-4de2-9042-f28ccb742092")
-		(at -117.215 85.035)
+		(transform
+			(translate -117.215 85.035)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D25"
@@ -37357,7 +37874,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "b62f83cb-e296-4201-82ba-31103643a061")
-		(at -88.8043 -11.491)
+		(transform
+			(translate -88.8043 -11.491)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H5"
@@ -37570,13 +38091,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.50u"
 		(layer "F.Cu")
 		(uuid "b7d4a18e-a733-4a36-a74b-78db5c1d7ba4")
-		(at 54.5 142.101)
+		(transform
+			(translate 48.5 145.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.50u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.50u")
 		(property "Reference" "S3"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "2df30447-77c8-4ec5-9af1-6bcb2c262f6a")
+			(uuid "d81022c0-622c-45df-95f3-0bae6b7eddfd")
 			(effects
 				(font
 					(size 1 1)
@@ -37587,7 +38112,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "74e837a4-936f-437a-bd80-d00a38c6e5d8")
+			(uuid "c615c317-82b9-4dd9-ab88-4a72be126d0f")
 			(effects
 				(font
 					(size 1 1)
@@ -37599,7 +38124,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72ee42ac-a306-406a-a818-c65d7e1989cd")
+			(uuid "1146b303-d241-4887-a7b3-bba66de7050a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37610,7 +38135,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2cee4bb-9bf1-451e-8aec-aa22a13ddafb")
+			(uuid "1e0fe876-c7aa-4364-a2f7-d5859988e27a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37892,13 +38417,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "b8d23e1d-fc65-4fb6-8638-ad0102768574")
-		(at 198.5 176.1)
+		(transform
+			(translate 192.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S43"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "24f90087-65f7-42f4-8de4-bc17a94fe4c9")
+			(uuid "1a804dad-0adc-4ba5-b8c9-e03c616b76d7")
 			(effects
 				(font
 					(size 1 1)
@@ -37909,7 +38438,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "71334759-dc76-495d-bb62-ebc7ba920d76")
+			(uuid "7dbd8705-9be8-49e0-9727-ee6e24e3179e")
 			(effects
 				(font
 					(size 1 1)
@@ -37921,7 +38450,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3cd3596-2a6b-484c-9f9a-1dcbc2e131d5")
+			(uuid "b54e2eb9-afe5-4f93-bb80-2dafaa244c74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37932,7 +38461,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "586d5f23-5d56-44ab-8400-303a68b7517a")
+			(uuid "671f63c0-12d0-4757-b0ed-9b8aed776dbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38214,13 +38743,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "b948a2fd-cbe0-4271-a5d5-f2b7cbe6386c")
-		(at 140 125.1)
+		(transform
+			(translate 134 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S29"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "1bbe9f9e-1bc5-441d-a4b3-0e84955ee1be")
+			(uuid "57b9ad82-e9f4-44d4-92c0-5a9966fe46a2")
 			(effects
 				(font
 					(size 1 1)
@@ -38231,7 +38764,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "2099f42a-c286-46f9-9689-c92e74bcb3e6")
+			(uuid "473373d4-9099-4e09-9a24-72e83bd83e89")
 			(effects
 				(font
 					(size 1 1)
@@ -38243,7 +38776,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc27cbf3-73a9-41f4-a5c6-6fe14945d201")
+			(uuid "82a877e0-4e40-446a-b21a-dda2a076839b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38254,7 +38787,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbe123b0-b694-420c-b9a3-a3fcde2c89be")
+			(uuid "06c96426-5c45-43d2-8717-fcef01695cb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38536,7 +39069,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "b9c7e761-a359-458e-bc33-5cdf20a09a90")
-		(at 203 100.1)
+		(transform
+			(translate 197 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S44"
@@ -38858,7 +39395,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bbafa63e-73e1-4453-91d7-ff825d4c7bb8")
-		(at -130.525 95.685)
+		(transform
+			(translate -130.525 95.685)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D11"
@@ -39122,7 +39663,11 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "be43403f-221a-4c9c-a78c-4f2b4ac5050f")
-		(at -59.9405 8.2369)
+		(transform
+			(translate -59.9405 8.2369)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "H10"
@@ -39335,13 +39880,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "c0edffbc-25e5-4f5d-8d4d-6963161447e7")
-		(at 275 142.1)
+		(transform
+			(translate 269 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S67"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "ab653409-78a1-49a9-a40a-d373d8093c87")
+			(uuid "ec550ece-5632-45bf-84d9-88fad22b98d5")
 			(effects
 				(font
 					(size 1 1)
@@ -39352,7 +39901,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "3b09d460-c74b-4cb3-a7d8-1f499e085b72")
+			(uuid "30f87679-941d-4502-92bb-5b0c2710885c")
 			(effects
 				(font
 					(size 1 1)
@@ -39364,7 +39913,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f65f2e3-dc7f-4ba5-9af2-6c45a2533978")
+			(uuid "447defe6-e3fc-48be-86a0-8e2581ff2f88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39375,7 +39924,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc6dd300-9180-42b2-87cf-4d92c16020cd")
+			(uuid "1f80a350-aa3b-469d-837c-c03ecd9d5835")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39657,13 +40206,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "c0f3784e-4346-4e24-9041-719d540f11e0")
-		(at 234.5 176.1)
+		(transform
+			(translate 228.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S53"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "dc073c31-7e40-43ac-9cd0-a4852ef7d5ad")
+			(uuid "4b0e59a5-67fa-46cf-96c9-af991189cc01")
 			(effects
 				(font
 					(size 1 1)
@@ -39674,7 +40227,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "76931c84-14fa-4f40-bab5-c5682e9d7254")
+			(uuid "24533f4f-fa82-43a6-b3e0-ad0bb49d7bcf")
 			(effects
 				(font
 					(size 1 1)
@@ -39686,7 +40239,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16ea5e44-4b39-480a-b7f2-8477a0096169")
+			(uuid "15c30294-06da-4813-b889-436528bf856a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39697,7 +40250,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "566cbde7-dd9d-4b9a-b5e1-d85a893d6ea2")
+			(uuid "dc8d67d8-27ca-4a09-a497-8399f6703df4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39979,7 +40532,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "c144a9c7-3a1d-4e7c-97a4-827ac2b459ad")
-		(at 330 193.1)
+		(transform
+			(translate 324.018286 196.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S76"
@@ -40301,7 +40858,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c165d87b-c76e-42b7-82fa-f8ae9a891c37")
-		(at -90.595 88.585)
+		(transform
+			(translate -90.595 88.585)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D60"
@@ -40565,13 +41126,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "c3e3b891-c5de-42bc-b218-f1a444db06e7")
-		(at 68 125.101)
+		(transform
+			(translate 62 128.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S7"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "4c483c9f-fb3f-4bef-99e3-ec72ad1a8144")
+			(uuid "df47d51f-fc60-49ba-8b38-449946e37e7d")
 			(effects
 				(font
 					(size 1 1)
@@ -40582,7 +41147,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "aa8e4191-f08b-44d1-b890-169bb6eebc89")
+			(uuid "d13495c4-eb42-4d97-ad2d-dbc2115b0833")
 			(effects
 				(font
 					(size 1 1)
@@ -40594,7 +41159,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38efb9f8-c7be-4e15-b84d-5dbfe219a1de")
+			(uuid "7307cc67-e750-462f-a91d-9c5131473647")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40605,7 +41170,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c57b6b5-a904-4903-a535-1cbc74bf5598")
+			(uuid "13573fb1-0ee2-4e19-b0d8-278f3a4ec340")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40887,7 +41452,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c6ca144c-729a-4b32-9b8a-2e44578b0377")
-		(at -77.285 85.035)
+		(transform
+			(translate -77.285 85.035)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D77"
@@ -41151,7 +41720,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c91038aa-147f-4ff8-90ff-20595c79be87")
-		(at -103.905 109.885)
+		(transform
+			(translate -103.905 109.885)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D49"
@@ -41415,7 +41988,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cb7e9b6b-7259-4aca-b972-92bf5ee93e41")
-		(at -77.285 88.585)
+		(transform
+			(translate -77.285 88.585)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D78"
@@ -41679,13 +42256,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "cba61052-a87e-40cf-b466-4d016e2134a0")
-		(at 149 142.1)
+		(transform
+			(translate 143 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S30"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "a939c8e6-c44f-4dac-8338-141a33a57199")
+			(uuid "00b416fd-5ad3-4b92-8cbf-b9f33e14d115")
 			(effects
 				(font
 					(size 1 1)
@@ -41696,7 +42277,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "889c8d86-b649-4f24-b337-293dea9d5fb9")
+			(uuid "a0e1299f-6235-403e-b599-e3ad909fa2ec")
 			(effects
 				(font
 					(size 1 1)
@@ -41708,7 +42289,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba263787-461a-4645-b480-b756185b4196")
+			(uuid "2acd09bb-dbc6-420e-9757-21214978c8cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41719,7 +42300,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c99f3b4-9ab6-4314-8dc6-e276508c0ca7")
+			(uuid "cfd5ec46-b08c-491d-87ea-6e28febf73c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42001,7 +42582,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cbb23ac5-a583-41b0-aa5f-ccd93e553520")
-		(at -117.215 113.435)
+		(transform
+			(translate -117.215 113.435)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D33"
@@ -42265,7 +42850,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cc64a098-5dd1-4c8f-b6b1-5861eab1c260")
-		(at -130.525 70.835)
+		(transform
+			(translate -130.525 70.835)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
@@ -42529,13 +43118,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.25u"
 		(layer "F.Cu")
 		(uuid "ccb898e5-4c85-4259-8e46-8b14debc5ca7")
-		(at 110.75 193.1)
+		(transform
+			(translate 104.75 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.25u")
 		(property "Reference" "S17"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "c6289690-f9a6-4987-8319-bcd0b34ed539")
+			(uuid "fc0d698f-04de-4446-b23f-b0c6afc1b29a")
 			(effects
 				(font
 					(size 1 1)
@@ -42546,7 +43139,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "0e8dcf25-6b89-4c26-8bc0-9bd6645ccaea")
+			(uuid "0d93c41b-73d7-4cb3-9642-32bb0b2bb71b")
 			(effects
 				(font
 					(size 1 1)
@@ -42558,7 +43151,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43965455-e703-45ab-bd20-572631af3744")
+			(uuid "af4b2fd6-6cae-466b-a133-53368fabb420")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42569,7 +43162,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fa321fc-14a4-4f7c-bdc5-f26f365429f6")
+			(uuid "956f4fe5-1293-4c8a-83bc-b7f5458fd228")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42851,7 +43444,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cd456b25-676a-477f-b6e3-c56d20dc17af")
-		(at -90.595 67.285)
+		(transform
+			(translate -90.595 67.285)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D54"
@@ -43115,7 +43712,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cd5a1fac-ec00-45ba-871d-3285b2bb5a83")
-		(at -103.905 81.485)
+		(transform
+			(translate -103.905 81.485)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D41"
@@ -43379,7 +43980,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cf344022-34d5-48dc-9b9c-9feecf47732f")
-		(at -130.525 102.785)
+		(transform
+			(translate -130.525 102.785)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D13"
@@ -43643,7 +44248,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d3af0ab7-76cd-4285-8011-fd08a4c30031")
-		(at -90.595 106.335)
+		(transform
+			(translate -90.595 106.335)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D66"
@@ -43907,7 +44516,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d76817bc-7f3a-4745-a116-0c21fdbb5f14")
-		(at -117.215 70.835)
+		(transform
+			(translate -117.215 70.835)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D21"
@@ -44171,7 +44784,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "d93d1af4-1639-4cf8-b0de-2729a9c931c7")
-		(at 86 100.1)
+		(transform
+			(translate 80 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S12"
@@ -44493,7 +45110,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "d95e5f03-70a8-4186-af6f-4c23f7413e8c")
-		(at 366 193.099)
+		(transform
+			(translate 360.018286 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S83"
@@ -44815,13 +45436,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "da1db755-19c0-45d8-b554-f80854c464bb")
-		(at 158 125.1)
+		(transform
+			(translate 152 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S35"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "fac04d87-bb78-4a34-a539-bcd2634f53e3")
+			(uuid "50e5c258-6678-423d-bdef-561c8d577b65")
 			(effects
 				(font
 					(size 1 1)
@@ -44832,7 +45457,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "8f473c72-6ab5-46a7-9188-6803d8ad8811")
+			(uuid "9d5fa466-f2cf-4631-839d-42abf5ad36f8")
 			(effects
 				(font
 					(size 1 1)
@@ -44844,7 +45469,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f235ac22-0b1c-4274-ab5e-cbf4f7c858d2")
+			(uuid "00f35872-5925-4394-91f7-ef77a12b0008")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44855,7 +45480,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "821bce4d-4242-4c27-bc0d-8f7a6a51e1e8")
+			(uuid "eff38f6a-9474-4c80-8716-45b8a7cc7d6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45137,7 +45762,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "da9138c1-fd7f-4574-9256-019cae86baa2")
-		(at 302 100.1)
+		(transform
+			(translate 296 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S73"
@@ -45459,13 +46088,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "dc010c5f-4062-475f-9440-d8b46657acf5")
-		(at 216.5 176.1)
+		(transform
+			(translate 210.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S48"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "9314e11f-949c-447e-b395-b74dd11e8dce")
+			(uuid "f09fe86b-91c4-4e0f-8173-c179a8dcc68a")
 			(effects
 				(font
 					(size 1 1)
@@ -45476,7 +46109,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "55b3c1b9-c48a-4bed-95b2-b7bf2221defa")
+			(uuid "5165d77f-a38b-4a7d-bf78-1ae2279d0023")
 			(effects
 				(font
 					(size 1 1)
@@ -45488,7 +46121,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "076f7ccf-ea30-41aa-aea5-c1d26be43d15")
+			(uuid "fb155b97-7440-4b5a-93e7-0c8788a4c2bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45499,7 +46132,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c411c95d-1090-45c9-8743-00bcd61ad29b")
+			(uuid "448d3a39-cc55-4aac-9a4a-c1e9967af1ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45781,13 +46414,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_2.25u"
 		(layer "F.Cu")
 		(uuid "dc9caa01-aa2a-436f-99c4-4b6d34ae2af4")
-		(at 61.25 176.101)
+		(transform
+			(translate 55.25 179.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 2.25u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 2.25u")
 		(property "Reference" "S5"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "fc061e5f-2d4f-4d4a-a1db-1e254c5a6112")
+			(uuid "168367ff-5ca9-4a40-b2f8-27257a98b897")
 			(effects
 				(font
 					(size 1 1)
@@ -45798,7 +46435,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "935f2307-1182-40de-8007-b0256786f6d6")
+			(uuid "fd6f526f-61d7-4dd6-8a69-9ff66c0d0b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -45810,7 +46447,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "396ce429-c204-4a8c-9fe5-3ea28e6f1a1d")
+			(uuid "c0a69895-3eb1-4bcf-b7b5-6b815235c6da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45821,7 +46458,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7594014c-7077-473e-ad80-50d8344a98b6")
+			(uuid "9bb13889-ecfa-4aca-b08a-9fcb938e4b79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46103,7 +46740,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "de117504-041e-48b0-8d53-c738e1045e86")
-		(at -117.215 116.985)
+		(transform
+			(translate -117.215 116.985)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D34"
@@ -46367,7 +47008,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dec8400d-f1c8-4817-aef6-08847015dc72")
-		(at -90.595 77.935)
+		(transform
+			(translate -90.595 77.935)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D57"
@@ -46631,7 +47276,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "e2920b9c-4422-48c9-b3ca-b57117094a10")
-		(at 248 100.1)
+		(transform
+			(translate 242 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S59"
@@ -46953,7 +47602,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e48f23e7-892a-48d5-a926-f2ed14b95ebe")
-		(at -130.525 113.435)
+		(transform
+			(translate -130.525 113.435)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D16"
@@ -47217,7 +47870,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e4bc7af1-0886-4ded-97e0-cd82444aefcf")
-		(at -77.285 70.835)
+		(transform
+			(translate -77.285 70.835)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D73"
@@ -47481,13 +48138,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "e621bb12-b5e6-4ae7-8ebb-b9af90fbf8d5")
-		(at 81.5 159.1)
+		(transform
+			(translate 75.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S9"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "ac5690ec-279c-4e4e-ae4e-18916f3ff723")
+			(uuid "ac0efc3b-71a6-4b3a-80e5-822fd50dbb07")
 			(effects
 				(font
 					(size 1 1)
@@ -47498,7 +48159,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "d79606ad-21c8-4bd6-98a8-bb72bfd4e80e")
+			(uuid "801c9b82-0fba-4faa-a199-4a1e60f839de")
 			(effects
 				(font
 					(size 1 1)
@@ -47510,7 +48171,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "001bf721-0cbf-40f9-802a-639575639577")
+			(uuid "c8f874ad-673e-477e-99ce-c3335ce2de6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47521,7 +48182,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "788bff5a-e184-4be2-b150-57c07fd9ce40")
+			(uuid "5030681f-180b-49dc-bc2c-0a9fd9e6d116")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47803,7 +48464,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e6437114-3752-48c8-b185-90634061469e")
-		(at -90.595 60.185)
+		(transform
+			(translate -90.595 60.185)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D52"
@@ -48067,7 +48732,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e656cf27-9e61-4a14-8600-c31ac3d3b007")
-		(at -90.595 92.135)
+		(transform
+			(translate -90.595 92.135)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D61"
@@ -48331,7 +49000,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "ebd6ecf7-c064-4250-ac80-368a799766ec")
-		(at 140 100.1)
+		(transform
+			(translate 134 101.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S28"
@@ -48653,7 +49326,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ec5c0d20-b85d-45b0-a4cb-152ae709e919")
-		(at -117.215 67.285)
+		(transform
+			(translate -117.215 67.285)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D20"
@@ -48917,13 +49594,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "ed503c25-3ac9-417c-9a26-14acbe4ed9a3")
-		(at 239 142.1)
+		(transform
+			(translate 233 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S55"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "0149faee-4f04-4edd-8167-e69bc835fd5d")
+			(uuid "f88ac407-6dae-491a-8cb5-3ed867fc67df")
 			(effects
 				(font
 					(size 1 1)
@@ -48934,7 +49615,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "3230536a-15c8-450e-88ce-c9ac3f244a8f")
+			(uuid "e725d523-5870-44db-8cb5-e14918fa5e51")
 			(effects
 				(font
 					(size 1 1)
@@ -48946,7 +49627,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "430a81ef-adc7-4159-b6c2-c55319b87f8f")
+			(uuid "ac441919-2a82-49a9-8c29-8e95a1bc6848")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48957,7 +49638,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a555614f-75d7-48b7-a327-54e6c465fe9f")
+			(uuid "d3f2e0c5-e8c9-4469-b0cc-d8937df8f719")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49239,13 +49920,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "ee54ff61-9fe0-42fd-ae72-579b53b0f172")
-		(at 144.5 176.1)
+		(transform
+			(translate 138.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S27"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "7cba6bd9-c8e9-4d22-a2d1-cc6efe5ee9a5")
+			(uuid "2dad0461-e1e8-4ca5-b1fb-7f3fd08283b8")
 			(effects
 				(font
 					(size 1 1)
@@ -49256,7 +49941,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "831fe400-cbaf-4df4-9d6a-92a62a736334")
+			(uuid "cdae357c-05c4-4027-bd59-d8313e4d7b77")
 			(effects
 				(font
 					(size 1 1)
@@ -49268,7 +49953,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f15dfafd-c6fe-4d93-ab62-f128eea12f1b")
+			(uuid "fe4c2a52-bb32-4288-bdc6-f8b4706903db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49279,7 +49964,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2eb45f5b-b82b-444f-9810-69d3bbac0a3c")
+			(uuid "60450169-0885-41fd-98d3-35f8f6bac0a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49561,7 +50246,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ee9ecd52-6b9d-49cf-8b0e-c1216885ca4c")
-		(at -103.905 60.185)
+		(transform
+			(translate -103.905 60.185)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D35"
@@ -49825,7 +50514,11 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "ef7322ff-3be1-482b-bca9-6e73c90c90cf")
-		(at 348 193.099)
+		(transform
+			(translate 342.018286 196.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S80"
@@ -50147,13 +50840,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "efa0a0ca-46c2-41b5-b9a2-0dadbfc5ba30")
-		(at 203 142.1)
+		(transform
+			(translate 197 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S46"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "37320e9b-b337-4f62-b9c0-f6b68a70e027")
+			(uuid "6af87091-c956-4109-8801-57bbd24a6825")
 			(effects
 				(font
 					(size 1 1)
@@ -50164,7 +50861,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "211f1a70-54c6-4c4a-854d-89196dc18b57")
+			(uuid "5e0c224f-b880-42e9-81e1-6d5f119f9247")
 			(effects
 				(font
 					(size 1 1)
@@ -50176,7 +50873,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e454ffab-1b2b-4be4-9c18-386d65ccd38c")
+			(uuid "155e1964-0bbe-4ab7-926f-4d024106d37d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50187,7 +50884,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1736b519-057d-47ef-8716-33b77ba14a66")
+			(uuid "0cc9bb4f-259a-4ffe-ad70-c4b84d23bd23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50469,13 +51166,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "f1dc79e8-f9cd-4534-875c-534c2094e02c")
-		(at 104 125.101)
+		(transform
+			(translate 98 128.5)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S19"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "d9cbe99d-cccd-4b30-8e0b-27c9d405a867")
+			(uuid "23f24c06-eefa-4443-bec6-8216506d7840")
 			(effects
 				(font
 					(size 1 1)
@@ -50486,7 +51187,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "4e1c6eb4-6103-4e06-a668-3380f28f7202")
+			(uuid "b336f646-2bb6-4e6d-b55e-2363ea3177e9")
 			(effects
 				(font
 					(size 1 1)
@@ -50498,7 +51199,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4523fe3-cbf6-495c-98b1-0d1ad1a62bfb")
+			(uuid "f00ae223-e79d-4c4b-9c6d-dea62110437e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50509,7 +51210,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c78e6bd-1250-468f-b6c0-a22d107e24de")
+			(uuid "1ad25b6b-f5f2-4b59-8b95-52d7b70069bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50791,13 +51492,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "f25f4cb4-e827-4b19-b13d-e785f94ade03")
-		(at 117.5 159.1)
+		(transform
+			(translate 111.5 162.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S21"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "a05f473d-a3b8-45aa-86ca-057ab7ac043d")
+			(uuid "701b4825-58c3-4d9a-83ee-fce501a80066")
 			(effects
 				(font
 					(size 1 1)
@@ -50808,7 +51513,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "21034ec6-58c4-4472-a21a-c9d7d3508216")
+			(uuid "6c2c6d0d-b44f-49f9-88db-747c7a65dc3f")
 			(effects
 				(font
 					(size 1 1)
@@ -50820,7 +51525,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78092332-af0c-429e-8bb6-2a69ba19b3c5")
+			(uuid "16a6159d-4ca7-4baf-a4bb-7b68d8faa8d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50831,7 +51536,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1142af4d-309e-4122-a831-4988a5505f1c")
+			(uuid "a72e8c4b-6796-41cd-b1a3-25f9b30bd9a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51113,13 +51818,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "f3823463-6aac-441a-83d0-f8d332a696af")
-		(at 131 142.1)
+		(transform
+			(translate 125 145.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S25"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "dc3e5c13-aa3d-4e40-a647-935065320e0d")
+			(uuid "9672e7cf-a7a9-4122-b248-cd7778094af5")
 			(effects
 				(font
 					(size 1 1)
@@ -51130,7 +51839,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "23daab2d-7fb5-4e1b-bdb3-841b1c13dd30")
+			(uuid "fb3d2041-40ab-455b-938b-69a518fcee52")
 			(effects
 				(font
 					(size 1 1)
@@ -51142,7 +51851,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0a267d5-ef5c-4977-beeb-68a8ca42e8c5")
+			(uuid "ff76c707-edef-4d26-897b-dd36d05754c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51153,7 +51862,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f60e3a6-e80d-4b59-a428-e0af8f6abd9a")
+			(uuid "7b4b6ad9-7eb9-4c84-9ff3-30ce78832924")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51435,7 +52144,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f47332c3-3562-420a-8d68-d4ad47aaa671")
-		(at -130.525 81.485)
+		(transform
+			(translate -130.525 81.485)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D7"
@@ -51699,13 +52412,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "f62cb54d-0e1f-4527-b0c2-58cab335231c")
-		(at 194 125.1)
+		(transform
+			(translate 188 128.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S45"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "53d28f26-2fed-4487-af5e-83fce20ab586")
+			(uuid "24835ae4-cfe5-410b-9d87-04d19654aaac")
 			(effects
 				(font
 					(size 1 1)
@@ -51716,7 +52433,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "dc5aa68f-065e-4e2b-aaab-ff6d868f0f80")
+			(uuid "405f3146-3275-475d-8155-e7ec8b38fd5f")
 			(effects
 				(font
 					(size 1 1)
@@ -51728,7 +52445,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f2222af-4495-4942-ae6f-09462d1fd11d")
+			(uuid "c2bbb144-df86-409e-921d-b5eee80ad209")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51739,7 +52456,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b48733e8-8bca-499e-8c1d-853870de7bbd")
+			(uuid "a3f02742-c40e-4f02-9410-e96c3a804eb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52021,7 +52738,11 @@
 	(footprint "ScottoKeebs_Cutout:Cutout_Stabilizer_3.00u"
 		(layer "F.Cu")
 		(uuid "f9bedd89-9bea-4f83-9362-ffebe2fd7b99")
-		(at -108.309 126.31)
+		(transform
+			(translate -108.309 126.31)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "MX keyswitch plate cutout 2.00u")
 		(tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u")
 		(property "Reference" "H13"
@@ -52489,13 +53210,17 @@
 	(footprint "PCM_Switch_Keyboard_Kailh:SW_Kailh_Choc_V2_1.00u"
 		(layer "F.Cu")
 		(uuid "fa4e1ae4-5047-4b1d-be25-43dbb3a91a9c")
-		(at 252.5 176.1)
+		(transform
+			(translate 246.5 179.499)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Kailh Choc keyswitch V2 CPG1353 V2 Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1353 V2 Cutout Keycap 1.00u")
 		(property "Reference" "S57"
 			(at 0 -9 0)
 			(layer "F.SilkS")
-			(uuid "59b057d6-0028-4f5d-85b1-2abbd298a211")
+			(uuid "d7cc9c2c-3066-40ad-b3a3-18c668955b38")
 			(effects
 				(font
 					(size 1 1)
@@ -52506,7 +53231,7 @@
 		(property "Value" "~"
 			(at 0 9 0)
 			(layer "F.Fab")
-			(uuid "a646f686-1b9b-4e75-80ee-75e9c60b3464")
+			(uuid "6c523af9-b53a-4280-9416-7eacb8c8b730")
 			(effects
 				(font
 					(size 1 1)
@@ -52518,7 +53243,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1309930-15d8-482a-b880-f502c293f6b8")
+			(uuid "197b7f9c-34f7-4532-bd0b-74b300e00089")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52529,7 +53254,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ae55f05-d8cc-4611-9711-79897b01168e")
+			(uuid "d7b68b18-53da-4eea-9aeb-1478e22b796e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52811,7 +53536,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fb6104a1-0734-4c47-942f-da738b57a84b")
-		(at -90.595 85.035)
+		(transform
+			(translate -90.595 85.035)
+			(rotate 0)
+			(scale 1 1)
+		)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 10.16mm  length 4mm diameter 2mm")
 		(property "Reference" "D59"
@@ -53073,8 +53802,8 @@
 		)
 	)
 	(gr_rect
-		(start 29.75 78.5)
-		(end 386 211.75)
+		(start 25 83)
+		(end 379 215)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -53082,6 +53811,828 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "07adc169-a349-43fa-8a6e-eb08f3a6ff94")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "38049c17-cf38-4dc9-81ec-0a2df2290fe1")
+		(pts
+			(xy 35 205) (xy 25 215)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 33.85 210 90)
+			(layer "F.CrtYd")
+			(uuid "38049c17-cf38-4dc9-81ec-0a2df2290fe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "5debb29f-476e-462f-9e21-98a855792c2a")
+		(pts
+			(xy 333 166) (xy 333.5 171)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "5"
+			(at 331.85 168.5 90)
+			(layer "F.CrtYd")
+			(uuid "5debb29f-476e-462f-9e21-98a855792c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "6539acf0-43e3-4bfe-91eb-a091337fd224")
+		(pts
+			(xy 315 205) (xy 315 215)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 313.85 210 90)
+			(layer "F.CrtYd")
+			(uuid "6539acf0-43e3-4bfe-91eb-a091337fd224")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08")
+		(pts
+			(xy 35 205) (xy 25 215)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 30 203.85 0)
+			(layer "F.CrtYd")
+			(uuid "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "751d21f1-2318-4241-88a4-3cb4d0e95ba9")
+		(pts
+			(xy 315 205) (xy 305 205)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 310 203.85 0)
+			(layer "F.CrtYd")
+			(uuid "751d21f1-2318-4241-88a4-3cb4d0e95ba9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d")
+		(pts
+			(xy 369 205) (xy 379 215)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 367.85 210 90)
+			(layer "F.CrtYd")
+			(uuid "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "7e298354-0170-408f-99dd-17ff9b34e7cc")
+		(pts
+			(xy 35 110) (xy 25 83)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 30 108.85 0)
+			(layer "F.CrtYd")
+			(uuid "7e298354-0170-408f-99dd-17ff9b34e7cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db")
+		(pts
+			(xy 305 205) (xy 305 215)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 303.85 210 90)
+			(layer "F.CrtYd")
+			(uuid "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a")
+		(pts
+			(xy 305 93) (xy 305 83)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 303.85 88 90)
+			(layer "F.CrtYd")
+			(uuid "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "afe5178a-7a64-4f58-9220-cb8f3e85b797")
+		(pts
+			(xy 315 132) (xy 305 131.5)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 310 130.85 0)
+			(layer "F.CrtYd")
+			(uuid "afe5178a-7a64-4f58-9220-cb8f3e85b797")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
+		(pts
+			(xy 379 215.5) (xy 369 205.5)
+		)
+		(height -10.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 374 204 0)
+			(layer "F.CrtYd")
+			(uuid "c33870f0-fa1c-4f3e-877a-7771a5622123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "cd366fa1-3166-4ac2-880b-383440128106")
+		(pts
+			(xy 369 132) (xy 379 132.5)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 374 130.85 0)
+			(layer "F.CrtYd")
+			(uuid "cd366fa1-3166-4ac2-880b-383440128106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "ce66cada-d9cf-43dc-85cb-770c851d91f8")
+		(pts
+			(xy 35 110) (xy 35 120)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 33.85 115 90)
+			(layer "F.CrtYd")
+			(uuid "ce66cada-d9cf-43dc-85cb-770c851d91f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "d4983f39-7e77-42cf-ad47-019650978266")
+		(pts
+			(xy 35 93) (xy 25 83)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 33.85 88 90)
+			(layer "F.CrtYd")
+			(uuid "d4983f39-7e77-42cf-ad47-019650978266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
+		(pts
+			(xy 305 110) (xy 305 120)
+		)
+		(height 0)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10"
+			(at 303.85 115 90)
+			(layer "F.CrtYd")
+			(uuid "e14bf537-4269-4d69-9479-3a0a84cf94ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(group ""
+		(uuid "55cfc410-a386-42f0-8ecc-b5a1ebf48387")
+		(members "076d17a6-373d-4059-a310-dbfad66d4ed9" "080a9cd3-3a81-4be0-af84-5c2a9ffd5abc"
+			"089ca043-a45c-4aba-81d1-289554a8a47e" "16b8590c-0ed9-4043-8133-ecf27b5e3850"
+			"1d98fb90-e85b-4175-acef-726c9ed573a0" "6f3e20f0-849d-4625-9db8-c60a20971bd5"
+			"a4e94296-92e5-4ebc-bc21-3094492c0445" "c144a9c7-3a1d-4e7c-97a4-827ac2b459ad"
+			"d95e5f03-70a8-4186-af6f-4c23f7413e8c" "ef7322ff-3be1-482b-bca9-6e73c90c90cf"
+		)
+	)
+	(group ""
+		(uuid "86979117-7be3-4a22-8da6-671f3c848b18")
+		(members "55cfc410-a386-42f0-8ecc-b5a1ebf48387" "b92fc334-c56d-412b-8acb-dc7a7b7793f9"
+			"f5e589f8-dae8-4278-a185-821cd7dc2e24"
+		)
+	)
+	(group ""
+		(uuid "b92fc334-c56d-412b-8acb-dc7a7b7793f9")
+		(members "07b274f9-20d7-4914-935f-094fe255c5f8" "5bd51b59-56b2-44a4-8b7d-f08b5f1487cd"
+			"5f241fb4-c4f5-4566-868b-c8685fef8a56" "6b26b281-eeb3-471f-b70e-066bd601a519"
+			"789fa0d0-11b9-443b-b095-1bffe022b0c1" "955cb04f-2754-45cd-990d-3e4335984a3e"
+			"a2e9ab0f-f76a-4527-b05b-9c92e88e8385" "b1716ccf-752d-4e95-846b-ac4c0dd1a7e1"
+			"b9c7e761-a359-458e-bc33-5cdf20a09a90" "d93d1af4-1639-4cf8-b0de-2729a9c931c7"
+			"da9138c1-fd7f-4574-9256-019cae86baa2" "e2920b9c-4422-48c9-b3ca-b57117094a10"
+			"ebd6ecf7-c064-4250-ac80-368a799766ec"
+		)
+	)
+	(group ""
+		(uuid "f5e589f8-dae8-4278-a185-821cd7dc2e24")
+		(members "07cad992-05e6-4140-a95e-72cbcf2fbd9e" "1408d638-d1ad-4638-bf77-b6c00c324d31"
+			"14a61919-891d-4dc5-b300-8e3e3d92597e" "17cbde15-5a77-461f-aefc-7edf0bfbf6a8"
+			"21efdbfd-d02c-4128-9851-d94c038f032e" "2369d27e-74b9-4be8-ada5-b5570f96f81e"
+			"26795dd9-2cc6-402a-a867-5a2e48078f61" "276a5541-4ca9-406f-9e48-e1faacf499eb"
+			"2d25a31b-68cc-4eaf-bd58-d177c7fdd184" "37f0dec1-5a73-42c6-992b-fb96d4a6f502"
+			"3ba209cd-9acf-43a1-8e6d-bad30d709b8a" "4223f7fc-baee-4baa-89aa-a71ec440d41d"
+			"4308d04b-56c0-444a-a870-0675aa28f256" "48b2a709-211c-4cee-b4cc-9c3e42fa0c34"
+			"508485c3-fc2a-4c82-b6c3-8c4351718cfc" "521d746b-976e-4d65-a971-c117a6c41b60"
+			"531d5a2f-1e25-4120-a998-19d5fd47b8f5" "5514b777-78c5-40d4-90de-63ad9479a3fd"
+			"56590a1f-58f1-4760-9d02-af4c80c63ffd" "57d02794-4477-4c60-a048-2b1637ce46df"
+			"5bcae554-990b-481f-a4a8-2d63ad057e1f" "61783269-a142-4639-9b5f-66daa12fdb6d"
+			"621146e8-d177-42e1-b574-6b177800d95f" "64750e56-a8d0-4ca8-ac70-6edd317b567c"
+			"6d42ebb9-38d4-4f73-8ba7-dfd335abb332" "754a61cf-6506-4fa9-822d-6cf7ecf44412"
+			"7c5cb57d-2487-4e15-b17d-f8db993d2030" "800540f9-1fc2-4de8-9b10-bf05ed36434a"
+			"808ea0f1-7f4d-4bfe-8400-dd1e8f891873" "80d0fd08-28a9-41b9-9d0a-7e649f970e4a"
+			"90e04f95-eac7-4f4d-884e-7cab4aca75a4" "951b3545-6012-4497-82be-6b7427b04e9c"
+			"971c02bc-e60b-432e-8060-3727c0617bd2" "9a827c25-9219-44bb-b933-9702e5d6f727"
+			"9ee34b58-ee95-4b1d-8521-bad699f6648b" "a6a17e35-5ec2-442e-81da-99427b671aea"
+			"a825beb6-ac75-445c-b716-dea155dcf1bc" "aace2c19-b911-4ff7-af88-76bccf811609"
+			"ad625f90-17a4-49c1-92b5-2b11c0166981" "aff5dc5f-85e6-4916-82c4-1b2d98f75b97"
+			"b7d4a18e-a733-4a36-a74b-78db5c1d7ba4" "b8d23e1d-fc65-4fb6-8638-ad0102768574"
+			"b948a2fd-cbe0-4271-a5d5-f2b7cbe6386c" "c0edffbc-25e5-4f5d-8d4d-6963161447e7"
+			"c0f3784e-4346-4e24-9041-719d540f11e0" "c3e3b891-c5de-42bc-b218-f1a444db06e7"
+			"cba61052-a87e-40cf-b466-4d016e2134a0" "ccb898e5-4c85-4259-8e46-8b14debc5ca7"
+			"da1db755-19c0-45d8-b554-f80854c464bb" "dc010c5f-4062-475f-9440-d8b46657acf5"
+			"dc9caa01-aa2a-436f-99c4-4b6d34ae2af4" "e621bb12-b5e6-4ae7-8ebb-b9af90fbf8d5"
+			"ed503c25-3ac9-417c-9a26-14acbe4ed9a3" "ee54ff61-9fe0-42fd-ae72-579b53b0f172"
+			"efa0a0ca-46c2-41b5-b9a2-0dadbfc5ba30" "f1dc79e8-f9cd-4534-875c-534c2094e02c"
+			"f25f4cb4-e827-4b19-b13d-e785f94ade03" "f3823463-6aac-441a-83d0-f8d332a696af"
+			"f62cb54d-0e1f-4527-b0c2-58cab335231c" "fa4e1ae4-5047-4b1d-be25-43dbb3a91a9c"
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "03f742b2-a291-43d6-9e14-bbacdd615528")
+		(members
+			(member "38049c17-cf38-4dc9-81ec-0a2df2290fe1" end)
+			(member "07adc169-a349-43fa-8a6e-eb08f3a6ff94" vertex 3)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "0a979725-5401-4949-838c-dd60fb8034f6")
+		(members
+			(member "d4983f39-7e77-42cf-ad47-019650978266" end)
+			(member "07adc169-a349-43fa-8a6e-eb08f3a6ff94" vertex 0)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "21fc82b0-92b9-4270-ae74-66c873bdd2fa")
+		(members
+			(member "38049c17-cf38-4dc9-81ec-0a2df2290fe1" start)
+			(member "3c943dc9-e0b4-4ae1-977f-e577538d4bdc" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "2261d6ea-1274-44ac-8486-1803cf87252f")
+		(members
+			(member "ce66cada-d9cf-43dc-85cb-770c851d91f8" start)
+			(member "171ce078-b178-461e-9519-db18b3b10006" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "2425cb7c-dfe2-4054-97b8-f8bafeda7e72")
+		(members
+			(member "72f59814-f172-4c26-8fa3-399aeb7bc023" start)
+			(member "3c943dc9-e0b4-4ae1-977f-e577538d4bdc" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "395f4658-e4fe-4f19-a5dc-efb11e32aa09")
+		(members
+			(member "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08" start)
+			(member "38049c17-cf38-4dc9-81ec-0a2df2290fe1" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "3b2eb875-d170-4fd3-a1a8-e575f11aeaa2")
+		(members
+			(member "6539acf0-43e3-4bfe-91eb-a091337fd224" start)
+			(member "751d21f1-2318-4241-88a4-3cb4d0e95ba9" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "423bc40e-630d-499d-9aa3-89fc5a2ec007")
+		(members
+			(member "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d" start)
+			(member "c33870f0-fa1c-4f3e-877a-7771a5622123" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "60760b7b-1276-4c9c-a481-7982302c7bae")
+		(members
+			(member "d4983f39-7e77-42cf-ad47-019650978266" start)
+			(member "246f9c07-3cf9-4c76-966e-49416f4613aa" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "6a2f3393-6a64-4fc0-b91b-07f23cc3215a")
+		(members
+			(member "7e298354-0170-408f-99dd-17ff9b34e7cc" end)
+			(member "07adc169-a349-43fa-8a6e-eb08f3a6ff94" vertex 0)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "72c036dd-dfd8-4f17-9d02-43c5e08c8028")
+		(members
+			(member "e14bf537-4269-4d69-9479-3a0a84cf94ff" start)
+			(member "f4a3be86-e33a-4510-ab0e-2748eff20efe" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "76c72b47-0be8-46df-b27c-852a5642d323")
+		(members
+			(member "ac02db8e-d97d-43b9-a50c-e2a6fdfb4d6a" start)
+			(member "f4a3be86-e33a-4510-ab0e-2748eff20efe" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "777f6cdf-10b6-4375-93f0-a76d8f021f62")
+		(members
+			(member "c33870f0-fa1c-4f3e-877a-7771a5622123" start)
+			(member "07adc169-a349-43fa-8a6e-eb08f3a6ff94" vertex 2)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "7f69addc-efc3-42d5-a110-a97552e5f800")
+		(members
+			(member "7e298354-0170-408f-99dd-17ff9b34e7cc" start)
+			(member "171ce078-b178-461e-9519-db18b3b10006" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "94df352c-33d8-41ab-8308-aa534e9c8137")
+		(members
+			(member "e14bf537-4269-4d69-9479-3a0a84cf94ff" end)
+			(member "39aea6be-ff01-4dee-b089-77947abdb59d" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "a11ee873-750b-4fb3-9cd5-049ee8643f17")
+		(members
+			(member "0c75a93e-6292-4e0c-8de5-ce424f9f5fab" end)
+			(member "e7b00dd0-bbdf-464e-b100-d76fb2f25b77" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "a282268f-4485-4442-8f9b-3be7d03ac5f5")
+		(members
+			(member "221cd31b-06f4-4064-8068-cdf98553c4e5" start)
+			(member "171ce078-b178-461e-9519-db18b3b10006" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "a2d2406e-1a5e-4c09-a944-c4b538ae7ec4")
+		(members
+			(member "9b8f4d5b-4b7b-41c9-a345-c88ed7ed39db" start)
+			(member "751d21f1-2318-4241-88a4-3cb4d0e95ba9" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "b6c6a818-2e24-4031-9572-ff0bf974683b")
+		(members
+			(member "221cd31b-06f4-4064-8068-cdf98553c4e5" end)
+			(member "a3d1533a-54a0-4c62-a61b-1c6e20dd6cff" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "c43def8d-292a-43fa-9fdf-36efe7aec47a")
+		(members
+			(member "0c75a93e-6292-4e0c-8de5-ce424f9f5fab" start)
+			(member "e7b00dd0-bbdf-464e-b100-d76fb2f25b77" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "d1cb99f3-1fbf-4327-aad7-e641ac3e0956")
+		(members
+			(member "751d21f1-2318-4241-88a4-3cb4d0e95ba9" end)
+			(member "501fb49a-d303-4dc3-b5da-e1107338cfcb" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "e64e3890-cbe7-4148-8ab8-d723ce777146")
+		(members
+			(member "6ebee61e-cb19-4e8c-b0c4-3eca7c0b1c08" end)
+			(member "38049c17-cf38-4dc9-81ec-0a2df2290fe1" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "e67ff78b-e7ef-46c1-aeda-8e2fda73bf54")
+		(members
+			(member "ce66cada-d9cf-43dc-85cb-770c851d91f8" end)
+			(member "a3d1533a-54a0-4c62-a61b-1c6e20dd6cff" start)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "fedff7a1-6231-4483-981b-7c45d70d63ae")
+		(members
+			(member "798818a6-47cb-4a0a-a5da-dc2fc43a4a7d" end)
+			(member "c33870f0-fa1c-4f3e-877a-7771a5622123" start)
+		)
 	)
 	(embedded_fonts no)
 )
