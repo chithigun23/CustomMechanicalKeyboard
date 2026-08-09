@@ -76,7 +76,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|39895000|25265000|24800567-15ad-4a19-9267-01f6794d558d|eadcfedb-26f7-4d38-829c-8da40cbaa478",
+          ""
+        ],
+        [
+          "hole_clearance|44825000|28950000|1a79789c-9a2f-4f0a-ad5d-2b637ab0910f|7c32ff7c-ba6d-4c7e-8af6-07710af83b02",
+          ""
+        ],
+        [
+          "hole_clearance|45075000|28950000|81be04c8-0b79-4737-86b9-491674f109a2|7c32ff7c-ba6d-4c7e-8af6-07710af83b02",
+          ""
+        ],
+        [
+          "hole_clearance|50425000|28950000|59d684ed-e422-4560-8e2a-41b9f9c61449|c10df2d7-e221-42e0-bae2-830a3de9ffde",
+          ""
+        ],
+        [
+          "hole_clearance|50675000|28950000|fb8e800a-421c-4122-98fc-80cda7397e4d|c10df2d7-e221-42e0-bae2-830a3de9ffde",
+          ""
+        ],
+        [
+          "starved_thermal|33420000|23500000|1091fd88-3c1d-474b-a55e-fbf8e4d97bf6|2977db29-869d-4222-b191-f8e512ffe6a3|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|37537633|32969447|1091fd88-3c1d-474b-a55e-fbf8e4d97bf6|b552bb9b-3c59-4dc1-92da-efb141e14a78|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|44750000|37337500|1091fd88-3c1d-474b-a55e-fbf8e4d97bf6|85001749-37fa-44fe-96e3-4171b13bcada|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|58000000|43770000|1091fd88-3c1d-474b-a55e-fbf8e4d97bf6|1d552cf4-c6e3-4fc8-b085-f5cf5ad7701c|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -582,7 +619,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/chith/Desktop/",
       "specctra_dsn": "",
       "step": "mcu_DaughterBoard.step",
       "vrml": ""
@@ -708,7 +745,7 @@
         "uuid": "ab55f368-91f5-4209-b803-156134a30de6"
       }
     ],
-    "used_designators": "SW1-3,P1,R1-3,J1-2,FB1,F1,USB1,U1-3,#PWR2-5,#PWR7-21,CNN1,C1-11,D65",
+    "used_designators": "P1,SW1-3,J1-2,R1-3,USB1,F1,FB1,U1-3,#PWR2-5,#PWR7-21,CNN1,C1-11,D65",
     "variants": []
   },
   "sheets": [

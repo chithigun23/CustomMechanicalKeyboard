@@ -1,5 +1,4 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "mcuConnector") (type "KiCad") (uri "${PROJ_DIR}/otherLibraries/mcuConnector.pretty") (options "") (descr ""))
-	(lib (name "test") (type "KiCad") (uri "C:/Users/chith/Downloads") (options "") (descr ""))
 )
