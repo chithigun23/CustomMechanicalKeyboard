@@ -1,0 +1,66 @@
+3D PRINT FILES
+==============
+
+Print these three. Nothing needs support.
+
+  keyboard_case.stl          361.8 x 139.8 x 20.5   needs a 400 mm-class bed
+                                                    (388 mm on the diagonal)
+  keyboard_plate.stl         357.2 x 135.2 x 3.6
+  encoder_knob_D_shaft.stl   20.0 dia x 21.3
+
+The .step files are the same parts if your slicer prefers them (Bambu Studio and
+PrusaSlicer both take STEP and will give slightly cleaner curves than the STL).
+
+  assembly_print.step   reference only. Open it to see how the parts sit together.
+
+SETTINGS
+--------
+CASE     Floor down. 0.2 mm layers, 4 perimeters, 25%+ infill.
+
+PLATE    Face down, so the relief pockets end up on the top face and need no
+         bridging. 0.4 mm nozzle - the thinnest web is 1.14 mm, next to the
+         Caps Lock stabiliser. PETG or ABS is worth it over PLA.
+         At 1.4 mm over a 354 mm span it will feel floppy in your hands before
+         it is bolted down. That is expected and stops mattering once it is on
+         the 18 collars and the perimeter ledge.
+         DO NOT make the plate thicker. There is only 0.40 mm of clearance above
+         it before a bottomed-out keycap lands on it.
+
+KNOB     Flat end down, no support. The 24 flutes print cleanly.
+         This is the D-bore version - no grub screw needed, it presses straight
+         onto the flat on the encoder shaft.
+
+
+SCREWS AND HARDWARE
+===================
+Two screw lengths cover every combination. M3 x 0.5 throughout.
+
+WITH THE TOP PLATE  (grip = 1.4 plate + 2.2 collar + 1.6 PCB = 5.2 mm)
+  18 x  M3 x 10  countersunk 90 deg, ISO 14581, TORX T10
+        Machined case: 4.8 mm into the tapped hole.
+        Printed case:  4.8 mm into the insert. M3 x 12 also fits here and gets
+                       the full 5.7 mm of insert, but do NOT use 12 on the
+                       machined case - it may bottom out past the tapped depth.
+
+WITHOUT THE TOP PLATE  (grip = 1.6 mm PCB only)
+  18 x  M3 x 6   button or pan head, ISO 14583 / 7380-TX, TORX T10
+        4.4 mm engagement, safe on both cases.
+        Printed case only: M3 x 8 works too and takes the full insert.
+        Do not use a countersunk screw here - the PCB holes are not chamfered.
+        Optional: nylon washer under each head to protect the solder mask.
+
+Torx drive size for M3 in all of these is T10. A few makers use T8 on M3 flat
+heads, so check the listing.
+Finish: A2 stainless is the default; black oxide or black zinc looks better
+against a black anodised case.
+
+ALSO NEEDED
+  6 x  dia 12-14 self-adhesive rubber foot (six dia 14 x 1.0 recesses underneath)
+
+  18 x  M3 heat-set insert, OD 4.6 x 5.7 long
+        (Ruthex RX-M3x5.7, CNC Kitchen M3 standard, or equivalent)
+        The holes in the case are dia 4.0 x 6.2 deep, which is the recommended
+        hole for that insert - heat-set inserts melt into a hole SMALLER than
+        their own OD, so 4.0 is correct, it is not a typo.
+        If you have short inserts (OD 4.0 x 4.0), they need a dia 3.5 hole -
+        set INSERT_D = 3.5, INSERT_L = 4.5 in keyboard_cad.py and re-export.

@@ -1,0 +1,79 @@
+CNC FILES - what to upload to JLC
+=================================
+
+Upload these three. Everything here is in mm.
+
+  keyboard_case_cnc_tapped.step     361.8 x 139.8 x 20.5    ~534 g in 6061
+  keyboard_plate.step               357.2 x 135.2 x 3.6     ~95 g in 6061
+  encoder_knob_cnc_grubscrew.step   20.0 dia x 21.3         ~37 g in brass
+
+  assembly_cnc.step   reference only - do NOT upload. Open it to see how the
+                      three parts sit together.
+
+SETTINGS
+--------
+CASE     Aluminium 6061-T6
+         Bead blast + black anodise (Type II)
+         ISO 2768-m
+         Threads: M3 x 0.5, 18 places, 5 mm min full thread
+         Break all sharp edges 0.2 mm
+
+PLATE    Aluminium 6061-T6
+         Bead blast + anodise (black to match, or clear)
+         ISO 2768-m, EXCEPT the outline - see notes
+         Deburr both faces - there are 89 through-cutouts
+
+KNOB     Brass H62 (as-machined or polished), or 6061 anodised to match
+         ISO 2768-m
+         Threads: M3 x 0.5, 1 place (the grub screw hole)
+
+ORDER NOTES - paste these into the comments box
+-----------------------------------------------
+  "18 x dia 2.5 holes to be tapped M3 x 0.5, 5 mm min full thread."
+  "Threads to be free of anodise, or chased after anodising."
+  "Case pocket 354.8 x 132.8 must not be undersize (+0.3 / -0). PCB seat."
+  "Case boss top faces 9.00 +/-0.1 from the outer bottom face."
+  "Plate outline 357.2 x 135.2 must not be oversize (-0.3 / +0)."
+  "Internal corners where the boss ribs meet the wall may be radiused up to R2."
+
+The two tightest items are the boss height (it sets the keycap clearance, which
+is only 0.40 mm) and the plate outline (it drops into a 357.8 pocket, and the
+default 2768-m tolerance at that size is too loose on its own).
+
+DO NOT use powder coat - at 60-100 um it is thick enough to matter in the PCB
+pocket. Anodising at 10-25 um is fine.
+
+
+SCREWS AND HARDWARE
+===================
+Two screw lengths cover every combination. M3 x 0.5 throughout.
+
+WITH THE TOP PLATE  (grip = 1.4 plate + 2.2 collar + 1.6 PCB = 5.2 mm)
+  18 x  M3 x 10  countersunk 90 deg, ISO 14581, TORX T10
+        Machined case: 4.8 mm into the tapped hole.
+        Printed case:  4.8 mm into the insert. M3 x 12 also fits here and gets
+                       the full 5.7 mm of insert, but do NOT use 12 on the
+                       machined case - it may bottom out past the tapped depth.
+
+WITHOUT THE TOP PLATE  (grip = 1.6 mm PCB only)
+  18 x  M3 x 6   button or pan head, ISO 14583 / 7380-TX, TORX T10
+        4.4 mm engagement, safe on both cases.
+        Printed case only: M3 x 8 works too and takes the full insert.
+        Do not use a countersunk screw here - the PCB holes are not chamfered.
+        Optional: nylon washer under each head to protect the solder mask.
+
+Torx drive size for M3 in all of these is T10. A few makers use T8 on M3 flat
+heads, so check the listing.
+Finish: A2 stainless is the default; black oxide or black zinc looks better
+against a black anodised case.
+
+ALSO NEEDED
+  6 x  dia 12-14 self-adhesive rubber foot (six dia 14 x 1.0 recesses underneath)
+
+   1 x  M3 x 10 cup-point set screw, for the knob
+        Hex socket 1.5 mm A/F. The hole is tapped the full 6.9 mm of wall and
+        the shaft flat is 8.5 mm in from the OD, so a 10 is the shortest that
+        reaches it. It ends up about 1.5 mm proud of the knob - cosmetic only.
+
+
+  No heat-set inserts on this route - the 18 bosses are tapped M3 directly.
