@@ -757,7 +757,7 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 1
+      "version": 0
     },
     "tuning_profiles_impedance_geometric": []
   }

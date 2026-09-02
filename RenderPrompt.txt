@@ -1,0 +1,18 @@
+This is my custom keyboard project. Read CLAUDE.md first - it has the full
+project state, the measured hardware numbers, and a list of gotchas that
+already cost time.
+
+Two things:
+
+1. Render the finished MCU assembly animation. src/render/mcu_anim.blend is
+   ready to go - 250 frames, 1920x1080, EEVEE. Run Render/RENDER_ON_DESKTOP.bat
+   (resumable) then ENCODE_MP4.bat. Tell me the per-frame time so I know what
+   the later stages will cost.
+
+2. Then start stage 2 of the animation: the keyboard PCB with its 83 switches.
+   Same pipeline as the MCU board, pointed at KiCAD/keyBoard/keyboardKiCad.kicad_pcb
+   with mask=M.JLC_BLACK. See the "Next" section of CLAUDE.md for the specific
+   risks - mesh weight and the fact the exposure was tuned against a blue board.
+
+Sanity-check first: python src/render/config.py should confirm every path and
+tool resolves.

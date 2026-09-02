@@ -1,0 +1,227 @@
+[
+ {
+  "ref": "C1",
+  "val": "10uF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 37.617858,
+  "y": 29.705517,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "CNN1",
+  "val": "~",
+  "lib": "mcuConnector:keyboardMCU_Connector",
+  "x": 35.0,
+  "y": 25.85,
+  "rot": 0.0,
+  "model": "Pins.STEP"
+ },
+ {
+  "ref": "C2",
+  "val": "1uF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 37.537633,
+  "y": 32.401947,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C3",
+  "val": "1uF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 43.0,
+  "y": 32.25,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C4",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 42.733668,
+  "y": 46.219184,
+  "rot": 90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C5",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 51.5,
+  "y": 37.0,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C6",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 41.75,
+  "y": 46.0,
+  "rot": 90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C7",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 44.5,
+  "y": 35.118356,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C8",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 48.6175,
+  "y": 49.5,
+  "rot": 180.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C9",
+  "val": "10uF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 42.75,
+  "y": 36.5,
+  "rot": -90.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C10",
+  "val": "100nF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 34.5,
+  "y": 46.0,
+  "rot": 0.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "C11",
+  "val": "1uF",
+  "lib": "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+  "x": 48.6175,
+  "y": 48.5,
+  "rot": 0.0,
+  "model": "C_0402_1005Metric.step"
+ },
+ {
+  "ref": "FB1",
+  "val": "FerriteBead",
+  "lib": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+  "x": 46.55,
+  "y": 48.5,
+  "rot": 90.0,
+  "model": "C_0603_1608Metric.step"
+ },
+ {
+  "ref": "F1",
+  "val": "100mA Polyfuse",
+  "lib": "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+  "x": 40.25,
+  "y": 29.0,
+  "rot": 180.0,
+  "model": "C_0603_1608Metric.step"
+ },
+ {
+  "ref": "G***",
+  "val": "LOGO",
+  "lib": "LOGO",
+  "x": 45.25,
+  "y": 38.0,
+  "rot": 180.0,
+  "model": null
+ },
+ {
+  "ref": "J1",
+  "val": "Conn_SWD",
+  "lib": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+  "x": 33.42,
+  "y": 23.5,
+  "rot": 90.0,
+  "model": "PinHeader_1x04_P2.54mm_Vertical.step"
+ },
+ {
+  "ref": "R1",
+  "val": "10k",
+  "lib": "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+  "x": 57.5,
+  "y": 46.5,
+  "rot": -90.0,
+  "model": "R_0402_1005Metric.step"
+ },
+ {
+  "ref": "R2",
+  "val": "5.1k",
+  "lib": "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+  "x": 41.0,
+  "y": 25.5375,
+  "rot": 180.0,
+  "model": "R_0402_1005Metric.step"
+ },
+ {
+  "ref": "R3",
+  "val": "5.1k",
+  "lib": "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+  "x": 41.0,
+  "y": 26.5375,
+  "rot": 180.0,
+  "model": "R_0402_1005Metric.step"
+ },
+ {
+  "ref": "SW1",
+  "val": "NRST",
+  "lib": "EasyEDA:SW-SMD_L3.9-W3.0-P4.45",
+  "x": 37.5,
+  "y": 48.5,
+  "rot": 180.0,
+  "model": "SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
+ },
+ {
+  "ref": "SW2",
+  "val": "BOOT0",
+  "lib": "EasyEDA:SW-SMD_L3.9-W3.0-P4.45",
+  "x": 54.5,
+  "y": 48.5,
+  "rot": 0.0,
+  "model": "SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
+ },
+ {
+  "ref": "U1",
+  "val": "AP2112K-3.3",
+  "lib": "Package_TO_SOT_SMD:SOT-23-5",
+  "x": 40.225,
+  "y": 31.75,
+  "rot": 0.0,
+  "model": "SOT-23-5.step"
+ },
+ {
+  "ref": "USB1",
+  "val": "TYPE-C 16PIN 2MD",
+  "lib": "EasyEDA:USB-C-SMD_TYPE-C-16PIN-2MD-073",
+  "x": 47.75,
+  "y": 27.12,
+  "rot": 180.0,
+  "model": "USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
+ },
+ {
+  "ref": "U2",
+  "val": "STM32F072CBTx",
+  "lib": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+  "x": 47.0,
+  "y": 41.5,
+  "rot": 90.0,
+  "model": "LQFP-48_7x7mm_P0.5mm.step"
+ },
+ {
+  "ref": "U3",
+  "val": "USBLC6-2SC6",
+  "lib": "Package_TO_SOT_SMD:SOT-23-6",
+  "x": 48.0,
+  "y": 33.2,
+  "rot": -90.0,
+  "model": "SOT-23-6.step"
+ }
+]
