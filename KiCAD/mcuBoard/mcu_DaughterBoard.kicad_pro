@@ -294,8 +294,12 @@
       "distpn": "",
       "internal_id": "",
       "mfg": "",
+      "mode": "",
       "mpn": "",
-      "sch_revision": ""
+      "net_names": "",
+      "ref_des": "",
+      "sch_revision": "",
+      "sections": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -595,8 +599,9 @@
       "version": 5
     },
     "net_chain_classes": {},
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_chain_netclasses": {},
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -757,7 +762,7 @@
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
-      "version": 0
+      "version": 2
     },
     "tuning_profiles_impedance_geometric": []
   }

@@ -427,7 +427,7 @@
 			(uuid "e8ac90fd-9a1c-4096-bd99-d1a6aaa0a66c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1324,7 +1324,7 @@
 			(uuid "5eaf5bc5-c6e5-422e-9f52-ea9e68f06069")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2547,7 +2547,7 @@
 			(uuid "117b2b03-094b-4cc3-93a2-3dc4553db985")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3118,7 +3118,7 @@
 			(uuid "d0aa683f-fd0d-4025-b74f-f297ee1d3d3b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3363,7 +3363,7 @@
 			(uuid "ee3c46d0-027f-4651-8263-da3a7d278f73")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4059,7 +4059,7 @@
 			(uuid "fea5c6cc-eaf0-4b10-8473-56f868e898e5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4367,7 +4367,7 @@
 			(uuid "3bef4917-d966-43bb-b8b3-dbb3eae8cd68")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4612,7 +4612,7 @@
 			(uuid "fc5080bd-08b5-4120-87ca-432ba7e8a228")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6052,7 +6052,7 @@
 			(uuid "5cf39c72-0e14-4cae-bac8-70a3622780e5")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6949,7 +6949,7 @@
 			(uuid "596f1fa8-0340-4354-a82e-72c79af198bb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7194,7 +7194,7 @@
 			(uuid "646c9123-1950-4484-8320-609c5979fcfc")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7667,7 +7667,7 @@
 			(uuid "3684dc54-80c1-4635-b401-bc5917f97ba8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/SW-TH_EC11XXXXXXXX-L11.7-W12.0-H24.5-P2.5-LS14.5.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/SW-TH_EC11XXXXXXXX-L11.7-W12.0-H24.5-P2.5-LS14.5.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8301,7 +8301,7 @@
 			(uuid "430affea-0c89-4a77-bacb-c05ae8912e1b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8872,7 +8872,7 @@
 			(uuid "faf166f1-9971-459b-aee4-b77be5db6e78")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10810,7 +10810,7 @@
 			(uuid "1698b829-f986-4ff1-92f6-476f591cc7a2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11896,7 +11896,7 @@
 			(uuid "51cec5b6-c550-409f-a6bd-187675e24008")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12141,7 +12141,7 @@
 			(uuid "d3af04d2-0c21-41c0-86c8-c6c85a2ca5e3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13038,7 +13038,7 @@
 			(uuid "e2c53ab3-346d-4617-8def-4738b5e2376a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14215,7 +14215,7 @@
 			(uuid "17244394-0f32-4120-8b0b-aa515b91ba77")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14460,7 +14460,7 @@
 			(uuid "29871463-c20c-4cd3-96d0-d039faac527d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14705,7 +14705,7 @@
 			(uuid "24fd2ecb-e288-4f8b-8fd9-9acd57fea8fd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15493,7 +15493,7 @@
 			(uuid "f760197c-372e-4f43-b8e7-098c0ad0ff22")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15738,7 +15738,7 @@
 			(uuid "9ac403ee-8a35-418e-bc91-f7325714c318")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16698,7 +16698,7 @@
 			(uuid "d09c59d9-9429-47fa-a5df-e871876e52d3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16943,7 +16943,7 @@
 			(uuid "657d04fe-89b9-4774-b9bc-637d6c15cf3d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17903,7 +17903,7 @@
 			(uuid "6be9e850-245e-4d91-8f4c-ba6faed15ff2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18148,7 +18148,7 @@
 			(uuid "29317070-287a-4cee-bb59-b4959fb5019c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18393,7 +18393,7 @@
 			(uuid "c2a69e9a-1358-4468-a84a-d7bf91dac328")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18638,7 +18638,7 @@
 			(uuid "9f8a0539-4d25-4739-aef3-13eb7c48b361")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20250,7 +20250,7 @@
 			(uuid "b78d9742-6dd7-4108-8ded-e15679b4dd0e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20495,7 +20495,7 @@
 			(uuid "f04d643d-4c8e-4961-b253-84539f69733d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21781,7 +21781,7 @@
 			(uuid "c83ed2c6-1c12-4577-b1c8-65f3f6707b54")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22352,7 +22352,7 @@
 			(uuid "3686e334-90ce-4f1b-9249-1631d22ba888")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23249,7 +23249,7 @@
 			(uuid "b71fbac9-6167-42c3-868b-381f2f6c84de")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23883,7 +23883,7 @@
 			(uuid "a3958df8-2de7-47ef-b244-a70915289d57")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24128,7 +24128,7 @@
 			(uuid "0898c71e-fbd9-48ee-8dcd-2b3326f3c4f2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24373,7 +24373,7 @@
 			(uuid "c4fd10bf-0f23-46e1-a880-2cd2115f1499")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24944,7 +24944,7 @@
 			(uuid "4c14cd31-7d08-4f4c-be13-82df78efc608")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25190,7 +25190,7 @@
 			(uuid "39170d4c-88bb-477a-a28d-ca10bc6f02fa")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25761,7 +25761,7 @@
 			(uuid "9eefad36-9210-4271-8bdf-c8ba6ee935bb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26006,7 +26006,7 @@
 			(uuid "f2931cc3-5d21-439c-8655-381422f8320b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26251,7 +26251,7 @@
 			(uuid "16bd9a9f-f373-4158-8a87-bfcbe027d93c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27148,7 +27148,7 @@
 			(uuid "24432ee0-d964-4854-b403-061b4c1f372d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27393,7 +27393,7 @@
 			(uuid "0ce33f8e-8ec8-4be6-86e1-042e17925a0a")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27638,7 +27638,7 @@
 			(uuid "8be5ae64-2b72-4241-8c9d-83752be2fdcb")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27883,7 +27883,7 @@
 			(uuid "38ecf8f4-4879-4621-85c9-39a6ca3426e2")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28128,7 +28128,7 @@
 			(uuid "8755ca21-07a0-4b75-88c2-fb9dd2032850")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28373,7 +28373,7 @@
 			(uuid "121a9924-dc74-487d-ab75-f43bcfdf7cc4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28618,7 +28618,7 @@
 			(uuid "a7a95a05-2791-4b0f-bf8a-99cbe68ac9e0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28863,7 +28863,7 @@
 			(uuid "4b366f1e-6881-4e7e-a677-48a0db626e72")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29108,7 +29108,7 @@
 			(uuid "fa9d7bc3-38d2-41d6-8c5a-3c69b4946b07")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29679,7 +29679,7 @@
 			(uuid "a037f619-51d1-4e07-a9bf-32477dc03649")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29924,7 +29924,7 @@
 			(uuid "0399a7dd-0b9d-4458-99f8-56a9f7cd417e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30169,7 +30169,7 @@
 			(uuid "bd9434e1-d3a6-4f35-acd2-c4c6639fd04c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32044,7 +32044,7 @@
 			(uuid "113bb4ef-aac0-4d7d-8883-d0ef7e986d84")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32616,7 +32616,7 @@
 			(uuid "d7fb70b4-aecc-4411-8837-53e54e8b24ec")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33187,7 +33187,7 @@
 			(uuid "8186d4e0-1aea-41b8-84fc-142209861454")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33758,7 +33758,7 @@
 			(uuid "ca84ce7e-0a2d-4551-b425-7da9cbd4fd5b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35044,7 +35044,7 @@
 			(uuid "f58eba81-3a2a-485a-aece-f697ac23ecdd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35941,7 +35941,7 @@
 			(uuid "c20c044d-1a37-4626-a4ff-0608d0d411e1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36186,7 +36186,7 @@
 			(uuid "58f91d16-d7db-4021-88d1-fcab25fc51f0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38015,7 +38015,7 @@
 			(uuid "5a842d9d-f5fb-4d0d-8e94-fda072551aa8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39238,7 +39238,7 @@
 			(uuid "62a87d08-113a-48bd-99a2-6a4e7796e889")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39483,7 +39483,7 @@
 			(uuid "72e1334b-499b-4528-a478-8c1d23f999a4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39791,7 +39791,7 @@
 			(uuid "c865d2f9-ff5d-4a4f-89d7-c9ad290aa9ab")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40036,7 +40036,7 @@
 			(uuid "dbbd7774-2dad-49b7-80ff-377f687dab45")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40281,7 +40281,7 @@
 			(uuid "1ce0f5d0-f5de-4234-bde2-f922d087f357")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40852,7 +40852,7 @@
 			(uuid "14e5ee21-14ae-47d8-a309-8de15e193862")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41097,7 +41097,7 @@
 			(uuid "3ed55bea-91f0-4e20-9c11-f1684ad24125")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41668,7 +41668,7 @@
 			(uuid "ee205af3-0389-4afc-b146-f92517a41a8c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41913,7 +41913,7 @@
 			(uuid "c9f8ca86-7c4e-4cef-bce6-665ff102a778")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42484,7 +42484,7 @@
 			(uuid "db6293dc-69c8-439d-87e6-a1514f516a91")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42729,7 +42729,7 @@
 			(uuid "30f51073-d2ce-4102-a19d-952d8169a6f4")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43037,7 +43037,7 @@
 			(uuid "14c6eeb9-b74e-4f73-af80-b2c4e4467067")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45238,7 +45238,7 @@
 			(uuid "5abf8685-feb2-410e-8eb7-d83deaf5f77b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -45872,7 +45872,7 @@
 			(uuid "a5e1407a-af95-49ef-b332-2a957298c893")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46117,7 +46117,7 @@
 			(uuid "cf6ac739-6f69-43cf-a3c6-db07e9db93dd")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46362,7 +46362,7 @@
 			(uuid "4f2fbece-e548-4ff5-86cc-ae2172f1906e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46607,7 +46607,7 @@
 			(uuid "da28637c-459a-4249-8ca4-750cc9d809b8")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -46852,7 +46852,7 @@
 			(uuid "278a63d6-468e-477b-bf8f-bc6923cf53ac")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47423,7 +47423,7 @@
 			(uuid "53cbc4de-625a-47c8-9713-c5236280d80c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -47668,7 +47668,7 @@
 			(uuid "ddf19a8c-f7e4-4c56-93be-328ffca1d54b")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -48239,7 +48239,7 @@
 			(uuid "14b09f35-5763-4973-b414-93d5b16c3bbf")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -50440,7 +50440,7 @@
 			(uuid "78b62d24-b913-4842-83a6-052ff06f4c04")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Desktop/keyboardProject/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
+		(model "${KEYBOARD_PROJ_DIR}/KiCAD/kbProjectLib/easyeda2kicad/easyeda2kicad.3dshapes/DO-35_BD2.0-L4.0-P8.00-D0.5-FD.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
