@@ -1,14 +1,14 @@
 PLATE + STABILISER PARTS, ONE PLATE, PRUSA XL (5 TOOL, TOOL 3 ONLY)
 ===================================================================
 
-keyboard_plate_stabs_XL_tool3_PLA.gcode   ready to print, ASCII g-code
-PrusaSlicer_XL5T_tool3_PLA_0.15_settings.ini  full resolved settings (PrusaSlicer 2.9.6)
+keyboard_plate_stabs_XL_IS_tool3_PLA.gcode   ready to print, ASCII g-code
+PrusaSlicer_XL5T_IS_tool3_PLA_0.15_settings.ini  full resolved settings (PrusaSlicer 2.9.6)
 
-Printer   Original Prusa XL - 5T 0.4 nozzle profile, tool 3 only (T2 in the g-code)
-Filament  Prusament PLA @PG, 215 C nozzle, 60 C bed
-Quality   0.15 mm QUALITY @XL 0.4, 3 perimeters
+Printer   Original Prusa XL - 5T Input Shaper 0.4 nozzle profile, tool 3 only (T2 in the g-code)
+Filament  Prusament PLA @XLIS, 230 C first layer then 225 C, 60 C bed
+Quality   0.15mm SPEED @XLIS 0.4 (Prusa has no QUALITY preset for Input Shaper), 3 perimeters
 Supports  auto, build plate only, threshold 40 deg (only the stabiliser parts need them)
-Estimate  4 h 47 m, 49.8 g
+Estimate  3 h 01 m, 49.8 g
 
 LAYOUT
 ------
