@@ -28,3 +28,12 @@ NOTES
 - The slicer was run headless and the g-code was checked for bounds, tool and
   temperatures, not printed. Watch the first layer on a 357 mm part.
 (layout STL is on the USB copy only)
+
+TRIMMED PLATE ONLY (reprint)
+----------------------------
+keyboard_plate_trim_XL_IS_tool3_PLA.gcode
+Plate only, no stabiliser parts. The long edges (top and bottom of the keyboard)
+are trimmed 0.4 mm each, evenly, so the plate is 134.4 mm in that direction
+(design was 135.2). Screw holes and cutouts are unchanged, so everything stays
+centred on the PCB. Same printer, tool 3, filament and settings as above.
+Estimate 2 h 09 m, 43.6 g.
